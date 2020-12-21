@@ -1,3 +1,4 @@
 user.txt
 /data/build/environments/
 /.idea
+node_modules/
