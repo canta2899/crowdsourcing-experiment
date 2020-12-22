@@ -2,3 +2,8 @@
 2. Do some testing
 3. Adapting HTML
 3. Deploy on S3
+
+!!! UPDATE ENV FILES BY YOURSELF !!!
+
+TASK NAME --> ProgettoSocialComputing2
+BATCH NAME --> Batch1

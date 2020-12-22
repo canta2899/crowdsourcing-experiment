@@ -3,8 +3,8 @@ export const environment = {
 	production: false, 
 	configuration_local: true, 
 
-	taskName: 'Sample',
-	batchName: 'Batch-1',
+	taskName: 'ProgettoSocialComputing2',
+	batchName: 'Batch1',
 
 	region: 'eu-central-1',
 	bucket: 'socialcomputing2-tasks', 
