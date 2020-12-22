@@ -1,0 +1,9 @@
+[
+	{
+		"caption": "This is the caption for general instructions",
+		"steps": [
+			"This is the first step",
+			"This is the second step"
+		]
+	}
+]
