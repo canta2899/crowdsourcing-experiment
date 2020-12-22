@@ -1,4 +1,6 @@
 user.txt
-framework/data/build/environments/
-.idea
-framework/node_modules/
+/framework/data/build/environments/
+/.idea
+/framework/node_modules/
+/framework/data/build/
+/framework/data/tasks/ProgettoSocialComputing2/Batch1/deploy/

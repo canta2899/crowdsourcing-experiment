@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Would you buy this book?",
+    "justification": false,
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Yes",
+          "description": "I would buy it",
+          "value": "1"
+        },
+        {
+          "label": "No",
+          "description": "I would not buy it",
+          "value": "-1"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "top",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  },
+  {
+    "name": "Is the price fair?",
+    "justification": false,
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Yes",
+          "description": "It's fair",
+          "value": "1"
+        },
+        {
+          "label": "No",
+          "description": "It's not fair",
+          "value": "-1"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "top",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  },
+  {
+    "name": "How adequate does the price seem to you?",
+    "description": "0 = 'Price is totally off' - 6 = 'Price is completely right'",
+    "url": false,
+    "scale": {
+      "type": "interval",
+      "min": 0,
+      "max": 6,
+      "step": 1
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "middle",
+      "type": "list",
+      "orientation": "vertical",
+      "separator": false
+    }
+  },
+  {
+    "name": "What impression do you have of this edition?",
+    "justification": {
+      "text": "Write a justification of at least 50 words",
+      "min_words": 50
+    },
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Positive",
+          "description": "I like it",
+          "value": "1"
+        },
+        {
+          "label": "Negative",
+          "description": "Ehw",
+          "value": "-1"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "bottom",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  }
+]
