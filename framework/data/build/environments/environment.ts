@@ -1,4 +1,3 @@
-// Local environment
 export const environment = {
 
 	production: false, 
