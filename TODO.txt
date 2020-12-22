@@ -1,10 +1,6 @@
-1. Add dimensions in task configuration files in order to answer questions
-2. Do some testing
-3. Adapting HTML
-3. Deploy on S3
-
-!!! ADD YOUR ENV FOLDER AND USE YOUR ENV FILES !!!
-!!! THE ENV FOLDER IS IGNORED BY GIT !!!
+1. Configure quality check (minimum time on a question)
+2. Deploy on S3
+3. Do some testing
 
 TASK NAME --> ProgettoSocialComputing2
 BATCH NAME --> Batch1
