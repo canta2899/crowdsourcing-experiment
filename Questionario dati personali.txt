@@ -1,0 +1,33 @@
+Quanti anni hai?
+    0-18
+    19-25
+    26-35
+    36-50
+    50-80
+    80+
+
+Qual è la tua professione?
+    ?Campo di testo?
+
+Qual è il tuo genere letterario preferito?
+    Storico
+    Fantascienza
+    Fantasy
+    Avventura
+    Formazione
+    Orrore
+    Azione/Thriller
+    Giallo
+    Rosa
+    Psicologico
+    Umoristico
+    Biografia
+    Storiografia
+
+Quanti libri leggi in un mese?
+    0
+    1
+    2-5
+    6-10
+    11+
+
