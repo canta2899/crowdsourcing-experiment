@@ -1,0 +1,4 @@
+1. Add dimensions in task configuration files in order to answer questions
+2. Do some testing
+3. Adapting HTML
+3. Deploy on S3
