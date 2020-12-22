@@ -33,4 +33,47 @@ https://www.goodreads.com/book/show/18661631-the-hunger-games
 https://www.goodreads.com/book/show/7285601-the-hunger-games
 
 
+------------------------------
+
+Domande:
+=======
+
+** Quanti anni hai? **
+    0-18
+    19-25
+    26-35
+    36-50
+    50-80
+    80+
+                
+** Qual è la tua professione? **
+    • studente
+    • impiegato
+    • freelancer
+    • funzionario pubblico
+    • imprenditore 
+
+** Qual è il tuo genere letterario preferito? **
+    Storico
+    Fantascienza
+    Fantasy
+    Avventura
+    Formazione
+    Orrore
+    Azione/Thriller
+    Giallo
+    Rosa
+    Psicologico
+    Umoristico
+    Biografia
+    Storiografia
+
+** Quanti libri leggi in un mese? **
+    0
+    1
+    2-5
+    6-10
+    11+
+
+
 

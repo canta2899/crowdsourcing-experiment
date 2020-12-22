@@ -1,0 +1,14 @@
+{
+	"task_name": "ProgettoSocialComputing",
+	"batch_name": "Batch1",
+	"allowed_tries": 1,
+	"time_check_amount": 3,
+	"hits": "[\n\t{\n\t\t\"unit_id\": \"unit_0\",\n\t\t\"token_input\": \"MBYTZQGSXYP\",\n\t\t\"token_output\": \"OMKXANDMJSC\",\n\t\t\"documents\": [\n\t\t\t{\n\t\t\t\t\"name\": \"pants-on-fire_doc4\",\n\t\t\t\t\"statement\": \"COVID literally stands for Chinese Originated Viral Infectious Disease.\",\n\t\t\t\t\"claimant\": \"Facebook Post\",\n\t\t\t\t\"date\": \"2020-25-03\",\n\t\t\t\t\"originated-from\": \"Viral Image\",\n\t\t\t\t\"value\": \"Attributo di prova\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"LOW\",\n\t\t\t\t\"statement\": \"Injecting Bleach Could Be a Cure for COVID-19.\",\n\t\t\t\t\"claimant\": \"Donald Trump\",\n\t\t\t\t\"date\": \"2020-04-23\",\n\t\t\t\t\"originated-from\": \"Press Conference\",\n\t\t\t\t\"value\": \"Attributo di prova\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"HIGH\",\n\t\t\t\t\"statement\": \"Yes, We can!\",\n\t\t\t\t\"claimant\": \"Barack Obama\",\n\t\t\t\t\"date\": \"2008-01-08\",\n\t\t\t\t\"originated-from\": \"Facebook Post\",\n\t\t\t\t\"value\": \"Attributo di prova\"\n\t\t\t}\n\t\t]\n\t}\n]\n",
+	"annotator": false,
+	"countdown_time": false,
+	"blacklist_batches": [],
+	"whitelist_batches": [],
+	"messages": [
+		"Messaggio aggiunto nella task configuration"
+	]
+}
