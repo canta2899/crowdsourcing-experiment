@@ -3,7 +3,8 @@
 3. Adapting HTML
 3. Deploy on S3
 
-!!! UPDATE ENV FILES BY YOURSELF !!!
+!!! ADD YOUR ENV FOLDER AND USE YOUR ENV FILES !!!
+!!! THE ENV FOLDER IS IGNORED BY GIT !!!
 
 TASK NAME --> ProgettoSocialComputing2
 BATCH NAME --> Batch1
