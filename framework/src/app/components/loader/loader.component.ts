@@ -94,7 +94,7 @@ export class LoaderComponent {
     if(this.adminAccess) this.ngxService.startLoader("loader")
 
     this.username = new FormControl('admin', [Validators.required]);
-    this.password = new FormControl('DBegSUGED5', [Validators.required]);
+    // this.password = new FormControl('DBegSUGED5', [Validators.required]);
     this.loginForm = formBuilder.group({
       "username": this.username,
       "password": this.password
@@ -112,16 +112,15 @@ export class LoaderComponent {
     this.ngxService.startLoader('generator');
     if (this.loginForm.valid) {
       let admins = await this.S3Service.downloadAdministrators(this.configService.environment)
+      let hasher = crypto.algo.SHA512.create() // create an hasher object
+      let hashed_pwd = hasher.finalize(this.password.value) // use it and destroy it
       for (let admin of admins) {
-        let decrypted = crypto.AES.decrypt(admin["crypt"], this.password.value)
-        let decryptedData = decrypted.toString(crypto.enc.Utf8)
-        if (decryptedData != "") {
-          let adminData = JSON.parse(decryptedData)
-          if (adminData['username'] == this.username.value) {
-            admin = adminData['username']
-            this.loginSuccessful = true
-            break;
-          }
+        let adminData = JSON.parse(admin)
+        // check admin data matches
+        if(this.username.value == adminData['username'] && hashed_pwd === adminData['password']){
+          admin = adminData['username']
+          this.loginSuccessful = true
+          break;
         }
       }
       this.loginPerformed = true

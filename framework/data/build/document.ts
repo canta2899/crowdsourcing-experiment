@@ -40,7 +40,6 @@ export class Document {
    * the document is the HIGH (LOW) gold question
    */
   public getGoldQuestionIndex(kind: string) {
-    if (this.name == kind) return this.index;
     return null
   }
 
