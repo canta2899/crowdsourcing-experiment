@@ -1,2 +1,3 @@
 framework/data/build/document.ts -> Aggiunti i nostri attributi dei libri
-framework/src/app/components/skeleton/skeleton.component.html -> Aggiungere gli attributi dei libri
+framework/src/app/components/skeleton/skeleton.component.html (line 200) -> Aggiungere gli attributi dei libri
+framework/src/app/components/loader/loader.component.ts (line 97) -> No cleartext password and no default password either (also, using sha512)
