@@ -194,14 +194,21 @@
                 seconds
               </h2>
             </div>
-
+            
             <div class="statement">
-              <ul>
-                <li><strong>Claimant/Source</strong> (who made the statement): {{document.claimant}}</li>
-                <li><strong>Date</strong> (when the statement was made): {{document.date}}</li>
-                <li><strong>Text</strong> (content of the statement): {{document.statement}}</li>
-		<li><strong>NewValue</strong> (i am adding this for fun): {{document.value}}</li>
-              </ul>
+              <table style='border: none;'>
+                <tr><td><img src="{{document.cover}}" alt="{{document.title}}"/></td></tr>
+                <tr>
+                  <ul>
+                    <li><strong>Title</strong>: {{document.title}}</li>
+                    <li><strong>Author</strong>: {{document.author}}</li>
+                    <li><strong>Number of pages</strong>: {{document.pages}}</li>
+                    <li><strong>Published by</strong>: {{document.publisher}}</li>
+                    <li><strong>Price</strong>: {{document.price}}</li>
+                    <li><strong>Year</strong>: {{document.year}}</li>
+                  </ul>
+                </tr>
+              </table>
             </div>
 
             <div *ngIf="checkUndeletedNotesPresence(this.notes[i])" class="annotations">

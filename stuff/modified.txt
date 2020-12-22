@@ -1,0 +1,2 @@
+framework/data/build/document.ts -> Aggiunti i nostri attributi dei libri
+framework/src/app/components/skeleton/skeleton.component.html -> Aggiungere gli attributi dei libri

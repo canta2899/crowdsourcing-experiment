@@ -9,12 +9,13 @@ export class Document {
   /* DO NOT REMOVE THIS ATTRIBUTE */
   index: number;
 
-  name: string;
-  statement: string;
-  claimant: string;
-  date: string;
-  originatedFrom: string;
-  value: string;
+  title: string;
+  author: string;
+  pages: string;
+  publisher: string;
+  price: string;
+  cover: string;
+  year: number;
 
   constructor(
     index: number,
@@ -23,12 +24,13 @@ export class Document {
     /* DO NOT REMOVE THIS LINE */
     this.index =          index;
 
-    this.name =           data["name"];
-    this.statement =      data["statement"];
-    this.claimant =       data["claimant"];
-    this.date =           data["date"];
-    this.value = 	  data["value"];
-    this.originatedFrom = data["originated-from"];
+    this.title     = data["title"];
+    this.author    = data["author"];
+    this.pages     = data["pages"];
+    this.publisher = data["publisher"];
+    this.price     = data["price"];
+    this.cover     = data["cover"];
+    this.year      = data["year"];
   }
 
   /*
