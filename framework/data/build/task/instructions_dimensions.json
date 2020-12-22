@@ -1,8 +1,9 @@
 [
 	{
-		"caption": "Please, do the following step:",
+		"caption": "This is the caption for evaluation instruction",
 		"steps": [
-			"Input as truthfulness value one of the six labels"
+			"This is the first step",
+			"This is the second step"
 		]
 	}
 ]

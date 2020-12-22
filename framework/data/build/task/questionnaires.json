@@ -3,34 +3,55 @@
 		"type": "standard",
 		"questions": [
 			{
-				"name": "age_range",
-				"text": "What is your age range?",
+				"name": "Job",
+				"text": "What is your job?",
 				"answers": [
-					"0-18",
-					"19-25",
-					"26-35",
-					"36-50",
-					"50-80",
-					"80"
-				]
-			},
-			{
-				"name": "climate_change",
-				"text": "Should the government increase environmental regulations to prevent climate change?",
-				"answers": [
-					"Agree",
-					"Disagree",
-					"No opinion either way"
+					"Student",
+					"Employee",
+					"Freelancer",
+					"Public worker",
+					"Entrepreneur"
 				]
 			}
 		]
 	},
 	{
-		"type": "crt",
+		"type": "standard",
 		"questions": [
 			{
-				"name": "farmers",
-				"text": "If three farmers can plant three trees in three hours, how long would it take nine farmers to plant nine trees?"
+				"name": "Favourite literary genre",
+				"text": "What is your favourite literary genre?",
+				"answers": [
+					"Historical",
+					"Sci-Fi",
+					"Fantasy",
+					"Adventure",
+					"Formation",
+					"Horror",
+					"Action/Thriller",
+					"Crime",
+					"Romance",
+					"Psychological",
+					"Humorous",
+					"Biography",
+					"Historiography"
+				]
+			}
+		]
+	},
+	{
+		"type": "standard",
+		"questions": [
+			{
+				"name": "How many",
+				"text": "How many books do you read in a month?",
+				"answers": [
+					"0",
+					"1",
+					"2-5",
+					"6-10",
+					"11+"
+				]
 			}
 		]
 	}
