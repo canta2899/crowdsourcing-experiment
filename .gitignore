@@ -1,4 +1,4 @@
 user.txt
-/data/build/environments/
+framework/data/build/environments/
 /.idea
-node_modules/
+framework/node_modules/
