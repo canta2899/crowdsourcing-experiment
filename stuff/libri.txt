@@ -74,6 +74,14 @@ Domande:
     2-5
     6-10
     11+
+	
 
+Dimensions: 
+==========
 
-
+	• Would you buy this book? 
+	• Is the price fair?
+	• How adequate does the price seem to you? 
+	• What impression do you have of this edition? 
+	• Have you read this book (??)  
+	• Would you recommend this book (??) 
