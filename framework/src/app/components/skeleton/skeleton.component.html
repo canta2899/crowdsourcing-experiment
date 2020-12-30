@@ -26,7 +26,7 @@
       <mat-card-content>
         <mat-form-field>
           <mat-label>
-            Insert your input token
+            Inserisci il tuo token di input
           </mat-label>
           <input matInput type="text" placeholder="your_mturk_token" formControlName="tokenInput" maxlength="11"
                  (focus)="this.tokenForm.updateValueAndValidity()"
@@ -36,13 +36,13 @@
                  (keyup.enter)="performTaskSetup()"
           >
           <mat-error *ngIf="checkFormControl(tokenForm,'tokenInput', 'required')">
-            This field is required
+            Questo campo &egrave; obbligatorio
           </mat-error>
           <mat-error *ngIf="checkFormControl(tokenForm,'tokenInput', 'invalid')">
-            This token input is invalid
+            Questo token di input non &egrave; valido
           </mat-error>
           <mat-error *ngIf="checkFormControl(tokenForm,'tokenInput', 'maxlength')">
-            This token input should be 11 characters long
+            Il tuo token di input dovrebbe essere di 11 caratteri
           </mat-error>
         </mat-form-field>
       </mat-card-content>
@@ -69,18 +69,18 @@
           <h4>Failure</h4>
         </mat-card-title>
         <mat-card-content *ngIf="this.settings.messages">
-          <h2>You are not allowed to participate to this experiment because either:</h2>
+		  <h2>Non sei autorizzato a partecipare al seguente esperimento perch&egrave;</h2>
           <ul>
             <li *ngFor="let message of this.settings.messages; let i=index">- {{message}}</li>
           </ul>
-          <h6>If you believe that this is an error, please contact us through Amazon MTurk. Sorry for the inconvenience.</h6>
+		  <h6>Se pensi che questo possa essere un errore, contattaci tramite Amazon MTurk. Ci scusiamo per l'inconveniente</h6>
         </mat-card-content>
         <mat-card-content *ngIf="!this.settings.messages">
-          <h2>
-            Either you have already started this task without finishing it, or you have already participated to a
-            variant of this experiment.<br/> For this reason, you are not allowed to take a part in this experiment.
-            If you believe that this is an error, please contact us through Amazon MTurk. Sorry for the inconvenience.
-          </h2>
+		  <h2>
+			O hai già iniziato il task senza terminarlo o, in alternativa, hai gi&agrave; preso parte ad una variante di questo esperimento.<br/>
+			Per questo motivo, non sei autorizzato a prendere parte all'esperimento.
+			Se credi che questo possa essere un errore, contattaci tramite Amazon MTurk. Ci scusiamo per l'inconveniente.
+		  </h2> 
         </mat-card-content>
       </mat-card>
     </div>
@@ -97,9 +97,9 @@
         <ng-template matStepLabel>Q{{i + 1}}</ng-template>
         <mat-card>
           <mat-divider [inset]="true"></mat-divider>
-          <mat-card-title *ngIf="questionnaire.type=='standard'">Please answer the following questions</mat-card-title>
-          <mat-card-title *ngIf="questionnaire.type=='crt'">Please answer the following question</mat-card-title>
-          <mat-card-title *ngIf="questionnaire.type=='likert'">Please assess the following statements</mat-card-title>
+          <mat-card-title *ngIf="questionnaire.type=='standard'">Rispondi alle domande seguenti</mat-card-title>
+          <mat-card-title *ngIf="questionnaire.type=='crt'">Rispondi alla domanda seguente</mat-card-title>
+          <mat-card-title *ngIf="questionnaire.type=='likert'">Valuta la seguente affermazione</mat-card-title>
           <mat-divider [inset]="true"></mat-divider>
           <mat-card-content *ngIf="questionnaire.type=='standard'">
             <mat-radio-group *ngFor="let question of questionnaire.questions; let j=index" aria-labelledby="radio-button-label" class="radio-button-group question" formControlName="{{question.name}}">
@@ -136,13 +136,13 @@
               <label>{{question.text}}</label>
               <input matInput type="number" placeholder="" formControlName="{{question.name}}">
               <mat-error *ngIf="checkFormControl(questionnairesForm[i],question.name, 'required')">
-                This field is required
+				Questo campo &egrave; obbligatorio
               </mat-error>
               <mat-error *ngIf="checkFormControl(questionnairesForm[i],question.name, 'min')">
-                Min value allowed: 0
+                Valore minimo permesso: 0
               </mat-error>
               <mat-error *ngIf="checkFormControl(questionnairesForm[i],question.name, 'max')">
-                Max value allowed: 100
+                Valore massimo permesso: 100
               </mat-error>
             </mat-form-field>
           </mat-card-content>
@@ -168,7 +168,7 @@
             <button mat-flat-button color="primary" matStepperNext [disabled]="(!questionnairesForm[i].valid || taskCompleted)" (click)="performLogging('Next')">
               Next
             </button>
-            <span class="form-note">(*) you have to fill each field to proceed</span>
+            <span class="form-note">(*) Devi compilare ogni campo per poter procedere</span>
           </mat-card-actions>
         </mat-card>
       </form>
@@ -189,9 +189,9 @@
             <!--- COUNTDOWN --->
             <div class="instructions sticky" *ngIf="this.settings.countdownTime">
               <h2 class="m-0">
-                Time left:
+                Tempo rimanente:
                 <countdown #cd [config]="{ demand: true, leftTime: this.settings.countdownTime, format: 's' }" (event)="handleCountdown($event, i)"></countdown>
-                seconds
+                secondi
               </h2>
             </div>
             
@@ -200,13 +200,15 @@
                 <tr><td><img src="{{document.cover}}" alt="{{document.title}}"/></td></tr>
                 <tr>
                   <ul>
-                    <li><strong>Title</strong>: {{document.title}}</li>
-                    <li><strong>Author</strong>: {{document.author}}</li>
-                    <li><strong>Number of pages</strong>: {{document.pages}}</li>
-                    <li><strong>Published by</strong>: {{document.publisher}}</li>
-                    <li><strong>Price</strong>: {{document.price}}</li>
-                    <li><strong>Year</strong>: {{document.year}}</li>
-                  </ul>
+					<li><strong>Titolo</strong>: {{document.title}}</li>
+                    <li><strong>Autore</strong>: {{document.author}}</li>
+                    <li><strong>Formato</strong>: {{document.type}}</li>
+                    <li><strong>Numero di pagine</strong>: {{document.pages}}</li>
+                    <li><strong>Lingua</strong>: {{document.language}}</li>
+                    <li><strong>Pubblicato da</strong>: {{document.publisher}}</li>
+                    <li><strong>Prezzo</strong>: {{document.price}}</li>
+                    <li><strong>Anno</strong>: {{document.year}}</li>
+				  </ul>
                 </tr>
               </table>
             </div>
@@ -277,10 +279,10 @@
                         <mat-icon>{{'arrow_right_alt'}}</mat-icon>
                       </button>
                       <mat-error *ngIf="checkFormControl(documentsForm[i],(dimension.name).concat('_url'), 'required')">
-                        This field is required
+						  Questo campo &egrave; obbligatorio
                       </mat-error>
                       <mat-error *ngIf="checkFormControl(documentsForm[i], (dimension.name).concat('_url'), 'invalidSearchEngineUrl')">
-                        Please select (or copy & paste) one of the URLs shown above.
+						Seleziona (o copia e incolla) uno degli URLs mostrati sopra. 
                       </mat-error>
                     </mat-form-field>
                   </div>
@@ -330,13 +332,13 @@
                         <mat-label>{{dimension.justification.text}}</mat-label>
                         <textarea matInput formControlName="{{dimension.name}}_justification" rows="3"></textarea>
                         <mat-error *ngIf="checkFormControl(documentsForm[i],(dimension.name).concat('_justification'), 'required')">
-                          This field is required
+                          Questo campo &egrave; richiesto
                         </mat-error>
                         <mat-error *ngIf="checkFormControl(documentsForm[i],(dimension.name).concat('_justification'), 'longer')">
-                          This justification must have at least {{dimension.justification.minWords}} words.
+                          La giustificazione deve avere almeno {{dimension.justification.minWords}} parole.
                         </mat-error>
                         <mat-error *ngIf="checkFormControl(documentsForm[i],(dimension.name).concat('_justification'), 'invalid')">
-                          You cannot use the selected search engine url as part of the justification.
+						  Non puoi usare l'URL del motore selezionato come parte della giustificazione. 
                         </mat-error>
                       </mat-form-field>
                     </div>
@@ -363,10 +365,10 @@
                         <mat-icon>{{'arrow_right_alt'}}</mat-icon>
                       </button>
                       <mat-error *ngIf="checkFormControl(documentsForm[i],(dimension.name).concat('_url'), 'required')">
-                        This field is required
+						Questo campo &egrave; richiesto
                       </mat-error>
                       <mat-error *ngIf="checkFormControl(documentsForm[i], (dimension.name).concat('_url'), 'invalidSearchEngineUrl')">
-                        Please select (or copy & paste) one of the URLs shown above.
+						Seleziona (o copia e incolla) uno degli URLs mostrati sopra. 
                       </mat-error>
                     </mat-form-field>
                   </div>
@@ -431,7 +433,7 @@
                     (click)="performLogging('Finish'); performQualityCheck()">
               Finish
             </button>
-            <span class="form-note">(*) you have to fill each field to proceed</span>
+            <span class="form-note">(*) devi compilare ogni campo per poter procedere</span>
           </mat-card-actions>
         </mat-card>
       </form>
@@ -449,10 +451,10 @@
         </mat-card-title>
         <mat-card-content>
           <h2>
-            Congratulations, you have successfully completed this task. To be paid you now have to copy your output token
-            (shown below)
-            back to the Amazon Mechanical Turk task page. Feel free to leave any comment in the box below to help us
-            improve our research.
+			Congratulazioni, hai completato il task con successo. Per essere pagato, devi copiare l'output token
+			(mostrato qui sotto)
+			sulla pagina del task di Amazon Mechanical Turk. Sentiti libero di lasciare qualunque commento nel box sottostante
+			per aiutarci a migliorare la nostra ricerca.  
           </h2>
           <h1>{{tokenOutput}}</h1>
           <form [formGroup]="commentForm" class="comment-form">
@@ -474,16 +476,16 @@
         </mat-card-title>
         <mat-card-content>
           <h2>
-            Your work was not good enough, so you are not allowed to submit this task.
-            As stated in the instructions, some quality checks are performed in this task.
-            You see this message because you have not passed one or more of such checks.
-            Nevertheless, you are allowed to retry this task. To do so, please click on the reset button below.
-            Feel free to leave any comment in the box below.
+			Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
+			Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
+			Ricevi questo messaggio perchè non hai passato uno o più di questi controlli. 
+			Tuttavia, puoi riprovare a svolgere il task. A tal fine, fai click sul tasto reset sottostante. 
+			Se vuoi aiutarci a migliorare il nostro lavoro, lascia pure un commento nel box sottostante.
           </h2>
           <button mat-flat-button color="primary" (click)="performReset()">Reset</button>
           <form [formGroup]="commentForm" class="comment-form">
             <mat-form-field appearance="fill">
-            <textarea matInput [disabled]="commentSent" placeholder="Your comment here" formControlName="comment"
+            <textarea matInput [disabled]="commentSent" placeholder="Inserisci il tuo commento!" formControlName="comment"
                       rows="5"></textarea>
             </mat-form-field>
           </form>
@@ -501,21 +503,21 @@
           <h4>Failure</h4>
         </mat-card-title>
         <mat-card-content>
-          <h2>
-            Your work was not good enough, so you are not allowed to submit this task.
-            As stated in the instructions, some quality checks are performed in this task.
-            You see this message because you have not passed one or more of such checks.
-            Feel free to leave any comment in the box below.
-          </h2>
+          <h2>     
+ 			Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
+			Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
+			Ricevi questo messaggio perchè non hai passato uno o più di questi controlli.
+			Lascia pure un commento nel box sottostante. 
+		  </h2>
           <form [formGroup]="commentForm" class="comment-form">
             <mat-form-field appearance="fill">
-              <textarea matInput [disabled]="commentSent" placeholder="Your comment here" formControlName="comment" rows="5"></textarea>
+              <textarea matInput [disabled]="commentSent" placeholder="Inserisci il tuo commento!" formControlName="comment" rows="5"></textarea>
             </mat-form-field>
           </form>
           <button mat-flat-button color="primary" [disabled]="commentSent || !commentForm.valid "
                   (click)="performCommentSaving()"> Send
           </button>
-          <span class="comment-sent-label" *ngIf="commentSent">Thank you!</span>
+          <span class="comment-sent-label" *ngIf="commentSent">Grazie!</span>
         </mat-card-content>
       </mat-card>
     </div>

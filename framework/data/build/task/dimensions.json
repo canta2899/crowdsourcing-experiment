@@ -1,6 +1,6 @@
 [
   {
-    "name": "Would you buy this book?",
+    "name": "Compreresti questo libro?",
     "justification": false,
     "url": false,
     "scale": {
@@ -27,7 +27,7 @@
     }
   },
   {
-    "name": "Is the price fair?",
+    "name": "Il prezzo è adeguato?",
     "justification": false,
     "url": false,
     "scale": {
@@ -35,12 +35,12 @@
       "mapping": [
         {
           "label": "Yes",
-          "description": "It's fair",
+          "description": "E' adeguato",
           "value": "1"
         },
         {
           "label": "No",
-          "description": "It's not fair",
+          "description": "Non è adeguato",
           "value": "-1"
         }
       ]
@@ -54,8 +54,8 @@
     }
   },
   {
-    "name": "How adequate does the price seem to you?",
-    "description": "0 = 'Price is totally off' - 6 = 'Price is completely right'",
+    "name": "Quanto adeguato ti sembra il prezzo?",
+    "description": "0 = 'Il prezzo è inadeguato' - 6 = 'Il prezzo è del tutto adeguato'",
     "url": false,
     "scale": {
       "type": "interval",
@@ -72,9 +72,9 @@
     }
   },
   {
-    "name": "What impression do you have of this edition?",
+    "name": "Quali sono le tue impressioni su questa edizione?",
     "justification": {
-      "text": "Write a justification of at least 50 words",
+      "text": "Scrivi una giustificazione di almeno 50 parole.",
       "min_words": 50
     },
     "url": false,
@@ -83,12 +83,12 @@
       "mapping": [
         {
           "label": "Positive",
-          "description": "I like it",
+          "description": "Questo libro è di mio gradimento",
           "value": "1"
         },
         {
           "label": "Negative",
-          "description": "Ehw",
+          "description": "Questo libro non è di mio gradimento",
           "value": "-1"
         }
       ]

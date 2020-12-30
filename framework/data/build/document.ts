@@ -10,6 +10,8 @@ export class Document {
   index: number;
 
   title: string;
+  type: string;
+  language: string;
   author: string;
   pages: string;
   publisher: string;
@@ -23,10 +25,11 @@ export class Document {
   ) {
     /* DO NOT REMOVE THIS LINE */
     this.index =          index;
-
-    this.title     = data["title"];
+	this.title     = data["title"];
     this.author    = data["author"];
+    this.type      = data["type"];
     this.pages     = data["pages"];
+    this.language  = data["language"]
     this.publisher = data["publisher"];
     this.price     = data["price"];
     this.cover     = data["cover"];
