@@ -359,7 +359,7 @@ export class SkeletonComponent implements OnInit {
     }
     let blacklistedInCurrentTask = false;
     for (let currentWorker of workers['blacklist']) if (currentWorker == this.workerIdentifier) blacklistedInCurrentTask = true;
-    if (!blacklistedInCurrentTask) {
+    if (!blacklistedInCurrentTask && workers['whitelist'].indexOf(this.workerIdentifier) != -1) {
 
       for (let blacklistBatch of this.blacklistBatches) {
         let blacklistedWorkers = await this.S3Service.downloadWorkers(this.configService.environment, blacklistBatch)
@@ -398,7 +398,8 @@ export class SkeletonComponent implements OnInit {
         return !uploadStatus["failed"];
       }
 
-    } else {
+    }
+    else {
       /* If a returning worker for the current task has been found, the task must be blocked */
       return false
     }

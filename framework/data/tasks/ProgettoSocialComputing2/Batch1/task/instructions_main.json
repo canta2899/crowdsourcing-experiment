@@ -1,9 +1,12 @@
 [
 	{
-		"caption": "Queste sono le istruzioni generali",
+		"caption": "Istruzioni per lo svolgimento del task",
 		"steps": [
-			"Primo step",
-			"Secondo step"
+			"Il seguente task è basato sull'analisi di opinioni relative a tre diversi libri proposti.",
+			"Il questionario iniziale permette un inquadramento complessivo del singolo lettore. In seguito, verranno proposti tre libri dei quali saranno visionabili le informazioni essenziali, assieme alla copertina.",
+			"Verranno poste delle domande che permetteranno di esprimere un giudizio complessivo relativamente al libro in analisi. È fondamentale leggere e rispondere attentamente a tutte le domande.",
+			"Non è, invece, necessario conoscere il libro o averlo letto precedentemente.",
+			"I dati sono collezionati in forma anonima e nessun dato sensibile verrà raccolto."
 		]
 	}
 ]

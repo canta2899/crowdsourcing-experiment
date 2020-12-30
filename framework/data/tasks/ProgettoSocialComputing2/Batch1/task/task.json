@@ -1,13 +1,13 @@
 {
 	"task_name": "ProgettoSocialComputing",
 	"batch_name": "Batch1",
-	"allowed_tries": 1,
-	"time_check_amount": 3,
+	"allowed_tries": 2,
+	"time_check_amount": 35,
 	"annotator": false,
 	"countdown_time": false,
 	"blacklist_batches": [],
 	"whitelist_batches": [],
 	"messages": [
-		"Messaggio aggiunto nella task configuration"
+		"Accesso non autorizzato al task!!"
 	]
 }

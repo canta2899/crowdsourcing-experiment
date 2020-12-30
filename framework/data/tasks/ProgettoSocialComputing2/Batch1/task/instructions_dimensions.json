@@ -1,9 +1,11 @@
 [
 	{
-		"caption": "Istruzioni di valutazione",
+		"caption": "Come rispondere ai quesiti:",
 		"steps": [
-			"Primo step",
-			"Secondo step"
+			"Osserva la copertina e le informazioni relative al libro proposto.",
+			"Rispondi alle domande in base alle tue opinioni.",
+			"Rispondi a tutte le domande",
+			"Utilizza il tasto \"Avanti\" per procedere o il tasto \"Termina\" per concludere."
 		]
 	}
 ]
