@@ -1,205 +1,241 @@
 [
     {
         "unit_id": "unit_0",
-        "token_input": "ZFJKAYDBVQ",
-        "token_output": "NTGOXHBNFM",
+        "token_input": "ZPCUSGSGQL",
+        "token_output": "MNSGCBZDHA",
         "documents": [
             {
-                "title": "The Lord of the Rings",
-                "author": "J.R.R. Tolkien",
-                "pages": 1664,
-                "publisher": "Harper Collins",
-                "price": " $99.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356457044l/15923745.jpg",
-                "year": 2012
+                "title": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+                "author": "C.S. Lewis",
+                "type": "Copertina flessibile",
+                "pages": 180,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "10,45",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+                "year": 2018
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone",
-                "author": "J.K. Rowling",
-                "pages": 309,
-                "publisher": "Scholastic Inc.",
-                "price": " $6.45 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556098333l/45286449._SX318_.jpg",
-                "year": 2005
+                "title": "Assassinio sull'Orient Express",
+                "author": "Agatha Christie",
+                "type": "Kindle",
+                "pages": 239,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "4,99",
+                "cover": "https://m.media-amazon.com/images/I/51fz-a0daGL.jpg",
+                "year": 2014
             },
             {
-                "title": "The Hunger Games(Kindle Edition)",
-                "author": "Suzanne Collins",
-                "pages": 387,
-                "publisher": "Scholastic Press",
-                "price": " $6.48 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592234598l/49494289._SY475_.jpg",
-                "year": 2019
+                "title": "Thus Spoke Zarathustra",
+                "author": "Friedrich Nietzsche",
+                "type": "Copertina flessibile",
+                "pages": 194,
+                "language": "Inglese",
+                "publisher": "Independently published",
+                "price": "6,17",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/416oKUhEaEL._SX331_BO1,204,203,200_.jpg",
+                "year": 2017
             }
         ]
     },
     {
         "unit_id": "unit_1",
-        "token_input": "DHGXPQXRSK",
-        "token_output": "UGONJATOEI",
+        "token_input": "MNYRTLHFQO",
+        "token_output": "CUFQHQQFIO",
         "documents": [
             {
-                "title": "The Lord of the Rings",
-                "author": "J.R.R. Tolkien",
-                "pages": 1031,
-                "publisher": "Harper Collins",
-                "price": " $28.91 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296933438l/15350.jpg",
-                "year": 2004
+                "title": "Assassinio sull'Orient Express",
+                "author": "Agatha Christie",
+                "type": "Copertina flessibile",
+                "pages": 216,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "12,82",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51YMP+OmvBL._SX324_BO1,204,203,200_.jpg",
+                "year": 2020
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone(Kindle Edition)",
-                "author": "J.K. Rowling",
-                "pages": 256,
-                "publisher": "Pottermore from J.K. Rowling",
-                "price": " $9.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500557579l/35711177._SX318_.jpg",
-                "year": 2017
+                "title": "Così parlò Zarathustra. Ediz. integrale ",
+                "author": "Friedrich Nietzsche",
+                "type": "Kindle",
+                "pages": 340,
+                "language": "Italiano",
+                "publisher": "Newton Compton Editori",
+                "price": "1,99",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+                "year": 2011
             },
             {
-                "title": "The Hunger Games",
-                "author": "Suzanne Collins",
-                "pages": 374,
-                "publisher": "Scholastic Inc.",
-                "price": " $11.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962782l/7285601.jpg",
-                "year": 2010
+                "title": "The Chronicles of Narnia - The Lion, the Witch and the Wardrobe ",
+                "author": "C.S. Lewis",
+                "type": "Copertina flessibile",
+                "pages": 206,
+                "language": "Inglese",
+                "publisher": "Harper USA",
+                "price": "11,5",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51MVtvGUHvL._SX298_BO1,204,203,200_.jpg",
+                "year": 2005
             }
         ]
     },
     {
         "unit_id": "unit_2",
-        "token_input": "RHGNBRMPVS",
-        "token_output": "QWXZESIQAA",
+        "token_input": "AOAACVVTRL",
+        "token_output": "SBQFNXYZUI",
         "documents": [
             {
-                "title": "The Lord of the Rings(Kindle Edition)",
-                "author": "J.R.R. Tolkien",
-                "pages": 1220,
-                "publisher": "Houghton Mifflin Harcourt",
-                "price": " $16.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330855500l/13510444.jpg",
-                "year": 2012
+                "title": "Così parlò Zarathustra. Ediz. integrale ",
+                "author": "Friedrich Nietzsche",
+                "type": "Copertina flessibile",
+                "pages": 286,
+                "language": "Italiano",
+                "publisher": "Newton Compton Editori",
+                "price": "3,7",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+                "year": 2014
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone",
-                "author": "J.K. Rowling",
-                "pages": 309,
-                "publisher": "Scholastic Inc.",
-                "price": " $6.45 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556098333l/45286449._SX318_.jpg",
+                "title": "Assassinio sull'Orient Express",
+                "author": "Agatha Christie",
+                "type": "Kindle",
+                "pages": 239,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "4,99",
+                "cover": "https://m.media-amazon.com/images/I/51fz-a0daGL.jpg",
+                "year": 2014
+            },
+            {
+                "title": "The Chronicles of Narnia - The Lion, the Witch and the Wardrobe ",
+                "author": "C.S. Lewis",
+                "type": "Copertina flessibile",
+                "pages": 206,
+                "language": "Inglese",
+                "publisher": "Harper USA",
+                "price": "11,5",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51MVtvGUHvL._SX298_BO1,204,203,200_.jpg",
                 "year": 2005
-            },
-            {
-                "title": "The Hunger Games",
-                "author": "Suzanne Collins",
-                "pages": 374,
-                "publisher": "Scholastic Inc.",
-                "price": " $11.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962782l/7285601.jpg",
-                "year": 2010
             }
         ]
     },
     {
         "unit_id": "unit_3",
-        "token_input": "YXJSAZWCZG",
-        "token_output": "UPJFSNMYDK",
+        "token_input": "TIATJWRNJX",
+        "token_output": "ORFVNSEMFY",
         "documents": [
             {
-                "title": "The Lord of the Rings(Kindle Edition)",
-                "author": "J.R.R. Tolkien",
-                "pages": 1220,
-                "publisher": "Houghton Mifflin Harcourt",
-                "price": " $16.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330855500l/13510444.jpg",
-                "year": 2012
+                "title": "Così parlò Zarathustra. Ediz. integrale ",
+                "author": "Friedrich Nietzsche",
+                "type": "Copertina flessibile",
+                "pages": 286,
+                "language": "Italiano",
+                "publisher": "Newton Compton Editori",
+                "price": "3,7",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+                "year": 2014
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone",
-                "author": "J.K. Rowling",
-                "pages": 309,
-                "publisher": "Scholastic Inc.",
-                "price": " $6.45 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556098333l/45286449._SX318_.jpg",
-                "year": 2005
+                "title": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+                "author": "C.S. Lewis",
+                "type": "Kindle",
+                "pages": 148,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "4,99",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+                "year": 2018
             },
             {
-                "title": "The Hunger Games",
-                "author": "Suzanne Collins",
-                "pages": 464,
-                "publisher": "Scholastic Fiction",
-                "price": " $15.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394501518l/18661631.jpg",
-                "year": 2012
+                "title": "Murder on the Orient Express",
+                "author": "Agatha Christie",
+                "type": "Copertina flessibile",
+                "pages": 315,
+                "language": "Inglese",
+                "publisher": "HarperCollins",
+                "price": "6,9",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51+2QZIRWfL._SX308_BO1,204,203,200_.jpg",
+                "year": 2011
             }
         ]
     },
     {
         "unit_id": "unit_4",
-        "token_input": "ISUKEEMYSM",
-        "token_output": "HSLOVCVOPG",
+        "token_input": "VTBQGMDFRI",
+        "token_output": "URRJLDAQUH",
         "documents": [
             {
-                "title": "The Lord of the Rings",
-                "author": "J.R.R. Tolkien",
-                "pages": 1031,
-                "publisher": "Harper Collins",
-                "price": " $28.91 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296933438l/15350.jpg",
-                "year": 2004
+                "title": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+                "author": "C.S. Lewis",
+                "type": "Copertina flessibile",
+                "pages": 180,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "10,45",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+                "year": 2018
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone(Kindle Edition)",
-                "author": "J.K. Rowling",
-                "pages": 256,
-                "publisher": "Pottermore from J.K. Rowling",
-                "price": " $9.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500557579l/35711177._SX318_.jpg",
-                "year": 2017
+                "title": "Così parlò Zarathustra. Ediz. integrale ",
+                "author": "Friedrich Nietzsche",
+                "type": "Kindle",
+                "pages": 340,
+                "language": "Italiano",
+                "publisher": "Newton Compton Editori",
+                "price": "1,99",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+                "year": 2011
             },
             {
-                "title": "The Hunger Games",
-                "author": "Suzanne Collins",
-                "pages": 464,
-                "publisher": "Scholastic Fiction",
-                "price": " $15.99 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394501518l/18661631.jpg",
-                "year": 2012
+                "title": "Murder on the Orient Express",
+                "author": "Agatha Christie",
+                "type": "Copertina flessibile",
+                "pages": 315,
+                "language": "Inglese",
+                "publisher": "HarperCollins",
+                "price": "6,9",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51+2QZIRWfL._SX308_BO1,204,203,200_.jpg",
+                "year": 2011
             }
         ]
     },
     {
         "unit_id": "unit_5",
-        "token_input": "LROCKWRNSA",
-        "token_output": "TAETNLDXWW",
+        "token_input": "ZBTWBMEEUW",
+        "token_output": "WUJBRSHYJN",
         "documents": [
             {
-                "title": "The Lord of the Rings",
-                "author": "J.R.R. Tolkien",
-                "pages": 1031,
-                "publisher": "Harper Collins",
-                "price": " $28.91 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296933438l/15350.jpg",
-                "year": 2004
+                "title": "Assassinio sull'Orient Express",
+                "author": "Agatha Christie",
+                "type": "Copertina flessibile",
+                "pages": 216,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "12,82",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51YMP+OmvBL._SX324_BO1,204,203,200_.jpg",
+                "year": 2020
             },
             {
-                "title": "Harry Potter and the Sorcerer's Stone ",
-                "author": "J.K. Rowling",
-                "pages": 223,
-                "publisher": "Bloomsbury Publishing",
-                "price": " $7.85 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327190600l/72193.jpg",
-                "year": 2000
+                "title": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+                "author": "C.S. Lewis",
+                "type": "Kindle",
+                "pages": 148,
+                "language": "Italiano",
+                "publisher": "Mondadori",
+                "price": "4,99",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+                "year": 2018
             },
             {
-                "title": "The Hunger Games(Kindle Edition)",
-                "author": "Suzanne Collins",
-                "pages": 387,
-                "publisher": "Scholastic Press",
-                "price": " $6.48 ",
-                "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592234598l/49494289._SY475_.jpg",
-                "year": 2019
+                "title": "Thus Spoke Zarathustra",
+                "author": "Friedrich Nietzsche",
+                "type": "Copertina flessibile",
+                "pages": 194,
+                "language": "Inglese",
+                "publisher": "Independently published",
+                "price": "6,17",
+                "cover": "https://images-na.ssl-images-amazon.com/images/I/416oKUhEaEL._SX331_BO1,204,203,200_.jpg",
+                "year": 2017
             }
         ]
     }
