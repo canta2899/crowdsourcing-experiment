@@ -182,7 +182,7 @@
         <mat-card>
           <ng-template matStepLabel> S{{i + 1}}</ng-template>
           <mat-divider [inset]="true"></mat-divider>
-          <mat-card-title>Per favore valuta le seguenti affermazioni</mat-card-title>
+          <mat-card-title>Per favore, valuta le seguenti affermazioni</mat-card-title>
           <mat-divider [inset]="true"></mat-divider>
           <mat-card-content class="pt-16px">
 
@@ -207,7 +207,7 @@
                         <li><strong>Numero di pagine</strong>: {{document.pages}}</li>
                         <li><strong>Lingua</strong>: {{document.language}}</li>
                         <li><strong>Pubblicato da</strong>: {{document.publisher}}</li>
-                        <li><strong>Prezzo</strong>: {{document.price}}</li>
+                        <li><strong>Prezzo</strong>: &euro; {{document.price}}</li>
                         <li><strong>Anno</strong>: {{document.year}}</li>
                     </ul>
                   </td>
@@ -291,8 +291,8 @@
                 </div>
                 <div *ngIf="dimension.scale" class="dimension-container dimension-scale">
                   <!-- Dimension value field markup -->
-                  <div *ngIf="dimension.url" class="dimension-counter">b.</div>
-                  <div *ngIf="!dimension.url" class="dimension-counter">a.</div>
+                  <div *ngIf="dimension.url" class="dimension-counter"></div>
+                  <div *ngIf="!dimension.url" class="dimension-counter"></div>
                   <div class="dimension-content truth-level">
                     <ng-container *ngIf="dimension.style.orientation=='vertical'">
                       <ng-container *ngIf="dimension.scale.type=='categorical'">
@@ -324,10 +324,10 @@
                 </div>
                 <div *ngIf="dimension.justification" class="dimension-container dimension-justification">
                   <!-- Dimension text justification field markup -->
-                  <div *ngIf="dimension.url && dimension.scale" class="dimension-counter">c.</div>
-                  <div *ngIf="!dimension.url && dimension.scale" class="dimension-counter">b.</div>
-                  <div *ngIf="dimension.url && !dimension.scale" class="dimension-counter">b.</div>
-                  <div *ngIf="!dimension.url && !dimension.scale" class="dimension-counter">a.</div>
+                  <div *ngIf="dimension.url && dimension.scale" class="dimension-counter"></div>
+                  <div *ngIf="!dimension.url && dimension.scale" class="dimension-counter"></div>
+                  <div *ngIf="dimension.url && !dimension.scale" class="dimension-counter"></div>
+                  <div *ngIf="!dimension.url && !dimension.scale" class="dimension-counter"></div>
                   <div *ngIf="dimension.justification" class="dimension-content justification">
                     <div class="dimension-text-field">
                       <mat-form-field appearance="fill">

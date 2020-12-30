@@ -1,6 +1,38 @@
 [
   {
-    "name": "Compreresti questo libro?",
+    "name": "Hai letto questo libro?",
+    "justification": false,
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Si",
+          "description": "esattamente questa edizione",
+          "value": "2"
+        },
+        {
+          "label": "Si",
+          "description": "ma un'edizione differente",
+          "value": "1"
+        },
+        {
+          "label": "No",
+          "description": "non lo ho letto",
+          "value": "0"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "top",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  },
+  {
+    "name": "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)",
     "justification": false,
     "url": false,
     "scale": {
@@ -14,7 +46,7 @@
         {
           "label": "No",
           "description": "Non lo comprerei",
-          "value": "-1"
+          "value": "0"
         }
       ]
     },
@@ -34,14 +66,14 @@
       "type": "categorical",
       "mapping": [
         {
-          "label": "Sì",
-          "description": "E' adeguato",
+          "label": "Si",
+          "description": "È adeguato",
           "value": "1"
         },
         {
           "label": "No",
           "description": "Non è adeguato",
-          "value": "-1"
+          "value": "0"
         }
       ]
     },
@@ -54,13 +86,13 @@
     }
   },
   {
-    "name": "Quanto adeguato ti sembra il prezzo?",
-    "description": "0 = 'Il prezzo è inadeguato' - 6 = 'Il prezzo è del tutto adeguato'",
+    "name": "Indica quanto ti sembra adeguato:",
+    "description": "0 = 'Il prezzo è totalmente inadeguato' - 5 = 'Il prezzo è totalmente adeguato'",
     "url": false,
     "scale": {
       "type": "interval",
       "min": 0,
-      "max": 6,
+      "max": 5,
       "step": 1
     },
     "gold_question_check": false,
@@ -72,10 +104,10 @@
     }
   },
   {
-    "name": "Quali sono le tue impressioni su questa edizione?",
+    "name": "Quali sono le tue impressioni su questa edizione del libro?",
     "justification": {
-      "text": "Scrivi una giustificazione di almeno 50 parole.",
-      "min_words": 50
+      "text": "Scrivi una giustificazione.",
+      "min_words": 10
     },
     "url": false,
     "scale": {
@@ -89,13 +121,40 @@
         {
           "label": "Negativa",
           "description": "Questo libro non è di mio gradimento",
-          "value": "-1"
+          "value": "0"
         }
       ]
     },
     "gold_question_check": false,
     "style": {
       "position": "bottom",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  },
+  {
+    "name": "Sfoglieresti il libro vedendone la copertina?",
+    "justification": false,
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Si",
+          "description": false,
+          "value": "1"
+        },
+        {
+          "label": "No",
+          "description": false,
+          "value": "0"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "top",
       "orientation": "vertical",
       "type": "list",
       "separator": false
