@@ -2,3 +2,8 @@ framework/data/build/document.ts -> Aggiunti i nostri attributi dei libri
 framework/src/app/components/skeleton/skeleton.component.html (line 200) -> Aggiungere gli attributi dei libri
 framework/src/app/components/loader/loader.component.ts (line 97) -> No cleartext password and no default password either (also, using sha512)
 framework/data/build/admin.json -> changed to match the new format ({"username":"<user>", "password: "<sha512ofpassword>"}, no salt because i was lazy, use strong random password)
+
+framework/src/app/components/skeleton/skeleton.component.ts -> Modified to use italian language
+framework/src/app/components/instructions/instructions.component.html -> Modified to use italian language
+framework/src/app/components/skeleton/skeleton.component.ts -> Modified to use italian language
+framework/src/app/components/instructions/instructions-dialog.component.html -> Modified to use italian language

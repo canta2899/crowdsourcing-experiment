@@ -10,7 +10,7 @@
     </mat-card-content>
     <mat-card-actions>
       <button mat-flat-button color="primary" (click)="enableTask()">
-        Proceed
+        Procedi
       </button>
     </mat-card-actions>
   </mat-card>
@@ -28,7 +28,7 @@
           <mat-label>
             Inserisci il tuo token di input
           </mat-label>
-          <input matInput type="text" placeholder="your_mturk_token" formControlName="tokenInput" maxlength="11"
+          <input matInput type="text" placeholder="il tuo token" formControlName="tokenInput" maxlength="11"
                  (focus)="this.tokenForm.updateValueAndValidity()"
                  (paste)="this.tokenForm.updateValueAndValidity()"
                  (keyup)="this.tokenForm.updateValueAndValidity()"
@@ -47,7 +47,7 @@
         </mat-form-field>
       </mat-card-content>
       <mat-card-actions>
-        <button id="start-button" mat-flat-button color="primary" (click)="performTaskSetup()">Start</button>
+        <button id="start-button" mat-flat-button color="primary" (click)="performTaskSetup()">Inizia</button>
       </mat-card-actions>
     </mat-card>
   </form>
@@ -166,7 +166,7 @@
           </mat-card-content>
           <mat-card-actions>
             <button mat-flat-button color="primary" matStepperNext [disabled]="(!questionnairesForm[i].valid || taskCompleted)" (click)="performLogging('Next')">
-              Next
+              Avanti
             </button>
             <span class="form-note">(*) Devi compilare ogni campo per poter procedere</span>
           </mat-card-actions>
@@ -182,7 +182,7 @@
         <mat-card>
           <ng-template matStepLabel> S{{i + 1}}</ng-template>
           <mat-divider [inset]="true"></mat-divider>
-          <mat-card-title>Please judge the following statement</mat-card-title>
+          <mat-card-title>Per favore valuta le seguenti affermazioni</mat-card-title>
           <mat-divider [inset]="true"></mat-divider>
           <mat-card-content class="pt-16px">
 
@@ -197,18 +197,20 @@
             
             <div class="statement">
               <table style='border: none;'>
-                <tr><td><img src="{{document.cover}}" alt="{{document.title}}"/></td></tr>
                 <tr>
-                  <ul>
-					<li><strong>Titolo</strong>: {{document.title}}</li>
-                    <li><strong>Autore</strong>: {{document.author}}</li>
-                    <li><strong>Formato</strong>: {{document.type}}</li>
-                    <li><strong>Numero di pagine</strong>: {{document.pages}}</li>
-                    <li><strong>Lingua</strong>: {{document.language}}</li>
-                    <li><strong>Pubblicato da</strong>: {{document.publisher}}</li>
-                    <li><strong>Prezzo</strong>: {{document.price}}</li>
-                    <li><strong>Anno</strong>: {{document.year}}</li>
-				  </ul>
+                  <td><img src="{{document.cover}}" alt="{{document.title}}"/></td>
+                  <td>
+                    <ul>
+                        <li><strong>Titolo</strong>: {{document.title}}</li>
+                        <li><strong>Autore</strong>: {{document.author}}</li>
+                        <li><strong>Formato</strong>: {{document.type}}</li>
+                        <li><strong>Numero di pagine</strong>: {{document.pages}}</li>
+                        <li><strong>Lingua</strong>: {{document.language}}</li>
+                        <li><strong>Pubblicato da</strong>: {{document.publisher}}</li>
+                        <li><strong>Prezzo</strong>: {{document.price}}</li>
+                        <li><strong>Anno</strong>: {{document.year}}</li>
+                    </ul>
+                  </td>
                 </tr>
               </table>
             </div>
@@ -302,7 +304,7 @@
                         </mat-radio-group>
                       </ng-container>
                       <ng-container *ngIf="dimension.scale.type=='interval'">
-                        <label>Selected value: {{documentsForm[i].controls[(dimension.name).concat('_value')].value}}</label>
+                        <label>Valore selezionato: {{documentsForm[i].controls[(dimension.name).concat('_value')].value}}</label>
                         <mat-slider min="{{dimension.scale.min}}" max="{{dimension.scale.max}}" step="{{dimension.scale.step}}" thumbLabel tickInterval="{{dimension.scale.step}}"
                                     formControlName="{{(dimension.name).concat('_value')}}" (change)="storeDimensionValue($event, i,dimension.index)" [disabled]="this.countdownsExpired[i]"></mat-slider>
                       </ng-container>
@@ -419,19 +421,19 @@
             <button mat-flat-button color="primary" matStepperPrevious *ngIf="i>0"
                     [disabled]="taskCompleted"
                     (click)="performLogging('Back')">
-              Back
+              Indietro
             </button>
             <button mat-flat-button color="primary" matStepperNext
                     *ngIf="i+1<this.documentsAmount"
                     [disabled]="(!documentsForm[i].valid || !this.searchEngineRetrievedResponses[i] || taskCompleted) && !this.countdownsExpired[i]"
                     (click)="performLogging('Next')">
-              Next
+              Avanti
             </button>
             <button mat-flat-button color="primary" matStepperNext
                     *ngIf="i+1>=this.documentsAmount"
                     [disabled]="!documentsForm[i].valid && !this.countdownsExpired[i]"
                     (click)="performLogging('Finish'); performQualityCheck()">
-              Finish
+              Termina
             </button>
             <span class="form-note">(*) devi compilare ogni campo per poter procedere</span>
           </mat-card-actions>
@@ -442,29 +444,30 @@
 
   <!-- Outcome markup -->
   <mat-step *ngIf="documents" [editable]="false">
-    <ng-template matStepLabel> Outcome</ng-template>
+    <ng-template matStepLabel> Risultato</ng-template>
     <!-- Success section - shown when the worker successfully completes the task -->
     <div id="success-section" class="outcome-section container" *ngIf="taskCompleted && taskSuccessful">
       <mat-card>
         <mat-card-title class="success-title">
-          <h4>Success</h4>
+          <h4>Successo</h4>
         </mat-card-title>
         <mat-card-content>
           <h2>
-			Congratulazioni, hai completato il task con successo. Per essere pagato, devi copiare l'output token
-			(mostrato qui sotto)
-			sulla pagina del task di Amazon Mechanical Turk. Sentiti libero di lasciare qualunque commento nel box sottostante
-			per aiutarci a migliorare la nostra ricerca.  
+            Congratulazioni, hai completato il task con successo. Sentiti libero di lasciare qualunque commento nel box sottostante
+            per aiutarci a migliorare la nostra ricerca.
+            <br/><br/>
+            Grazie del tempo dedicatoci!
           </h2>
-          <h1>{{tokenOutput}}</h1>
+          <!-- We don't need the token for this one! -->
+          <!-- <h1>{{tokenOutput}}</h1> -->
           <form [formGroup]="commentForm" class="comment-form">
             <mat-form-field appearance="fill">
-              <textarea matInput [disabled]="commentSent" placeholder="Your comment here" formControlName="comment" rows="5"></textarea>
+              <textarea matInput [disabled]="commentSent" placeholder="Il tuo commento" formControlName="comment" rows="5"></textarea>
             </mat-form-field>
           </form>
           <button mat-flat-button color="primary" [disabled]="commentSent || !commentForm.valid " (click)="performCommentSaving()"> Send
           </button>
-          <span class="comment-sent-label" *ngIf="commentSent">Thank you!</span>
+          <span class="comment-sent-label" *ngIf="commentSent">Grazie!</span>
         </mat-card-content>
       </mat-card>
     </div>
@@ -472,15 +475,15 @@
     <div id="retry-section" class="outcome-section container" *ngIf="taskCompleted && taskFailed && allowedTries>0">
       <mat-card>
         <mat-card-title class="retry-title">
-          <h3>Failure, but...</h3>
+          <h3>Si &egrave; verificato un errore, ma...</h3>
         </mat-card-title>
         <mat-card-content>
           <h2>
-			Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
-			Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
-			Ricevi questo messaggio perchè non hai passato uno o più di questi controlli. 
-			Tuttavia, puoi riprovare a svolgere il task. A tal fine, fai click sul tasto reset sottostante. 
-			Se vuoi aiutarci a migliorare il nostro lavoro, lascia pure un commento nel box sottostante.
+            Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
+            Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
+            Ricevi questo messaggio perchè non hai passato uno o più di questi controlli. 
+            Tuttavia, puoi riprovare a svolgere il task. A tal fine, fai click sul tasto reset sottostante. 
+            Se vuoi aiutarci a migliorare il nostro lavoro, lascia pure un commento nel box sottostante.
           </h2>
           <button mat-flat-button color="primary" (click)="performReset()">Reset</button>
           <form [formGroup]="commentForm" class="comment-form">
@@ -500,22 +503,22 @@
     <div id="failure-section" class="outcome-section container" *ngIf="taskCompleted && taskFailed && allowedTries <= 0">
       <mat-card>
         <mat-card-title class="failure-title">
-          <h4>Failure</h4>
+          <h4>Si &egrave; verificato un errore...</h4>
         </mat-card-title>
         <mat-card-content>
           <h2>     
- 			Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
-			Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
-			Ricevi questo messaggio perchè non hai passato uno o più di questi controlli.
-			Lascia pure un commento nel box sottostante. 
-		  </h2>
+            Il tuo lavoro non è stato sufficiente, quindi non ti &egrave; permesso inviare il task.
+            Come indicato nelle istruzioni, sono stati effettuati diversi controlli di qualità. 
+            Ricevi questo messaggio perchè non hai passato uno o più di questi controlli.
+            Lascia pure un commento nel box sottostante.
+          </h2>
           <form [formGroup]="commentForm" class="comment-form">
             <mat-form-field appearance="fill">
               <textarea matInput [disabled]="commentSent" placeholder="Inserisci il tuo commento!" formControlName="comment" rows="5"></textarea>
             </mat-form-field>
           </form>
           <button mat-flat-button color="primary" [disabled]="commentSent || !commentForm.valid "
-                  (click)="performCommentSaving()"> Send
+                  (click)="performCommentSaving()"> Invia
           </button>
           <span class="comment-sent-label" *ngIf="commentSent">Grazie!</span>
         </mat-card-content>

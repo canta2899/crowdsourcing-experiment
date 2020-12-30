@@ -326,7 +326,7 @@ export class SkeletonComponent implements OnInit {
   public enableTask() {
 
     this.taskInstructionsRead = true
-    this.showSnackbar("If you have a very slow internet connection please wait a few seconds before clicking \"Start\".", "Dismiss", 15000)
+    this.showSnackbar("Se hai una connessione molto lenta, aspetta 5 secondi prima di cliccare il pulsante \"Procedi\".", "Chiudi", 15000)
     this.changeDetector.detectChanges()
   }
 
