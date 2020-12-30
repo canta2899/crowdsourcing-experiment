@@ -1,9 +1,9 @@
 [
 	{
-		"caption": "This is the caption for evaluation instruction",
+		"caption": "Istruzioni di valutazione",
 		"steps": [
-			"This is the first step",
-			"This is the second step"
+			"Primo step",
+			"Secondo step"
 		]
 	}
 ]

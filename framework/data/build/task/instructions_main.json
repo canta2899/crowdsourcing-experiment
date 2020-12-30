@@ -1,9 +1,9 @@
 [
 	{
-		"caption": "This is the caption for general instructions",
+		"caption": "Queste sono le istruzioni generali",
 		"steps": [
-			"This is the first step",
-			"This is the second step"
+			"Primo step",
+			"Secondo step"
 		]
 	}
 ]

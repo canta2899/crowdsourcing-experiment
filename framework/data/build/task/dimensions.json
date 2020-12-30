@@ -7,13 +7,13 @@
       "type": "categorical",
       "mapping": [
         {
-          "label": "Yes",
-          "description": "I would buy it",
+          "label": "Si",
+          "description": "Lo comprerei",
           "value": "1"
         },
         {
           "label": "No",
-          "description": "I would not buy it",
+          "description": "Non lo comprerei",
           "value": "-1"
         }
       ]
@@ -34,7 +34,7 @@
       "type": "categorical",
       "mapping": [
         {
-          "label": "Yes",
+          "label": "Sì",
           "description": "E' adeguato",
           "value": "1"
         },
@@ -82,12 +82,12 @@
       "type": "categorical",
       "mapping": [
         {
-          "label": "Positive",
+          "label": "Positiva",
           "description": "Questo libro è di mio gradimento",
           "value": "1"
         },
         {
-          "label": "Negative",
+          "label": "Negativa",
           "description": "Questo libro non è di mio gradimento",
           "value": "-1"
         }

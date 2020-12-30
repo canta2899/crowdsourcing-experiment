@@ -414,7 +414,6 @@ export class SkeletonComponent implements OnInit {
     for (let hit of hits) if (hit.token_input === control.value) return null;
     return {"invalid": "This token is not valid."}
   }
-
   /*
   *  This function retrieves the hit identified by the validated token input inserted by the current worker.
   *  Such hit is represented by an Hit object. After that, the task is initialized by setting each required
@@ -427,7 +426,6 @@ export class SkeletonComponent implements OnInit {
   public async performTaskSetup() {
     /* The token input has been already validated, this is just to be sure */
     if (this.tokenForm.valid) {
-
       /* The loading spinner is started */
       this.ngxService.startLoader('skeleton');
 

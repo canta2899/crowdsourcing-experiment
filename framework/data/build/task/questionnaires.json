@@ -3,14 +3,14 @@
 		"type": "standard",
 		"questions": [
 			{
-				"name": "Job",
-				"text": "What is your job?",
+				"name": "Lavoro",
+				"text": "Qual è il tuo impiego attuale?",
 				"answers": [
-					"Student",
-					"Employee",
+					"Studente",
+					"Dipendente",
 					"Freelancer",
-					"Public worker",
-					"Entrepreneur"
+					"Lavoratore pubblico",
+					"Imprenditore"
 				]
 			}
 		]
@@ -19,22 +19,22 @@
 		"type": "standard",
 		"questions": [
 			{
-				"name": "Favourite literary genre",
-				"text": "What is your favourite literary genre?",
+				"name": "Genere letterario preferito",
+				"text": "Qual è il tuo genere letterario preferito?",
 				"answers": [
-					"Historical",
+					"Storico",
 					"Sci-Fi",
 					"Fantasy",
-					"Adventure",
-					"Formation",
+					"Avventura",
+					"Formazione",
 					"Horror",
-					"Action/Thriller",
-					"Crime",
-					"Romance",
-					"Psychological",
-					"Humorous",
-					"Biography",
-					"Historiography"
+					"Azione/Thriller",
+					"Giallo",
+					"Rosa",
+					"Psicologico",
+					"Commedia",
+					"Biografia",
+					"Storiografia"
 				]
 			}
 		]
@@ -43,8 +43,8 @@
 		"type": "standard",
 		"questions": [
 			{
-				"name": "How many",
-				"text": "How many books do you read in a month?",
+				"name": "Quanti libri",
+				"text": "Quanti libri leggi in media al mese?",
 				"answers": [
 					"0",
 					"1",
