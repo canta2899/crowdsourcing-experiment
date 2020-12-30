@@ -32,6 +32,33 @@
     }
   },
   {
+    "name": "Sfoglieresti il libro vedendone la copertina?",
+    "justification": false,
+    "url": false,
+    "scale": {
+      "type": "categorical",
+      "mapping": [
+        {
+          "label": "Si",
+          "description": false,
+          "value": "1"
+        },
+        {
+          "label": "No",
+          "description": false,
+          "value": "0"
+        }
+      ]
+    },
+    "gold_question_check": false,
+    "style": {
+      "position": "top",
+      "orientation": "vertical",
+      "type": "list",
+      "separator": false
+    }
+  },
+  {
     "name": "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)",
     "justification": false,
     "url": false,
@@ -40,12 +67,12 @@
       "mapping": [
         {
           "label": "Si",
-          "description": "Lo comprerei",
+          "description": false,
           "value": "1"
         },
         {
           "label": "No",
-          "description": "Non lo comprerei",
+          "description": false,
           "value": "0"
         }
       ]
@@ -67,19 +94,19 @@
       "mapping": [
         {
           "label": "Si",
-          "description": "È adeguato",
+          "description": false,
           "value": "1"
         },
         {
           "label": "No",
-          "description": "Non è adeguato",
+          "description": false,
           "value": "0"
         }
       ]
     },
     "gold_question_check": false,
     "style": {
-      "position": "top",
+      "position": "middle",
       "orientation": "vertical",
       "type": "list",
       "separator": false
@@ -87,7 +114,7 @@
   },
   {
     "name": "Indica quanto ti sembra adeguato:",
-    "description": "0 = 'Il prezzo è totalmente inadeguato' - 5 = 'Il prezzo è totalmente adeguato'",
+    "description": "La scala va da 0 a 5, dove 0 indica che il prezzo è totalmente inadeguato mentre 5 indica che il prezzo è totalmente adeguato.",
     "url": false,
     "scale": {
       "type": "interval",
@@ -128,33 +155,6 @@
     "gold_question_check": false,
     "style": {
       "position": "bottom",
-      "orientation": "vertical",
-      "type": "list",
-      "separator": false
-    }
-  },
-  {
-    "name": "Sfoglieresti il libro vedendone la copertina?",
-    "justification": false,
-    "url": false,
-    "scale": {
-      "type": "categorical",
-      "mapping": [
-        {
-          "label": "Si",
-          "description": false,
-          "value": "1"
-        },
-        {
-          "label": "No",
-          "description": false,
-          "value": "0"
-        }
-      ]
-    },
-    "gold_question_check": false,
-    "style": {
-      "position": "top",
       "orientation": "vertical",
       "type": "list",
       "separator": false
