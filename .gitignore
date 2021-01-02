@@ -3,3 +3,5 @@ user.txt
 /.idea
 /framework/node_modules/
 .DS_Store
+/pyDistribution/.idea/
+/pyDistribution/credentials.py
