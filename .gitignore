@@ -5,4 +5,4 @@ user.txt
 .DS_Store
 /pyDistribution/.idea/
 /pyDistribution/credentials.py
-/TaskConfiguration
+/TaskConfiguration/
