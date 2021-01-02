@@ -5,4 +5,6 @@ user.txt
 .DS_Store
 /pyDistribution/.idea/
 /pyDistribution/credentials.py
+/pyHITS/.idea/
+/pyHITS/venv/
 /TaskConfiguration
