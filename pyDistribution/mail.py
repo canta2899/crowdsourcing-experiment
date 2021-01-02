@@ -1,3 +1,4 @@
+import re
 import string
 import random
 import boto3
@@ -6,6 +7,7 @@ import os
 import smtplib
 import ssl
 import credentials
+import shutil
 
 
 def s3Init():
@@ -79,51 +81,75 @@ def send_mail(plain, html, to):
     return 'Message sent!'
 
 
+def check(email):
+    regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w+$'
+    if re.search(regex, email):
+        return True
+    else:
+        return False
+
+
 def generateUserId():
     letters = string.ascii_uppercase
     return ''.join(random.choice(letters) for i in range(5))
 
 
 s3 = s3Init()
-to = input("Enter a mail address or a list of addresses separated by commas: ")
-toList = to.split(",")
+to = input("Enter a mail address or a list of addresses separated by commas:\n\t")
+toList = to.replace(" ", "").lower().split(",")
+print("\n\n***Initialization***\n")
 downloadWorkers(s3)
 tokenList = read_json('./tokens.json')
-lastToken = read_json('./last.json')['token'] + 1
+tokenIndex = read_json('./last.json')['token']
 workers = read_json('./workers.json')
 whitelist = workers['whitelist']
+print("\n***Initialization complete***\n\n")
 for i in range(len(toList)):
-    userID = generateUserId()
-    tokenIndex = (lastToken + i) % len(tokenList)
-    token = tokenList[tokenIndex]['token_input']
+    print(f"\n*** Working on {toList[i]} ***")
+    if check(toList[i]):
+        userID = generateUserId()
+        print(f"WorkerID: {userID}")
+        tokenIndex = (tokenIndex + 1) % len(tokenList)
+        token = tokenList[tokenIndex]['token_input']
+        print(f"Token: {token}")
 
-    plain = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.
-    Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.
-    
-    Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.
-    
-    Token di input: {token}
-    
-    
-    Ora è necessario che apra il seguente link per iniziare il questionario, sarà guidato dal sistema durante la compilazione.
-    
-    https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
+        plain = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.
+        Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.
+        
+        Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.
+        
+        Token di input: {token}
+        
+        
+        Ora è necessario che apra il seguente link per iniziare il questionario, sarà guidato dal sistema durante la compilazione.
+        
+        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
 
-    html = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.<br>
-    Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.<br><br>
-    Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.<br>
-    <h4>Token di input: {token}</h4>
-    Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
-    <br>
-    La ringraziamo per aver partecipato a questa esperienza, aiutandoci così nel nostro percorso di studi.
-    <br><br><br><br><br><br>
-    Nel caso il link precedente non funzionasse:<br>
-    https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
+        html = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.<br>
+        Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.<br><br>
+        Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.<br>
+        <h4>Token di input: {token}</h4>
+        Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
+        <br>
+        La ringraziamo per aver partecipato a questa esperienza, aiutandoci così nel nostro percorso di studi.
+        <br><br><br><br><br><br>
+        Nel caso il link precedente non funzionasse:<br>
+        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
 
-    print(send_mail(plain, html, toList[i]))
-    whitelist.append(userID)
-    lastToken = tokenIndex
+        print(send_mail(plain, html, toList[i]))
+        whitelist.append(userID)
+
+    else:
+        print(f"Address {toList[i]} is not valid, skipping...")
+
+print("\n\n\n*** Saving and uploading ***")
 workers['whitelist'] = whitelist
 serialize_json('./workers.json', workers)
-serialize_json('./last.json', {"token": lastToken})
+serialize_json('./last.json', {"token": tokenIndex})
 uploadWorkers(s3)
+
+copy = input("\nDo you want to copy workers.json in corresponding build folder? (y/n)\n\t")
+copy = copy.lower()
+if copy == 'y':
+    print(shutil.copy('./workers.json', '../framework/data/build/task/workers.json'))
+print('\n*** Bye! ***')
