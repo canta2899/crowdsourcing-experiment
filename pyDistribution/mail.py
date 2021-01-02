@@ -18,14 +18,14 @@ def s3Init():
     )
 
 
-def downloadWorkers(s3):
-    bucket = s3.Bucket('sc-cs-tasks')
+def downloadWorkers(s3, bucket_name):
+    bucket = s3.Bucket(bucket_name)
     bucket.download_file('ProgettoSocialComputing2/Batch1/Task/workers.json', './workers.json')
     print('Workers downloaded from S3')
 
 
-def uploadWorkers(s3):
-    bucket = s3.Bucket('sc-cs-tasks')
+def uploadWorkers(s3, bucket_name):
+    bucket = s3.Bucket(bucket_name)
     bucket.upload_file('./workers.json', 'ProgettoSocialComputing2/Batch1/Task/workers.json')
     print('Workers uploaded to S3')
 
@@ -65,9 +65,9 @@ def send_mail(plain, html, to):
 
     message = MIMEMultipart('alternative')
     message['Subject'] = 'Partecipazione al progetto di Social Computing'
-    message['From'] = 'bombasseidebona.francesco@spes.uniud.it'
+    message['From'] = 'cantarutti.andrea@spes.uniud.it'
     message['To'] = to
-    message['Cc'] = 'zanatta.alessandro@spes.uniud.it, cantarutti.andrea@spes.uniud.it'
+    message['Cc'] = 'zanatta.alessandro@spes.uniud.it, bombasseidebona.francesco@spes.uniud.it'
 
     plainText = MIMEText(plain, 'plain')
     htmlText = MIMEText(html, 'html')
@@ -98,7 +98,7 @@ s3 = s3Init()
 to = input("Enter a mail address or a list of addresses separated by commas:\n\t")
 toList = to.replace(" ", "").lower().split(",")
 print("\n\n***Initialization***\n")
-downloadWorkers(s3)
+downloadWorkers(s3, 'socialcomputing2-tasks')
 tokenList = read_json('./tokens.json')
 tokenIndex = read_json('./last.json')['token']
 workers = read_json('./workers.json')
@@ -148,7 +148,7 @@ print("\n\n\n*** Saving and uploading ***")
 workers['whitelist'] = whitelist
 serialize_json('./workers.json', workers)
 serialize_json('./last.json', {"token": tokenIndex})
-uploadWorkers(s3)
+uploadWorkers(s3, 'socialcomputing2-tasks')
 
 copy = input("\nDo you want to copy workers.json in corresponding build folder? (y/n)\n\t")
 copy = copy.lower()
