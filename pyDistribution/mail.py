@@ -108,6 +108,8 @@ for i in range(len(toList)):
     print(f"\n*** Working on {toList[i]} ***")
     if check(toList[i]):
         workerID = generateId(5)
+        while workerID in whitelist:
+            workerID = generateId(5)
         print(f"WorkerID: {workerID}")
         tokenIndex = (tokenIndex + 1) % len(tokenList)
         token = tokenList[tokenIndex]['token_input']
