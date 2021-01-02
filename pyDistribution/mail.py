@@ -89,9 +89,9 @@ def check(email):
         return False
 
 
-def generateUserId():
+def generateId(n):
     letters = string.ascii_uppercase
-    return ''.join(random.choice(letters) for i in range(5))
+    return ''.join(random.choice(letters) for i in range(n))
 
 
 s3 = s3Init()
@@ -107,8 +107,8 @@ print("\n***Initialization complete***\n\n")
 for i in range(len(toList)):
     print(f"\n*** Working on {toList[i]} ***")
     if check(toList[i]):
-        userID = generateUserId()
-        print(f"WorkerID: {userID}")
+        workerID = generateId(5)
+        print(f"WorkerID: {workerID}")
         tokenIndex = (tokenIndex + 1) % len(tokenList)
         token = tokenList[tokenIndex]['token_input']
         print(f"Token: {token}")
@@ -123,21 +123,21 @@ for i in range(len(toList)):
         
         Ora è necessario che apra il seguente link per iniziare il questionario, sarà guidato dal sistema durante la compilazione.
         
-        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
+        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}"""
 
         html = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.<br>
         Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.<br><br>
         Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.<br>
         <h4>Token di input: {token}</h4>
-        Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
+        Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
         <br>
         La ringraziamo per aver partecipato a questa esperienza, aiutandoci così nel nostro percorso di studi.
         <br><br><br><br><br><br>
         Nel caso il link precedente non funzionasse:<br>
-        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={userID}"""
+        https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}"""
 
         print(send_mail(plain, html, toList[i]))
-        whitelist.append(userID)
+        whitelist.append(workerID)
 
     else:
         print(f"Address {toList[i]} is not valid, skipping...")
