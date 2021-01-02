@@ -74,21 +74,7 @@
           "label": "No",
           "description": false,
           "value": "0"
-        }{
-          "type": "categorical",
-          "mapping": [
-            {
-              "label": "Positiva",
-              "description": "Questo libro è di mio gradimento",
-              "value": "1"
-            },
-            {
-              "label": "Negativa",
-              "description": "Questo libro non è di mio gradimento",
-              "value": "0"
-            }
-          ]
-        },
+        }
       ]
     },
     "gold_question_check": false,

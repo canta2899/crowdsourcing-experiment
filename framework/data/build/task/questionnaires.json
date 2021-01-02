@@ -3,6 +3,17 @@
 		"type": "standard",
 		"questions": [
 			{
+				"name": "Età",
+				"text": "Quanti anni hai?",
+				"answers": [
+					"18-25",
+					"26-35",
+					"36-45",
+					"46-55",
+					"56+"
+				]
+			},
+			{
 				"name": "Lavoro",
 				"text": "Qual è il tuo impiego attuale?",
 				"answers": [
@@ -12,12 +23,7 @@
 					"Lavoratore pubblico",
 					"Imprenditore"
 				]
-			}
-		]
-	},
-	{
-		"type": "standard",
-		"questions": [
+			},
 			{
 				"name": "Genere letterario preferito",
 				"text": "Qual è il tuo genere letterario preferito?",
@@ -36,32 +42,32 @@
 					"Biografia",
 					"Storiografia"
 				]
-			}
-		]
-	},
-	{
-		"type": "standard",
-		"questions": [
+			},
 			{
 				"name": "kindle",
-				"text": "Possiedi un eBook reader (Kindle, KoBo, ...) o una applicazione per la lettura di libri digitali?",
+				"text": "Possiedi un eBook reader (Kindle, KoBo, ...) o utilizzi un'applicazione per la lettura di libri digitali?",
 				"answers": [
 					"Si",
 					"No"
 				]
-			}
-		]
-	},
-	{
-		"type": "standard",
-		"questions": [
+			},
+			{
+				"name": "Importanza",
+				"text": "Nelle tue giornate quanta importanza ha la lettura? (Considerando anche lavoro e/o studio)",
+				"answers": [
+					"Nulla",
+					"Scarsa",
+					"Discreta",
+					"Fondamentale"
+				]
+			},
 			{
 				"name": "Quanti libri",
-				"text": "Quanti libri leggi in media al mese?",
+				"text": "Quanti libri leggi mediamente in un anno?",
 				"answers": [
 					"0",
-					"1",
-					"2-5",
+					"1-2",
+					"3-5",
 					"6-10",
 					"11+"
 				]
