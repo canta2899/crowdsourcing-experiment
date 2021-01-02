@@ -1,9 +1,0 @@
-[
-	{
-		"caption": "This is the caption for evaluation instruction",
-		"steps": [
-			"This is the first step",
-			"This is the second step"
-		]
-	}
-]
