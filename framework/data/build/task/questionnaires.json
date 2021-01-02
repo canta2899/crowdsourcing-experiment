@@ -21,7 +21,9 @@
 					"Dipendente",
 					"Freelancer",
 					"Lavoratore pubblico",
-					"Imprenditore"
+					"Imprenditore",
+					"Disoccupato",
+					"Pensionato"
 				]
 			},
 			{
