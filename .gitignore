@@ -9,3 +9,5 @@ user.txt
 /pyHITS/venv/
 /TaskConfiguration
 .vscode
+/pyAnalysis/.idea/
+/pyAnalysis/venv/
