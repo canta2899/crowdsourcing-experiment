@@ -9,3 +9,4 @@ framework/src/app/components/skeleton/skeleton.component.ts -> Modified to use i
 framework/src/app/components/instructions/instructions.component.html -> Modified to use italian language
 framework/src/app/components/skeleton/skeleton.component.ts -> Modified to use italian language
 framework/src/app/components/instructions/instructions-dialog.component.html -> Modified to use italian language
+framework/src/app/components/skeleton/skeleton.component.ts (line 1270-1280) -> Fixato un errore del codice (tutti i timestamp erano quelli di inizio)
