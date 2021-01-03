@@ -1,4 +1,33 @@
 {
-    "blacklist": [],
-    "whitelist": []
+    "blacklist": [
+        "ZLAXX",
+        "HQWLU",
+        "LPXEB",
+        "UPVVU",
+        "KDOFG",
+        "VKFXZ",
+        "LZZBM",
+        "VNPSK"
+    ],
+    "whitelist": [
+        "HQWLU",
+        "ZLAXX",
+        "VNPSK",
+        "UPVVU",
+        "LPXEB",
+        "HDLGN",
+        "VKFXZ",
+        "KDOFG",
+        "LZZBM",
+        "DJTWC",
+        "KAHOD",
+        "FLXYV",
+        "VXCGS",
+        "MZFXF",
+        "ATCOU",
+        "BOJHZ",
+        "AZGIQ",
+        "PPWSU",
+        "UXDAQ"
+    ]
 }

@@ -1,0 +1,311 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "0",
+			"Lavoro": "0",
+			"Genere letterario preferito": "6",
+			"kindle": "1",
+			"Importanza": "1",
+			"Quanti libri": "2"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 3,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "La copertina non è accattivante, è un’edizione del libro di bassa qualità"
+		},
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "L’immagine della copertina è molto bella, e il prezzo è molto adeguato rispetto alla qualità dell’edizione "
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "La copertina riprende le immagini del film che potrebbero richiamare delle persone a cui il film è piaciuto molto "
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609626237.461,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609626241.957,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609626249.894,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609626272.009,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609626276.197,
+					"value": 4
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609626277.72,
+					"value": 0
+				},
+				{
+					"dimension": 3,
+					"index": 6,
+					"timestamp": 1609626282.131,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 7,
+					"timestamp": 1609626284.717,
+					"value": 1
+				},
+				{
+					"dimension": 3,
+					"index": 8,
+					"timestamp": 1609626286.491,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 9,
+					"timestamp": 1609626294.317,
+					"value": 3
+				},
+				{
+					"dimension": 5,
+					"index": 10,
+					"timestamp": 1609626306.449,
+					"value": "0"
+				}
+			],
+			"amount": 11
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609626409.034,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609626423.064,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609626426.913,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609626433.101,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609626436.475,
+					"value": 3
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609626444.739,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1609626488.479,
+					"value": 4
+				}
+			],
+			"amount": 7
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609626546.317,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609626557.546,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609626560.717,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609626562.284,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609626569.661,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609626574.99,
+					"value": "0"
+				}
+			],
+			"amount": 6
+		}
+	],
+	"timestamps_start": [
+		[
+			1609626114
+		],
+		[
+			1609626196.376
+		],
+		[
+			1609626393.173
+		],
+		[
+			1609626527.589
+		]
+	],
+	"timestamps_end": [
+		[
+			1609626114
+		],
+		[
+			1609626196.376
+		],
+		[
+			1609626393.173
+		],
+		[
+			1609626527.589
+		]
+	],
+	"timestamps_elapsed": [
+		[
+			1609626114
+		],
+		[
+			1609626196.376
+		],
+		[
+			1609626393.173
+		],
+		[
+			1609626527.589
+		]
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}

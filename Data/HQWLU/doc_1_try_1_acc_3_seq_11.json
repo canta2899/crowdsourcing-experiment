@@ -1,0 +1,87 @@
+{
+	"info": {
+		"action": "Next",
+		"access": 2,
+		"try": 1,
+		"index": 1,
+		"sequence": 11,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "1",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 4,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Possiedo molti altri libri edizione \"Oscar Bestsellers\" e generalmente (come in questo caso) mi attirano molto la grafica e i colori delle copertina. Trovo il prezzo adeguato e mi piace l'idea che l'edizione sia piuttosto recente."
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1609606662.978,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1609606671.919,
+				"value": "1"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1609606680.953,
+				"value": "1"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1609606700.724,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1609606710.889,
+				"value": 4
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1609606717.404,
+				"value": "1"
+			}
+		],
+		"amount": 6
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1609606632.534,
+		1609607515.926,
+		1609607786.992
+	],
+	"timestamps_end": [
+		1609607051.134,
+		1609607547.65,
+		1609607814.241
+	],
+	"timestamps_elapsed": 477.57299995422363,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 3,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

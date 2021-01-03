@@ -1,0 +1,85 @@
+{
+	"info": {
+		"action": "Back",
+		"access": 1,
+		"try": 1,
+		"index": 2,
+		"sequence": 5,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "1",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "0",
+		"Indica quanto ti sembra adeguato:_value": 1,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Considerando che si tratta di un'edizione per bambini/ragazzi, trovo la copertina poco accattivante. Il prezzo è assolutamente inadeguato: edizione a mio parere troppo economica considerando che si tratta di un libro di 239 pagine."
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1609607082.201,
+				"value": "1"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1609607091.974,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1609607094.512,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1609607107.525,
+				"value": "0"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1609607115.034,
+				"value": 1
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1609607118.836,
+				"value": "0"
+			}
+		],
+		"amount": 6
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1609607051.134,
+		1609607490.652
+	],
+	"timestamps_end": [
+		1609607228.716,
+		1609607515.926
+	],
+	"timestamps_elapsed": 202.85600018501282,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 2,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

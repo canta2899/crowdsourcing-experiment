@@ -1,0 +1,299 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "3",
+			"Lavoro": "6",
+			"Genere letterario preferito": "7",
+			"kindle": "1",
+			"Importanza": "1",
+			"Quanti libri": "2"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 3,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Mi sembra un edizione che a prima vista alleggerisce il contenuto che in realtà è complesso"
+		},
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 5,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Nonostante sia un'edizione junior potrebbe attrarre anche un adulto. Il prezzo è centrato pensando alla qualità del contenuto e dell'autrice. "
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Non comprerei il libro perché in inglese, oppure lo comprerei ma sarebbe un impegno maggiore leggero. Mi piace che nella copertina ci siano i personaggi del film"
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609674903.87,
+					"value": "0"
+				},
+				{
+					"dimension": 0,
+					"index": 1,
+					"timestamp": 1609674904.428,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 2,
+					"timestamp": 1609674919.473,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 3,
+					"timestamp": 1609674924.747,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609674930.795,
+					"value": 3
+				},
+				{
+					"dimension": 3,
+					"index": 5,
+					"timestamp": 1609674932.41,
+					"value": "1"
+				},
+				{
+					"dimension": 5,
+					"index": 6,
+					"timestamp": 1609674954.986,
+					"value": "1"
+				}
+			],
+			"amount": 7
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609675095.265,
+					"value": "0"
+				},
+				{
+					"dimension": 0,
+					"index": 1,
+					"timestamp": 1609675098.093,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 2,
+					"timestamp": 1609675116.656,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 3,
+					"timestamp": 1609675119.895,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 4,
+					"timestamp": 1609675134.669,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609675147.667,
+					"value": 5
+				},
+				{
+					"dimension": 5,
+					"index": 6,
+					"timestamp": 1609675153.641,
+					"value": "1"
+				}
+			],
+			"amount": 7
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609675431.448,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609675437.164,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609675445.449,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609675451.72,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609675459.591,
+					"value": 4
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609675523.016,
+					"value": 0
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1609675524.472,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 7,
+					"timestamp": 1609675525.352,
+					"value": "1"
+				}
+			],
+			"amount": 8
+		}
+	],
+	"timestamps_start": [
+		[
+			1609674782
+		],
+		[
+			1609674852.454
+		],
+		[
+			1609675062.778
+		],
+		[
+			1609675240.594
+		]
+	],
+	"timestamps_end": [
+		[
+			1609674782
+		],
+		[
+			1609674852.454
+		],
+		[
+			1609675062.778
+		],
+		[
+			1609675240.594
+		]
+	],
+	"timestamps_elapsed": [
+		[
+			1609674782
+		],
+		[
+			1609674852.454
+		],
+		[
+			1609675062.778
+		],
+		[
+			1609675240.594
+		]
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}

@@ -56,4 +56,4 @@ aws s3api put-object-acl --bucket "${4}" --key "${1}/${2}/scripts.js"           
 aws s3api put-object     --bucket "${4}" --key "${1}/${2}/index.html"                         --body "tasks/${1}/${2}/deploy/index.html"                   --content-type text/html              &&
 aws s3api put-object-acl --bucket "${4}" --key "${1}/${2}/index.html"                         --acl public-read                                                                                  ;
 echo "Upload completed";
-python -m webbrowser https://socialcomputing2-deploy.s3.eu-central-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html 
+python -m webbrowser https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html

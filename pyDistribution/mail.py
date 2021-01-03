@@ -65,9 +65,9 @@ def send_mail(plain, html, to):
 
     message = MIMEMultipart('alternative')
     message['Subject'] = 'Partecipazione al progetto di Social Computing'
-    message['From'] = 'cantarutti.andrea@spes.uniud.it'
+    message['From'] = 'bombasseidebona.francesco@spes.uniud.it'
     message['To'] = to
-    message['Cc'] = 'zanatta.alessandro@spes.uniud.it, bombasseidebona.francesco@spes.uniud.it'
+    message['Cc'] = 'zanatta.alessandro@spes.uniud.it, cantarutti.andrea@spes.uniud.it'
 
     plainText = MIMEText(plain, 'plain')
     htmlText = MIMEText(html, 'html')
@@ -82,7 +82,7 @@ def send_mail(plain, html, to):
 
 
 def check(email):
-    regex = '^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w+$'
+    regex = '^[a-zA-Z0-9_.+-]+[@][a-zA-Z0-9_.+-]+[.]\w+$'
     if re.search(regex, email):
         return True
     else:
@@ -98,7 +98,7 @@ s3 = s3Init()
 to = input("Enter a mail address or a list of addresses separated by commas:\n\t")
 toList = to.replace(" ", "").lower().split(",")
 print("\n\n***Initialization***\n")
-downloadWorkers(s3, 'socialcomputing2-tasks')
+downloadWorkers(s3, 'sc-cs-tasks')
 tokenList = read_json('./tokens.json')
 tokenIndex = read_json('./last.json')['token']
 workers = read_json('./workers.json')
@@ -118,6 +118,8 @@ for i in range(len(toList)):
         plain = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.
         Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.
         
+        È fondalmentale che lei svolga la prova in autonomia, senza l'aiuto di altre persone.
+        
         Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.
         
         Token di input: {token}
@@ -129,11 +131,12 @@ for i in range(len(toList)):
 
         html = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.<br>
         Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.<br><br>
+        È fondalmentale che lei svolga la prova in totale autonomia, senza l'aiuto di altre persone.<br><br>
         Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.<br>
         <h4>Token di input: {token}</h4>
         Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
-        <br>
-        La ringraziamo per aver partecipato a questa esperienza, aiutandoci così nel nostro percorso di studi.
+        <br><br>
+        <b>La ringraziamo per aver partecipato a questa esperienza, aiutandoci così nel nostro percorso di studi.</b>
         <br><br><br><br><br><br>
         Nel caso il link precedente non funzionasse:<br>
         https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}"""
@@ -148,7 +151,7 @@ print("\n\n\n*** Saving and uploading ***")
 workers['whitelist'] = whitelist
 serialize_json('./workers.json', workers)
 serialize_json('./last.json', {"token": tokenIndex})
-uploadWorkers(s3, 'socialcomputing2-tasks')
+uploadWorkers(s3, 'sc-cs-tasks')
 
 copy = input("\nDo you want to copy workers.json in corresponding build folder? (y/n)\n\t")
 copy = copy.lower()
