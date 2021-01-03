@@ -1,6 +1,7 @@
 import re
 import string
 import random
+import sys
 import boto3
 import json
 import os
@@ -96,6 +97,25 @@ def generateId(n):
 
 s3 = s3Init()
 to = input("Enter a mail address or a list of addresses separated by commas:\n\t")
+if to == 'update':
+    downloadWorkers(s3, 'sc-cs-tasks')
+    sys.exit("Updated workers.json")
+if to == 'statistics':
+    downloadWorkers(s3, 'sc-cs-tasks')
+    workers = read_json('./workers.json')
+    distributed = len(workers['whitelist'])
+    done = len(list(os.walk('../Data'))) - 1
+    sys.exit(f"{distributed} workers IDs were distributed --- {done} workers completed their tasks --- {100*done/distributed}%")
+if to == 'diff':
+    downloadWorkers(s3, 'sc-cs-tasks')
+    workers = read_json('./workers.json')
+    done = []
+    for workerID in os.scandir('../Data'):
+        done.append(workerID.name)
+    for workerID in workers['blacklist']:
+        if workerID not in done:
+            print(workerID)
+    sys.exit()
 toList = to.replace(" ", "").lower().split(",")
 print("\n\n***Initialization***\n")
 downloadWorkers(s3, 'sc-cs-tasks')
