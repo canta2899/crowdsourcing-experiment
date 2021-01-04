@@ -11,3 +11,4 @@ user.txt
 .vscode
 /pyAnalysis/.idea/
 /pyAnalysis/venv/
+/pyAnalysis/.ipynb_checkpoints
