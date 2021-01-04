@@ -1,0 +1,99 @@
+{
+	"info": {
+		"action": "Next",
+		"access": 2,
+		"try": 1,
+		"index": 1,
+		"sequence": 5,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 3,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il disegno in copertina da l'impressione di un libro di basso spessore, come fosse una storiella da quattro soldi"
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1609757091.405,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1609757099.398,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1609757103.441,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1609757105.493,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1609757114.368,
+				"value": 5
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1609757124.005,
+				"value": "0"
+			},
+			{
+				"dimension": 4,
+				"index": 6,
+				"timestamp": 1609757240.565,
+				"value": 4
+			},
+			{
+				"dimension": 4,
+				"index": 7,
+				"timestamp": 1609757251.896,
+				"value": 3
+			}
+		],
+		"amount": 8
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1609757074.989,
+		1609757236.448,
+		1609757247.919
+	],
+	"timestamps_end": [
+		1609757204.097,
+		1609757242.224,
+		1609757253.168
+	],
+	"timestamps_elapsed": 140.13299989700317,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 3,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

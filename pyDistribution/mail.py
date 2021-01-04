@@ -1,51 +1,10 @@
 import re
 import string
 import random
-import sys
-import boto3
-import json
-import os
 import smtplib
 import ssl
-import credentials
 import shutil
-
-
-def s3Init():
-    return boto3.resource(
-        's3',
-        aws_access_key_id=credentials.worker_key_id,
-        aws_secret_access_key=credentials.worker_access_key
-    )
-
-
-def downloadWorkers(s3, bucket_name):
-    bucket = s3.Bucket(bucket_name)
-    bucket.download_file('ProgettoSocialComputing2/Batch1/Task/workers.json', './workers.json')
-    print('Workers downloaded from S3')
-
-
-def uploadWorkers(s3, bucket_name):
-    bucket = s3.Bucket(bucket_name)
-    bucket.upload_file('./workers.json', 'ProgettoSocialComputing2/Batch1/Task/workers.json')
-    print('Workers uploaded to S3')
-
-
-def serialize_json(filename, data):
-    with open(filename, "w", encoding="utf8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-        print(f"Data serialized to path: {filename}")
-
-
-def read_json(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf8") as file:
-            data = json.load(file)
-        print(f"Data read from path: {file_path}")
-        return data
-    else:
-        print(f"No data found at path: {file_path}")
-        return {}
+from utils import *
 
 
 def send_mail(plain, html, to):
@@ -97,25 +56,6 @@ def generateId(n):
 
 s3 = s3Init()
 to = input("Enter a mail address or a list of addresses separated by commas:\n\t")
-if to == 'update':
-    downloadWorkers(s3, 'sc-cs-tasks')
-    sys.exit("Updated workers.json")
-if to == 'statistics':
-    downloadWorkers(s3, 'sc-cs-tasks')
-    workers = read_json('./workers.json')
-    distributed = len(workers['whitelist'])
-    done = len(list(os.walk('../Data'))) - 1
-    sys.exit(f"{distributed} workers IDs were distributed --- {done} workers completed their tasks --- {100*done/distributed}%")
-if to == 'diff':
-    downloadWorkers(s3, 'sc-cs-tasks')
-    workers = read_json('./workers.json')
-    done = []
-    for workerID in os.scandir('../Data'):
-        done.append(workerID.name)
-    for workerID in workers['blacklist']:
-        if workerID not in done:
-            print(workerID)
-    sys.exit()
 toList = to.replace(" ", "").lower().split(",")
 print("\n\n***Initialization***\n")
 downloadWorkers(s3, 'sc-cs-tasks')
@@ -140,6 +80,8 @@ for i in range(len(toList)):
         
         È fondalmentale che lei svolga la prova in autonomia, senza l'aiuto di altre persone.
         
+        Svolga quanto indicato di seguito solamente quando sarà intenzionato ad effetturare l'esperienza.
+        
         Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.
         
         Token di input: {token}
@@ -152,6 +94,7 @@ for i in range(len(toList)):
         html = f"""Grazie per averci dato la sua disponibilità a partecipare al nostro progetto per il corso di Social Computing.<br>
         Sarà sottoposto a un breve questionario su alcuni libri. Non le sono richieste abilità particolari e non le è richiesto di essere un lettore abituale.<br><br>
         È fondalmentale che lei svolga la prova in totale autonomia, senza l'aiuto di altre persone.<br><br>
+        Svolga quanto indicato di seguito solamente quando sarà intenzionato ad effetturare l'esperienza.<br><br>
         Per iniziare copi il token di input riportato di seguito e lo inserisca quando richiesto.<br>
         <h4>Token di input: {token}</h4>
         Ora è necessario che apra il seguente <a href="https://sc-cs-deploy.s3.eu-south-1.amazonaws.com/ProgettoSocialComputing2/Batch1/index.html?workerID={workerID}">link per iniziare il questionario</a>, sarà guidato dal sistema durante la compilazione.
@@ -173,7 +116,7 @@ serialize_json('./workers.json', workers)
 serialize_json('./last.json', {"token": tokenIndex})
 uploadWorkers(s3, 'sc-cs-tasks')
 
-copy = input("\nDo you want to copy workers.json in corresponding build folder? (y/n)\n\t")
+copy = input("\nDo you want cmd copy workers.json in corresponding build folder? (y/n)\n\t")
 copy = copy.lower()
 if copy == 'y':
     print(shutil.copy('./workers.json', '../framework/data/build/task/workers.json'))
