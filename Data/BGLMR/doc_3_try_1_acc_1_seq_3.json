@@ -1,0 +1,82 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 0,
+		"try": 1,
+		"index": 3,
+		"sequence": 3,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 5,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Sebbene sia un grande autore non vedo nessun interesse a leggere questo libro"
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1609863790.133,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1609863791.885,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1609863794.369,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1609863799.744,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1609863800.883,
+				"value": 5
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1609863803.367,
+				"value": "0"
+			}
+		],
+		"amount": 6
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1609863782.547
+	],
+	"timestamps_end": [
+		1609863823.245
+	],
+	"timestamps_elapsed": 40.69799995422363,
+	"countdowns_times": null,
+	"accesses": 1,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

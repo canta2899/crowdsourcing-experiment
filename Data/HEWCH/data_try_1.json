@@ -1,0 +1,327 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "1",
+			"Lavoro": "1",
+			"Genere letterario preferito": "6",
+			"kindle": "1",
+			"Importanza": "2",
+			"Quanti libri": "3"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 3,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Non l'ho letto quindi non saprei dare una risposta adeguata riguardo la mia impressione "
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "0",
+			"Indica quanto ti sembra adeguato:_value": 0,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Non saprei dare una risposta riguardo la mia impressione non avendolo letto "
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Guardando soltanto la copertina, senza sapere di che cosa parla, potrebbe attirare la mia attenzione "
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609960722.534,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609960732.293,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609960736.946,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609960773.898,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609960784.088,
+					"value": 5
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609960786.736,
+					"value": 0
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1609960798.567,
+					"value": 5
+				},
+				{
+					"dimension": 5,
+					"index": 7,
+					"timestamp": 1609960806.33,
+					"value": "1"
+				},
+				{
+					"dimension": 5,
+					"index": 8,
+					"timestamp": 1609960807.474,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 9,
+					"timestamp": 1609960810.412,
+					"value": 4
+				},
+				{
+					"dimension": 4,
+					"index": 10,
+					"timestamp": 1609960811.725,
+					"value": 5
+				},
+				{
+					"dimension": 4,
+					"index": 11,
+					"timestamp": 1609960812.542,
+					"value": 3
+				}
+			],
+			"amount": 12
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609960914.597,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609960916.472,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609960920.776,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609960922.012,
+					"value": "0"
+				},
+				{
+					"dimension": 5,
+					"index": 4,
+					"timestamp": 1609960931.494,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609960975.267,
+					"value": 4
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1609960976.899,
+					"value": 0
+				},
+				{
+					"dimension": 4,
+					"index": 7,
+					"timestamp": 1609960980.731,
+					"value": 1
+				},
+				{
+					"dimension": 4,
+					"index": 8,
+					"timestamp": 1609960983.328,
+					"value": 0
+				}
+			],
+			"amount": 9
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609961006.426,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609961008.068,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609961015.679,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609961018.207,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609961020.77,
+					"value": 3
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609961021.576,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 6,
+					"timestamp": 1609961026.948,
+					"value": "1"
+				}
+			],
+			"amount": 7
+		}
+	],
+	"timestamps_start": [
+		[
+			1609960640
+		],
+		[
+			1609960705.094
+		],
+		[
+			1609960897.151
+		],
+		[
+			1609960987.592
+		]
+	],
+	"timestamps_end": [
+		[
+			1609960705.094
+		],
+		[
+			1609960897.151
+		],
+		[
+			1609960987.592
+		],
+		[
+			1609961074.393
+		]
+	],
+	"timestamps_elapsed": [
+		65.09400010108948,
+		192.0569999217987,
+		90.44099998474121,
+		86.80099987983704
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}

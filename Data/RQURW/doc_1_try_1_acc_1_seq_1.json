@@ -1,0 +1,101 @@
+{
+	"info": {
+		"action": "Next",
+		"access": 0,
+		"try": 1,
+		"index": 1,
+		"sequence": 1,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "1",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 5,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Viene spesso detto di non giudicare il libro dalla copertina ma la realtà secondo me è diversa, molto spesso in una libreria i libri che ci attirano si piú sono quelli con una copertina accattivante, elaborata e particolare.\nLa storia narrata è sicuramente di mio gradimento e su questo non ho nulla da dire.\nAvendolo già letto lo consiglierei o acquisterei volentieri ma, per attrarre maggior clientela si dovrebbe migliorare la facciata."
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1609862676.52,
+				"value": "1"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1609862690.381,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1609862692.868,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1609862694.956,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1609862704.493,
+				"value": 5
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1609862709.501,
+				"value": "1"
+			},
+			{
+				"dimension": 5,
+				"index": 6,
+				"timestamp": 1609862716.97,
+				"value": "0"
+			},
+			{
+				"dimension": 4,
+				"index": 7,
+				"timestamp": 1609862811.38,
+				"value": 4
+			},
+			{
+				"dimension": 4,
+				"index": 8,
+				"timestamp": 1609862812.161,
+				"value": 5
+			}
+		],
+		"amount": 9
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1609862647.197
+	],
+	"timestamps_end": [
+		1609863032.905
+	],
+	"timestamps_elapsed": 385.7079999446869,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 1,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

@@ -48,10 +48,31 @@ while cmd[0] != "exit":
         downloadWorkers(s3, 'sc-cs-tasks')
         workers = read_json('./workers.json')
         print('\n\n')
-        for workerID in range(1, len(cmd)):
+        for index in range(1, len(cmd)):
+            workerID = cmd[index]
             if workerID in workers['whitelist']:
                 workers['blacklist'].remove(workerID)
                 update = True
+                print(f"{workerID} unlocked")
+            else:
+                print("workerID not valid")
+        print('\n\n')
+        if update:
+            serialize_json('./workers.json', workers)
+            uploadWorkers(s3, 'sc-cs-tasks')
+        print('\n\n')
+    elif cmd[0] == 'block':
+        print('\n')
+        update = False
+        downloadWorkers(s3, 'sc-cs-tasks')
+        workers = read_json('./workers.json')
+        print('\n\n')
+        for index in range(1, len(cmd)):
+            workerID = cmd[index]
+            if workerID in workers['whitelist']:
+                workers['blacklist'].append(workerID)
+                update = True
+                print(f"{workerID} blocked")
             else:
                 print("workerID not valid")
         print('\n\n')

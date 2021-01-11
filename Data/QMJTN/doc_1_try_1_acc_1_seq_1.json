@@ -1,0 +1,95 @@
+{
+	"info": {
+		"action": "Next",
+		"access": 0,
+		"try": 1,
+		"index": 1,
+		"sequence": 1,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 5,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Non mi interessa l’argomento, già accennato al corso di filosofia alle scuole superiori"
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1610106182.521,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1610106184.552,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1610106188.422,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1610106190.432,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1610106194.126,
+				"value": 4
+			},
+			{
+				"dimension": 4,
+				"index": 5,
+				"timestamp": 1610106195.346,
+				"value": 5
+			},
+			{
+				"dimension": 5,
+				"index": 6,
+				"timestamp": 1610106201.321,
+				"value": "1"
+			},
+			{
+				"dimension": 5,
+				"index": 7,
+				"timestamp": 1610106240.83,
+				"value": "0"
+			}
+		],
+		"amount": 8
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1610106162.823
+	],
+	"timestamps_end": [
+		1610106262.296
+	],
+	"timestamps_elapsed": 99.47300004959106,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 1,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

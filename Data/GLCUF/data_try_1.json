@@ -1,0 +1,285 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "1",
+			"Lavoro": "5",
+			"Genere letterario preferito": "4",
+			"kindle": "0",
+			"Importanza": "2",
+			"Quanti libri": "4"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "il modo in cui è scritto il titolo e in cui si presenta la copertina non tradisce le aspettative leggendo la trama"
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "sembra un libro per preadolescenti dalla copertina, lo sfoglierei solo per quanto è famoso"
+		},
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 5,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "credo sia buona l'idea di mettere così in risalto il nome Nietzsche nella copertina perché è importante quanto il yitolo"
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609973705.119,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609973713.604,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609973722.715,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 3,
+					"timestamp": 1609973723.775,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 4,
+					"timestamp": 1609973727.989,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609973729.133,
+					"value": 5
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1609973732.052,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 7,
+					"timestamp": 1609973741.735,
+					"value": "1"
+				}
+			],
+			"amount": 8
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609973813.29,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609973820.033,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609973822.107,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609973829.003,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609973830.571,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609973839.179,
+					"value": "0"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609973907.086,
+					"value": "2"
+				},
+				{
+					"dimension": 0,
+					"index": 1,
+					"timestamp": 1609973908.652,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 2,
+					"timestamp": 1609973912.744,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 3,
+					"timestamp": 1609973932.498,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 4,
+					"timestamp": 1609973938.332,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1609973940.259,
+					"value": 5
+				},
+				{
+					"dimension": 5,
+					"index": 6,
+					"timestamp": 1609973943.074,
+					"value": "1"
+				}
+			],
+			"amount": 7
+		}
+	],
+	"timestamps_start": [
+		[
+			1609973626
+		],
+		[
+			1609973675.525
+		],
+		[
+			1609973799.902
+		],
+		[
+			1609973897.48
+		]
+	],
+	"timestamps_end": [
+		[
+			1609973675.525
+		],
+		[
+			1609973799.902
+		],
+		[
+			1609973897.48
+		],
+		[
+			1609973988.013
+		]
+	],
+	"timestamps_elapsed": [
+		49.52500009536743,
+		124.3769998550415,
+		97.57800006866455,
+		90.5329999923706
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}
