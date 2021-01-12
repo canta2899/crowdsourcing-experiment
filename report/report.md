@@ -23,7 +23,7 @@ header-includes:
 
 # Introduzione
 
-Il seguente elaborato espone il processo di modifica e dispiegamento di un task di Crowdsourcing, seguendo il procedimento e i metodi previsti dal framework Crowd Frame. In particolare, il lavoro è stato suddiviso nelle seguenti fasi:
+Il seguente elaborato espone il processo di modifica e dispiegamento di un task di Crowdsourcing, seguendo il procedimento e i metodi previsti dal framework *Crowd Frame*. In particolare, il lavoro è stato suddiviso nelle seguenti fasi:
 
  - [Selezione dei libri, dei questionari e delle dimensioni](#selezione-libri-quest-hits)
  - [Modifiche apportate al codice](#modifiche)
@@ -47,7 +47,7 @@ L'obiettivo preposto è, infatti, quello di cogliere le preferenze in fatto di l
 
 ## Scelta del questionario
 
-Abbiamo deciso di introdurre le seguenti domande:
+Si deciso di introdurre le seguenti domande:
 
  - *Quanti anni hai?* (classi di età, come 18-25, 26-35, ...)
 
@@ -63,9 +63,9 @@ Abbiamo deciso di introdurre le seguenti domande:
 
 Una volta proposte al worker, le domande permettono di inquadrarlo dal punto di vista anagrafico, lavorativo e culturale, individuandone altresì le preferenze personali. Tali parametri, combinati alle ulteriori risposte raccolte, permettono una più specifica ed efficace analisi dei dati.
 
-## Scelte delle dimensioni a piacere
+## Scelta delle dimensioni a piacere
 
-Abbiamo implementato, oltre alle quattro dimensioni richieste dalla consegna, le seguenti dimensioni a piacere:
+Sono state implementate, oltre alle quattro richieste dalla consegna, le seguenti dimensioni:
 
  - *Hai letto questo libro?* (scala nominale non dicotomica)
     - Si, esattamente questa edizione
@@ -75,7 +75,6 @@ Abbiamo implementato, oltre alle quattro dimensioni richieste dalla consegna, le
     - Si
     - No
 
-\newpage
 
 # Modifiche effettuate al codice sorgente di Crowd Frame {#modifiche}
 
