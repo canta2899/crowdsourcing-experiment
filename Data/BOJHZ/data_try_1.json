@@ -1,281 +1,281 @@
 {
-	"info": {
-		"action": "Finish",
-		"access": 1,
-		"try": 1,
-		"index": 3,
-		"sequence": 5,
-		"element": "document"
-	},
-	"questionnaires_answers": [
-		{
-			"Età": "0",
-			"Lavoro": "0",
-			"Genere letterario preferito": "11",
-			"kindle": "1",
-			"Importanza": "3",
-			"Quanti libri": "3"
-		}
-	],
-	"documents_answers": [
-		{
-			"Hai letto questo libro?_value": "1",
-			"Sfoglieresti il libro vedendone la copertina?_value": "0",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-			"Il prezzo è adeguato?_value": "1",
-			"Indica quanto ti sembra adeguato:_value": 3,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il prezzo e la copertina possono sminuire l'importanza dei contenuti rendendo quello che è un testo improntato sulla riflessione personale ad una banale storiella."
-		},
-		{
-			"Hai letto questo libro?_value": "0",
-			"Sfoglieresti il libro vedendone la copertina?_value": "1",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
-			"Il prezzo è adeguato?_value": "1",
-			"Indica quanto ti sembra adeguato:_value": 5,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "La copertina e il prezzo possono attrarre il lettore nonostante il formato digitale. La copertina ha un'immagine adeguata che può far scattare l'interesse agli amanti del genere proposto."
-		},
-		{
-			"Hai letto questo libro?_value": "0",
-			"Sfoglieresti il libro vedendone la copertina?_value": "1",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
-			"Il prezzo è adeguato?_value": "1",
-			"Indica quanto ti sembra adeguato:_value": 4,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "L'immagine della copertina attira facilmente l'interesse del lettore che potrebbe essere colpito dall'alone di mistero che ne traspare.\nLa scritta \"THE QUEEN OF MYSTERY\" per descrivere brevemente l'autrice è sicuramente un bel punto a vantaggio della copertina che diventa subito più coinvolgente."
-		}
-	],
-	"notes": [
-		[],
-		[],
-		[]
-	],
-	"dimensions_selected": [
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609678521.045,
-					"value": "1"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609678532.381,
-					"value": "0"
-				},
-				{
-					"dimension": 3,
-					"index": 2,
-					"timestamp": 1609678538.721,
-					"value": "1"
-				},
-				{
-					"dimension": 2,
-					"index": 3,
-					"timestamp": 1609678540.693,
-					"value": "0"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609678560.434,
-					"value": 4
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609678582.526,
-					"value": "0"
-				},
-				{
-					"dimension": 4,
-					"index": 6,
-					"timestamp": 1609678680.3,
-					"value": 3
-				}
-			],
-			"amount": 7
-		},
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609678693.834,
-					"value": "0"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609678695.104,
-					"value": "1"
-				},
-				{
-					"dimension": 2,
-					"index": 2,
-					"timestamp": 1609678698.968,
-					"value": "1"
-				},
-				{
-					"dimension": 3,
-					"index": 3,
-					"timestamp": 1609678704.51,
-					"value": "1"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609678707.23,
-					"value": 5
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609678710.597,
-					"value": "1"
-				}
-			],
-			"amount": 6
-		},
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609678947.243,
-					"value": "0"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609678949.758,
-					"value": "1"
-				},
-				{
-					"dimension": 2,
-					"index": 2,
-					"timestamp": 1609678955.122,
-					"value": "1"
-				},
-				{
-					"dimension": 3,
-					"index": 3,
-					"timestamp": 1609678956.368,
-					"value": "1"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609678961.61,
-					"value": 4
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609678966.133,
-					"value": "1"
-				}
-			],
-			"amount": 6
-		}
-	],
-	"timestamps_start": [
-		[
-			1609678428
-		],
-		[
-			1609678483.62
-		],
-		[
-			1609678682.761
-		],
-		[
-			1609678928.507
-		]
-	],
-	"timestamps_end": [
-		[
-			1609678428
-		],
-		[
-			1609678483.62
-		],
-		[
-			1609678682.761
-		],
-		[
-			1609678928.507
-		]
-	],
-	"timestamps_elapsed": [
-		[
-			1609678428
-		],
-		[
-			1609678483.62
-		],
-		[
-			1609678682.761
-		],
-		[
-			1609678928.507
-		]
-	],
-	"countdowns_times": [],
-	"countdowns_expired": [
-		false,
-		false,
-		false
-	],
-	"accesses": [
-		1,
-		1,
-		1,
-		1
-	],
-	"queries": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	],
-	"responses_retrieved": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	],
-	"responses_selected": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	]
+    "info": {
+        "action": "Finish",
+        "access": 1,
+        "try": 1,
+        "index": 3,
+        "sequence": 5,
+        "element": "document"
+    },
+    "questionnaires_answers": [
+        {
+            "Età": "0",
+            "Lavoro": "0",
+            "Genere letterario preferito": "11",
+            "kindle": "1",
+            "Importanza": "3",
+            "Quanti libri": "3"
+        }
+    ],
+    "documents_answers": [
+        {
+            "Hai letto questo libro?_value": "1",
+            "Sfoglieresti il libro vedendone la copertina?_value": "0",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+            "Il prezzo è adeguato?_value": "1",
+            "Indica quanto ti sembra adeguato:_value": 3,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Il prezzo e la copertina possono sminuire l'importanza dei contenuti rendendo quello che è un testo improntato sulla riflessione personale ad una banale storiella."
+        },
+        {
+            "Hai letto questo libro?_value": "0",
+            "Sfoglieresti il libro vedendone la copertina?_value": "1",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+            "Il prezzo è adeguato?_value": "1",
+            "Indica quanto ti sembra adeguato:_value": 5,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "La copertina e il prezzo possono attrarre il lettore nonostante il formato digitale. La copertina ha un'immagine adeguata che può far scattare l'interesse agli amanti del genere proposto."
+        },
+        {
+            "Hai letto questo libro?_value": "0",
+            "Sfoglieresti il libro vedendone la copertina?_value": "1",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+            "Il prezzo è adeguato?_value": "1",
+            "Indica quanto ti sembra adeguato:_value": 4,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "L'immagine della copertina attira facilmente l'interesse del lettore che potrebbe essere colpito dall'alone di mistero che ne traspare.\nLa scritta \"THE QUEEN OF MYSTERY\" per descrivere brevemente l'autrice è sicuramente un bel punto a vantaggio della copertina che diventa subito più coinvolgente."
+        }
+    ],
+    "notes": [
+        [],
+        [],
+        []
+    ],
+    "dimensions_selected": [
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609678521.045,
+                    "value": "1"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609678532.381,
+                    "value": "0"
+                },
+                {
+                    "dimension": 3,
+                    "index": 2,
+                    "timestamp": 1609678538.721,
+                    "value": "1"
+                },
+                {
+                    "dimension": 2,
+                    "index": 3,
+                    "timestamp": 1609678540.693,
+                    "value": "0"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609678560.434,
+                    "value": 4
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609678582.526,
+                    "value": "0"
+                },
+                {
+                    "dimension": 4,
+                    "index": 6,
+                    "timestamp": 1609678680.3,
+                    "value": 3
+                }
+            ],
+            "amount": 7
+        },
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609678693.834,
+                    "value": "0"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609678695.104,
+                    "value": "1"
+                },
+                {
+                    "dimension": 2,
+                    "index": 2,
+                    "timestamp": 1609678698.968,
+                    "value": "1"
+                },
+                {
+                    "dimension": 3,
+                    "index": 3,
+                    "timestamp": 1609678704.51,
+                    "value": "1"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609678707.23,
+                    "value": 5
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609678710.597,
+                    "value": "1"
+                }
+            ],
+            "amount": 6
+        },
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609678947.243,
+                    "value": "0"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609678949.758,
+                    "value": "1"
+                },
+                {
+                    "dimension": 2,
+                    "index": 2,
+                    "timestamp": 1609678955.122,
+                    "value": "1"
+                },
+                {
+                    "dimension": 3,
+                    "index": 3,
+                    "timestamp": 1609678956.368,
+                    "value": "1"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609678961.61,
+                    "value": 4
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609678966.133,
+                    "value": "1"
+                }
+            ],
+            "amount": 6
+        }
+    ],
+    "timestamps_start": [
+        [
+            1609678428
+        ],
+        [
+            1609678483.62
+        ],
+        [
+            1609678682.761
+        ],
+        [
+            1609678928.507
+        ]
+    ],
+    "timestamps_end": [
+        [
+            1609678483.62
+        ],
+        [
+            1609678682.761
+        ],
+        [
+            1609678928.507
+        ],
+        [
+            1609679246.75
+        ]
+    ],
+    "timestamps_elapsed": [
+        [
+            55.61999988555908
+        ],
+        [
+            199.14100003242493
+        ],
+        [
+            245.7460000514984
+        ],
+        [
+            318.2430000305176
+        ]
+    ],
+    "countdowns_times": [],
+    "countdowns_expired": [
+        false,
+        false,
+        false
+    ],
+    "accesses": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "queries": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ],
+    "responses_retrieved": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ],
+    "responses_selected": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ]
 }

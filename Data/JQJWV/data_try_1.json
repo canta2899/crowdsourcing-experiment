@@ -1,275 +1,275 @@
 {
-	"info": {
-		"action": "Finish",
-		"access": 1,
-		"try": 1,
-		"index": 3,
-		"sequence": 5,
-		"element": "document"
-	},
-	"questionnaires_answers": [
-		{
-			"Età": "0",
-			"Lavoro": "0",
-			"Genere letterario preferito": "2",
-			"kindle": "0",
-			"Importanza": "2",
-			"Quanti libri": "3"
-		}
-	],
-	"documents_answers": [
-		{
-			"Hai letto questo libro?_value": "0",
-			"Sfoglieresti il libro vedendone la copertina?_value": "1",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-			"Il prezzo è adeguato?_value": "0",
-			"Indica quanto ti sembra adeguato:_value": 2,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Mi sembra che il disegnatore sappia disegnare ma il prezzo è decisamente eccessivo "
-		},
-		{
-			"Hai letto questo libro?_value": "1",
-			"Sfoglieresti il libro vedendone la copertina?_value": "0",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-			"Il prezzo è adeguato?_value": "0",
-			"Indica quanto ti sembra adeguato:_value": 1,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il prezzo è alto e non è stato messo abbastanza impegno nella progettazione della copertina"
-		},
-		{
-			"Hai letto questo libro?_value": "0",
-			"Sfoglieresti il libro vedendone la copertina?_value": "1",
-			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-			"Il prezzo è adeguato?_value": "0",
-			"Indica quanto ti sembra adeguato:_value": 2,
-			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
-			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Non mi piace l'accostamento del quadro in relazione all'opera a cui fa riferimento"
-		}
-	],
-	"notes": [
-		[],
-		[],
-		[]
-	],
-	"dimensions_selected": [
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609693893.143,
-					"value": "0"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609693895.67,
-					"value": "1"
-				},
-				{
-					"dimension": 2,
-					"index": 2,
-					"timestamp": 1609693904.652,
-					"value": "0"
-				},
-				{
-					"dimension": 3,
-					"index": 3,
-					"timestamp": 1609693908.999,
-					"value": "0"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609693915.62,
-					"value": 2
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609693922.004,
-					"value": "1"
-				}
-			],
-			"amount": 6
-		},
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609693982.69,
-					"value": "1"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609693984.28,
-					"value": "0"
-				},
-				{
-					"dimension": 2,
-					"index": 2,
-					"timestamp": 1609693986.105,
-					"value": "0"
-				},
-				{
-					"dimension": 3,
-					"index": 3,
-					"timestamp": 1609693988.047,
-					"value": "0"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609693997.836,
-					"value": 1
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609694000.452,
-					"value": "0"
-				}
-			],
-			"amount": 6
-		},
-		{
-			"data": [
-				{
-					"dimension": 0,
-					"index": 0,
-					"timestamp": 1609694056.669,
-					"value": "0"
-				},
-				{
-					"dimension": 1,
-					"index": 1,
-					"timestamp": 1609694058.098,
-					"value": "1"
-				},
-				{
-					"dimension": 2,
-					"index": 2,
-					"timestamp": 1609694059.6,
-					"value": "0"
-				},
-				{
-					"dimension": 3,
-					"index": 3,
-					"timestamp": 1609694061.139,
-					"value": "0"
-				},
-				{
-					"dimension": 4,
-					"index": 4,
-					"timestamp": 1609694062.731,
-					"value": 2
-				},
-				{
-					"dimension": 5,
-					"index": 5,
-					"timestamp": 1609694065.823,
-					"value": "0"
-				}
-			],
-			"amount": 6
-		}
-	],
-	"timestamps_start": [
-		[
-			1609693817
-		],
-		[
-			1609693851.678
-		],
-		[
-			1609693968.057
-		],
-		[
-			1609694050.989
-		]
-	],
-	"timestamps_end": [
-		[
-			1609693817
-		],
-		[
-			1609693851.678
-		],
-		[
-			1609693968.057
-		],
-		[
-			1609694050.989
-		]
-	],
-	"timestamps_elapsed": [
-		[
-			1609693817
-		],
-		[
-			1609693851.678
-		],
-		[
-			1609693968.057
-		],
-		[
-			1609694050.989
-		]
-	],
-	"countdowns_times": [],
-	"countdowns_expired": [
-		false,
-		false,
-		false
-	],
-	"accesses": [
-		1,
-		1,
-		1,
-		1
-	],
-	"queries": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	],
-	"responses_retrieved": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	],
-	"responses_selected": [
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		},
-		{
-			"data": [],
-			"amount": 0
-		}
-	]
+    "info": {
+        "action": "Finish",
+        "access": 1,
+        "try": 1,
+        "index": 3,
+        "sequence": 5,
+        "element": "document"
+    },
+    "questionnaires_answers": [
+        {
+            "Età": "0",
+            "Lavoro": "0",
+            "Genere letterario preferito": "2",
+            "kindle": "0",
+            "Importanza": "2",
+            "Quanti libri": "3"
+        }
+    ],
+    "documents_answers": [
+        {
+            "Hai letto questo libro?_value": "0",
+            "Sfoglieresti il libro vedendone la copertina?_value": "1",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+            "Il prezzo è adeguato?_value": "0",
+            "Indica quanto ti sembra adeguato:_value": 2,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Mi sembra che il disegnatore sappia disegnare ma il prezzo è decisamente eccessivo "
+        },
+        {
+            "Hai letto questo libro?_value": "1",
+            "Sfoglieresti il libro vedendone la copertina?_value": "0",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+            "Il prezzo è adeguato?_value": "0",
+            "Indica quanto ti sembra adeguato:_value": 1,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Il prezzo è alto e non è stato messo abbastanza impegno nella progettazione della copertina"
+        },
+        {
+            "Hai letto questo libro?_value": "0",
+            "Sfoglieresti il libro vedendone la copertina?_value": "1",
+            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+            "Il prezzo è adeguato?_value": "0",
+            "Indica quanto ti sembra adeguato:_value": 2,
+            "Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Non mi piace l'accostamento del quadro in relazione all'opera a cui fa riferimento"
+        }
+    ],
+    "notes": [
+        [],
+        [],
+        []
+    ],
+    "dimensions_selected": [
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609693893.143,
+                    "value": "0"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609693895.67,
+                    "value": "1"
+                },
+                {
+                    "dimension": 2,
+                    "index": 2,
+                    "timestamp": 1609693904.652,
+                    "value": "0"
+                },
+                {
+                    "dimension": 3,
+                    "index": 3,
+                    "timestamp": 1609693908.999,
+                    "value": "0"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609693915.62,
+                    "value": 2
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609693922.004,
+                    "value": "1"
+                }
+            ],
+            "amount": 6
+        },
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609693982.69,
+                    "value": "1"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609693984.28,
+                    "value": "0"
+                },
+                {
+                    "dimension": 2,
+                    "index": 2,
+                    "timestamp": 1609693986.105,
+                    "value": "0"
+                },
+                {
+                    "dimension": 3,
+                    "index": 3,
+                    "timestamp": 1609693988.047,
+                    "value": "0"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609693997.836,
+                    "value": 1
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609694000.452,
+                    "value": "0"
+                }
+            ],
+            "amount": 6
+        },
+        {
+            "data": [
+                {
+                    "dimension": 0,
+                    "index": 0,
+                    "timestamp": 1609694056.669,
+                    "value": "0"
+                },
+                {
+                    "dimension": 1,
+                    "index": 1,
+                    "timestamp": 1609694058.098,
+                    "value": "1"
+                },
+                {
+                    "dimension": 2,
+                    "index": 2,
+                    "timestamp": 1609694059.6,
+                    "value": "0"
+                },
+                {
+                    "dimension": 3,
+                    "index": 3,
+                    "timestamp": 1609694061.139,
+                    "value": "0"
+                },
+                {
+                    "dimension": 4,
+                    "index": 4,
+                    "timestamp": 1609694062.731,
+                    "value": 2
+                },
+                {
+                    "dimension": 5,
+                    "index": 5,
+                    "timestamp": 1609694065.823,
+                    "value": "0"
+                }
+            ],
+            "amount": 6
+        }
+    ],
+    "timestamps_start": [
+        [
+            1609693817
+        ],
+        [
+            1609693851.678
+        ],
+        [
+            1609693968.057
+        ],
+        [
+            1609694050.989
+        ]
+    ],
+    "timestamps_end": [
+        [
+            1609693851.678
+        ],
+        [
+            1609693968.057
+        ],
+        [
+            1609694050.989
+        ],
+        [
+            1609694121.918
+        ]
+    ],
+    "timestamps_elapsed": [
+        [
+            34.67799997329712
+        ],
+        [
+            116.37899994850159
+        ],
+        [
+            82.93200016021729
+        ],
+        [
+            70.92899990081787
+        ]
+    ],
+    "countdowns_times": [],
+    "countdowns_expired": [
+        false,
+        false,
+        false
+    ],
+    "accesses": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "queries": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ],
+    "responses_retrieved": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ],
+    "responses_selected": [
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        },
+        {
+            "data": [],
+            "amount": 0
+        }
+    ]
 }
