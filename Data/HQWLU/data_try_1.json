@@ -1,283 +1,299 @@
 {
-    "info": {
-        "action": "Finish",
-        "access": 3,
-        "try": 1,
-        "index": 3,
-        "sequence": 15,
-        "element": "document"
-    },
-    "questionnaires_answers": [
-        {
-            "Età": "0",
-            "Lavoro": "0",
-            "Genere letterario preferito": "7",
-            "kindle": "0",
-            "Importanza": "2",
-            "Quanti libri": "3"
-        }
-    ],
-    "documents_answers": [
-        {
-            "Hai letto questo libro?_value": "0",
-            "Sfoglieresti il libro vedendone la copertina?_value": "1",
-            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
-            "Il prezzo è adeguato?_value": "1",
-            "Indica quanto ti sembra adeguato:_value": 4,
-            "Quali sono le tue impressioni su questa edizione del libro?_value": "1",
-            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Possiedo molti altri libri edizione \"Oscar Bestsellers\" e generalmente (come in questo caso) mi attirano molto la grafica e i colori delle copertina. Trovo il prezzo adeguato e mi piace l'idea che l'edizione sia piuttosto recente."
-        },
-        {
-            "Hai letto questo libro?_value": "1",
-            "Sfoglieresti il libro vedendone la copertina?_value": "0",
-            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-            "Il prezzo è adeguato?_value": "0",
-            "Indica quanto ti sembra adeguato:_value": 1,
-            "Quali sono le tue impressioni su questa edizione del libro?_value": "0",
-            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Considerando che si tratta di un'edizione per bambini/ragazzi, trovo la copertina poco accattivante. Il prezzo è inadeguato: edizione a mio parere troppo economica considerando che si tratta di un libro di 239 pagine."
-        },
-        {
-            "Hai letto questo libro?_value": "0",
-            "Sfoglieresti il libro vedendone la copertina?_value": "0",
-            "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
-            "Il prezzo è adeguato?_value": "1",
-            "Indica quanto ti sembra adeguato:_value": 5,
-            "Quali sono le tue impressioni su questa edizione del libro?_value": "0",
-            "Quali sono le tue impressioni su questa edizione del libro?_justification": "Impressione generalmente negativa. Non avendo letto il libro ma conoscendone i contenuti so per certo che non lo leggerei (a maggior ragione perché si tratta di un'edizione scritta in inglese). Trovo che la copertina non lasci trapelare e intuire nulla rispetto ai contenuti."
-        }
-    ],
-    "notes": [
-        [],
-        [],
-        []
-    ],
-    "dimensions_selected": [
-        {
-            "data": [
-                {
-                    "dimension": 0,
-                    "index": 0,
-                    "timestamp": 1609606662.978,
-                    "value": "0"
-                },
-                {
-                    "dimension": 1,
-                    "index": 1,
-                    "timestamp": 1609606671.919,
-                    "value": "1"
-                },
-                {
-                    "dimension": 2,
-                    "index": 2,
-                    "timestamp": 1609606680.953,
-                    "value": "1"
-                },
-                {
-                    "dimension": 3,
-                    "index": 3,
-                    "timestamp": 1609606700.724,
-                    "value": "1"
-                },
-                {
-                    "dimension": 4,
-                    "index": 4,
-                    "timestamp": 1609606710.889,
-                    "value": 4
-                },
-                {
-                    "dimension": 5,
-                    "index": 5,
-                    "timestamp": 1609606717.404,
-                    "value": "1"
-                }
-            ],
-            "amount": 6
-        },
-        {
-            "data": [
-                {
-                    "dimension": 0,
-                    "index": 0,
-                    "timestamp": 1609607082.201,
-                    "value": "1"
-                },
-                {
-                    "dimension": 1,
-                    "index": 1,
-                    "timestamp": 1609607091.974,
-                    "value": "0"
-                },
-                {
-                    "dimension": 2,
-                    "index": 2,
-                    "timestamp": 1609607094.512,
-                    "value": "0"
-                },
-                {
-                    "dimension": 3,
-                    "index": 3,
-                    "timestamp": 1609607107.525,
-                    "value": "0"
-                },
-                {
-                    "dimension": 4,
-                    "index": 4,
-                    "timestamp": 1609607115.034,
-                    "value": 1
-                },
-                {
-                    "dimension": 5,
-                    "index": 5,
-                    "timestamp": 1609607118.836,
-                    "value": "0"
-                }
-            ],
-            "amount": 6
-        },
-        {
-            "data": [
-                {
-                    "dimension": 0,
-                    "index": 0,
-                    "timestamp": 1609607284.523,
-                    "value": "0"
-                },
-                {
-                    "dimension": 1,
-                    "index": 1,
-                    "timestamp": 1609607289.903,
-                    "value": "0"
-                },
-                {
-                    "dimension": 2,
-                    "index": 2,
-                    "timestamp": 1609607290.963,
-                    "value": "0"
-                },
-                {
-                    "dimension": 3,
-                    "index": 3,
-                    "timestamp": 1609607306.073,
-                    "value": "1"
-                },
-                {
-                    "dimension": 4,
-                    "index": 4,
-                    "timestamp": 1609607318.533,
-                    "value": 5
-                },
-                {
-                    "dimension": 5,
-                    "index": 5,
-                    "timestamp": 1609607322.966,
-                    "value": "0"
-                }
-            ],
-            "amount": 6
-        }
-    ],
-    "timestamps_start": [
-        [
-            1609606584
-        ],
-        [
-            1609606632.534,
-            1609607515.926,
-            1609607786.992
-        ],
-        [
-            1609607051.134,
-            1609607490.652,
-            1609607547.65,
-            1609607781.56,
-            1609607814.241
-        ],
-        [
-            1609607228.716,
-            1609607591.885,
-            1609607818.398
-        ]
-    ],
-    "timestamps_end": [
-        [
-            1609606632.534
-        ],
-        [
-            1609607051.134,
-            1609607547.65,
-            1609607814.241
-        ],
-        [
-            1609607228.716,
-            1609607515.926,
-            1609607591.885,
-            1609607786.992,
-            1609607818.398
-        ],
-        [
-            1609607490.652,
-            1609607781.56,
-            1609607863.856
-        ]
-    ],
-    "timestamps_elapsed": [
-        48.53399991989136,
-        477.57299995422363,
-        256.6800003051758,
-        497.06899976730347
-    ],
-    "countdowns_times": [],
-    "countdowns_expired": [
-        false,
-        false,
-        false
-    ],
-    "accesses": [
-        1,
-        3,
-        5,
-        3
-    ],
-    "queries": [
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        }
-    ],
-    "responses_retrieved": [
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        }
-    ],
-    "responses_selected": [
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        },
-        {
-            "data": [],
-            "amount": 0
-        }
-    ]
+	"info": {
+		"action": "Finish",
+		"access": 3,
+		"try": 1,
+		"index": 3,
+		"sequence": 15,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "0",
+			"Lavoro": "0",
+			"Genere letterario preferito": "7",
+			"kindle": "0",
+			"Importanza": "2",
+			"Quanti libri": "3"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Possiedo molti altri libri edizione \"Oscar Bestsellers\" e generalmente (come in questo caso) mi attirano molto la grafica e i colori delle copertina. Trovo il prezzo adeguato e mi piace l'idea che l'edizione sia piuttosto recente."
+		},
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "0",
+			"Indica quanto ti sembra adeguato:_value": 1,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Considerando che si tratta di un'edizione per bambini/ragazzi, trovo la copertina poco accattivante. Il prezzo è inadeguato: edizione a mio parere troppo economica considerando che si tratta di un libro di 239 pagine."
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 5,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Impressione generalmente negativa. Non avendo letto il libro ma conoscendone i contenuti so per certo che non lo leggerei (a maggior ragione perché si tratta di un'edizione scritta in inglese). Trovo che la copertina non lasci trapelare e intuire nulla rispetto ai contenuti."
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609606662.978,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609606671.919,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609606680.953,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609606700.724,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609606710.889,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609606717.404,
+					"value": "1"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609607082.201,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609607091.974,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609607094.512,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609607107.525,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609607115.034,
+					"value": 1
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609607118.836,
+					"value": "0"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1609607284.523,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1609607289.903,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1609607290.963,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1609607306.073,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1609607318.533,
+					"value": 5
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1609607322.966,
+					"value": "0"
+				}
+			],
+			"amount": 6
+		}
+	],
+	"timestamps_start": [
+		[
+			1609606584
+		],
+		[
+			1609606632.534,
+			1609607515.926,
+			1609607786.992
+		],
+		[
+			1609607051.134,
+			1609607490.652,
+			1609607547.65,
+			1609607781.56,
+			1609607814.241
+		],
+		[
+			1609607228.716,
+			1609607591.885,
+			1609607818.398
+		]
+	],
+	"timestamps_end": [
+		[
+			1609606584
+		],
+		[
+			1609606632.534,
+			1609607515.926,
+			1609607786.992
+		],
+		[
+			1609607051.134,
+			1609607490.652,
+			1609607547.65,
+			1609607781.56,
+			1609607814.241
+		],
+		[
+			1609607228.716,
+			1609607591.885,
+			1609607818.398
+		]
+	],
+	"timestamps_elapsed": [
+		[
+			1609606584
+		],
+		[
+			1609606632.534,
+			1609607515.926,
+			1609607786.992
+		],
+		[
+			1609607051.134,
+			1609607490.652,
+			1609607547.65,
+			1609607781.56,
+			1609607814.241
+		],
+		[
+			1609607228.716,
+			1609607591.885,
+			1609607818.398
+		]
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		3,
+		5,
+		3
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
 }
