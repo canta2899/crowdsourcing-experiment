@@ -1,0 +1,101 @@
+{
+	"info": {
+		"action": "Back",
+		"access": 9,
+		"try": 1,
+		"index": 2,
+		"sequence": 25,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "1",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 5,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Anche questa copertina è molto interessante. Se la trama dovesse piacermi, lo comprerei sicuramente visto il prezzo."
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1610628238.174,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1610628239.514,
+				"value": "1"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1610628244.706,
+				"value": "1"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1610628266.017,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1610628271.048,
+				"value": 5
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1610628272.817,
+				"value": "1"
+			}
+		],
+		"amount": 6
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1610628230.019,
+		1610628520.309,
+		1610628570.414,
+		1610628587.024,
+		1610628594.388,
+		1610628746.797,
+		1610628763.774,
+		1610628847.215,
+		1610628859.392,
+		1610629135.149
+	],
+	"timestamps_end": [
+		1610628516.149,
+		1610628545.067,
+		1610628583.641,
+		1610628589.323,
+		1610628620.08,
+		1610628754.806,
+		1610628766.26,
+		1610628853.633,
+		1610628914.583,
+		1610629138.451
+	],
+	"timestamps_elapsed": 427.51199984550476,
+	"countdowns_times": null,
+	"countdowns_expired": false,
+	"accesses": 10,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

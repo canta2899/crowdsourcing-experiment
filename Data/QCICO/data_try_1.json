@@ -1,0 +1,303 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "0",
+			"Lavoro": "0",
+			"Genere letterario preferito": "9",
+			"kindle": "1",
+			"Importanza": "1",
+			"Quanti libri": "1"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Ottimo libro lo stile della copertina rispecchia l'anno di pubblicazione del libro"
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 5,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Prezzo molto conveniente per un libro di 148 pagine, la copertina rispecchia molto il titolo del libro."
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 3,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Guardando la copertina non sembra rispecchiare il mio genere,  e non sono un amante dei libri in inglese."
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610619001.106,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1610619017.165,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1610619022.953,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1610619027.152,
+					"value": "0"
+				},
+				{
+					"dimension": 5,
+					"index": 4,
+					"timestamp": 1610619032.683,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1610619045.929,
+					"value": 3
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1610619048.281,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 7,
+					"timestamp": 1610619107.519,
+					"value": "0"
+				},
+				{
+					"dimension": 5,
+					"index": 8,
+					"timestamp": 1610619151.357,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 9,
+					"timestamp": 1610619154.07,
+					"value": "1"
+				}
+			],
+			"amount": 10
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610619181.246,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1610619183.286,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1610619184.519,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1610619186.26,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1610619187.939,
+					"value": 5
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1610619189.315,
+					"value": "1"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610619312.736,
+					"value": "2"
+				},
+				{
+					"dimension": 0,
+					"index": 1,
+					"timestamp": 1610619322.14,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 2,
+					"timestamp": 1610619324.072,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 3,
+					"timestamp": 1610619325.319,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 4,
+					"timestamp": 1610619329.958,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1610619331.509,
+					"value": 2
+				},
+				{
+					"dimension": 4,
+					"index": 6,
+					"timestamp": 1610619335.497,
+					"value": 3
+				},
+				{
+					"dimension": 5,
+					"index": 7,
+					"timestamp": 1610619338.299,
+					"value": "0"
+				}
+			],
+			"amount": 8
+		}
+	],
+	"timestamps_start": [
+		[
+			1610618956
+		],
+		[
+			1610618980.319
+		],
+		[
+			1610619168.324
+		],
+		[
+			1610619290.328
+		]
+	],
+	"timestamps_end": [
+		[
+			1610618980.319
+		],
+		[
+			1610619168.324
+		],
+		[
+			1610619290.328
+		],
+		[
+			1610619461.786
+		]
+	],
+	"timestamps_elapsed": [
+		24.319000005722046,
+		188.00499987602234,
+		122.00400018692017,
+		171.4579999446869
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}

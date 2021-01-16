@@ -1,0 +1,82 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 0,
+		"try": 1,
+		"index": 3,
+		"sequence": 3,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "1",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "0",
+		"Indica quanto ti sembra adeguato:_value": 1,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il libro in se è di mio gradimento. La copertina è accattivante ma il prezzo è elevato considerando la copertina flessibile e il numero di pagine contenuto, a un prezzo inferiore non esiterei a comprarlo."
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1610634059.435,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1610634060.845,
+				"value": "1"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1610634065.188,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1610634067.613,
+				"value": "0"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1610634071.679,
+				"value": 1
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1610634078.548,
+				"value": "1"
+			}
+		],
+		"amount": 6
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1610634038.805
+	],
+	"timestamps_end": [
+		1610634147.21
+	],
+	"timestamps_elapsed": 108.40499997138977,
+	"countdowns_times": null,
+	"accesses": 1,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

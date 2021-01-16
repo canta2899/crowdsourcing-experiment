@@ -7,7 +7,14 @@ import shutil
 from utils import *
 
 
-def send_mail(plain, html, to):
+def send_mail(plain, html, to) -> string:
+    """
+    Function for sending an html-formatted e-mail to a provided address
+    :param plain: mail body in plain text as string
+    :param html: mail body formatted in html as string
+    :param to: mail address as string
+    :return: a string informing user that mail was sent
+    """
     from email.mime.text import MIMEText
     from email.mime.multipart import MIMEMultipart
 
@@ -41,7 +48,12 @@ def send_mail(plain, html, to):
     return 'Message sent!'
 
 
-def check(email):
+def check(email) -> bool:
+    """
+    Regular expression check for a provided e-mail address
+    :param email: string representing an e-mail address
+    :return: boolean stating if the provided address is a possible valid address
+    """
     regex = '^[a-zA-Z0-9_.+-]+[@][a-zA-Z0-9_.+-]+[.]\w+$'
     if re.search(regex, email):
         return True
@@ -49,7 +61,12 @@ def check(email):
         return False
 
 
-def generateId(n):
+def generateId(n) -> string:
+    """
+    Function for generating a random string of chars given a desired size
+    :param n: size of the desired string as integer
+    :return: string of n random
+    """
     letters = string.ascii_uppercase
     return ''.join(random.choice(letters) for i in range(n))
 

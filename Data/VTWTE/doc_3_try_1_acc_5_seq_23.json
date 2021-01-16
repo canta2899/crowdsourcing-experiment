@@ -1,0 +1,114 @@
+{
+	"info": {
+		"action": "Back",
+		"access": 4,
+		"try": 1,
+		"index": 3,
+		"sequence": 23,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "0",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 3,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Personalmente la copertina non mi piace. Il prezzo è abbastanza giusto. "
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1610628626.885,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 1,
+				"timestamp": 1610628628.988,
+				"value": "0"
+			},
+			{
+				"dimension": 2,
+				"index": 2,
+				"timestamp": 1610628631.001,
+				"value": "0"
+			},
+			{
+				"dimension": 3,
+				"index": 3,
+				"timestamp": 1610628634.708,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 4,
+				"timestamp": 1610628641.372,
+				"value": 3
+			},
+			{
+				"dimension": 5,
+				"index": 5,
+				"timestamp": 1610628644,
+				"value": "0"
+			},
+			{
+				"dimension": 5,
+				"index": 6,
+				"timestamp": 1610628649.882,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 7,
+				"timestamp": 1610628662.218,
+				"value": 2
+			},
+			{
+				"dimension": 5,
+				"index": 8,
+				"timestamp": 1610628663.402,
+				"value": "0"
+			},
+			{
+				"dimension": 4,
+				"index": 9,
+				"timestamp": 1610628719.973,
+				"value": 3
+			}
+		],
+		"amount": 10
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1610628545.067,
+		1610628583.641,
+		1610628620.08,
+		1610628766.26,
+		1610628914.583
+	],
+	"timestamps_end": [
+		1610628570.414,
+		1610628587.024,
+		1610628746.797,
+		1610628847.215,
+		1610629135.149
+	],
+	"timestamps_elapsed": 456.96799993515015,
+	"countdowns_times": null,
+	"accesses": 5,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 0,
+		"try": 1,
+		"index": 3,
+		"sequence": 3,
+		"element": "document"
+	},
+	"answers": {
+		"Hai letto questo libro?_value": "0",
+		"Sfoglieresti il libro vedendone la copertina?_value": "1",
+		"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+		"Il prezzo è adeguato?_value": "1",
+		"Indica quanto ti sembra adeguato:_value": 3,
+		"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+		"Quali sono le tue impressioni su questa edizione del libro?_justification": "Copertina a parer mio un po' vecchia scuola, che rende il libro più interessante dal punto di vista estetico, in quanto mi ricorda la copertina originale. Prezzo adeguato al contesto. "
+	},
+	"notes": [],
+	"dimensions_selected": {
+		"data": [
+			{
+				"dimension": 0,
+				"index": 0,
+				"timestamp": 1610635578.318,
+				"value": "0"
+			},
+			{
+				"dimension": 0,
+				"index": 1,
+				"timestamp": 1610635580.554,
+				"value": "1"
+			},
+			{
+				"dimension": 0,
+				"index": 2,
+				"timestamp": 1610635585.725,
+				"value": "0"
+			},
+			{
+				"dimension": 0,
+				"index": 3,
+				"timestamp": 1610635586.735,
+				"value": "1"
+			},
+			{
+				"dimension": 0,
+				"index": 4,
+				"timestamp": 1610635587.198,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 5,
+				"timestamp": 1610635588.947,
+				"value": "1"
+			},
+			{
+				"dimension": 1,
+				"index": 6,
+				"timestamp": 1610635589.555,
+				"value": "0"
+			},
+			{
+				"dimension": 1,
+				"index": 7,
+				"timestamp": 1610635596.833,
+				"value": "1"
+			},
+			{
+				"dimension": 2,
+				"index": 8,
+				"timestamp": 1610635628.756,
+				"value": "1"
+			},
+			{
+				"dimension": 3,
+				"index": 9,
+				"timestamp": 1610635630.546,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 10,
+				"timestamp": 1610635632.416,
+				"value": 3
+			},
+			{
+				"dimension": 5,
+				"index": 11,
+				"timestamp": 1610635634.216,
+				"value": "1"
+			},
+			{
+				"dimension": 4,
+				"index": 12,
+				"timestamp": 1610635735.559,
+				"value": 4
+			},
+			{
+				"dimension": 4,
+				"index": 13,
+				"timestamp": 1610635737.01,
+				"value": 3
+			}
+		],
+		"amount": 14
+	},
+	"queries": {
+		"data": [],
+		"amount": 0
+	},
+	"timestamps_start": [
+		1610635559.094
+	],
+	"timestamps_end": [
+		1610635807.358
+	],
+	"timestamps_elapsed": 248.26399993896484,
+	"countdowns_times": null,
+	"accesses": 1,
+	"responses_retrieved": {
+		"data": [],
+		"amount": 0
+	},
+	"responses_selected": {
+		"data": [],
+		"amount": 0
+	}
+}

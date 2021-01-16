@@ -104,3 +104,18 @@ while cmd[0] != "exit":
         pickle.dump(processedObjList, file)
         file.close()
         print("Synced!\n")
+    elif cmd[0] == 'purge':
+        update = False
+        confirm = input("Are you sure you want to delete every worker that has not completed the task yet? [y/n]\n\t").lower()
+        if confirm == "y":
+            downloadWorkers(s3, 'sc-cs-tasks')
+            workers = read_json('./workers.json')
+            print('\n')
+            for worker in workers['whitelist']:
+                if worker not in workers['blacklist']:
+                    workers['whitelist'].remove(worker)
+                    print(f"{worker} removed")
+                    update = True
+            if update:
+                serialize_json('./workers.json', workers)
+                uploadWorkers(s3, 'sc-cs-tasks')

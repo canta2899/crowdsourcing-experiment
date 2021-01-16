@@ -1,0 +1,380 @@
+{
+	"task": {
+		"task_id": "ProgettoSocialComputing2",
+		"batch_name": "Batch1",
+		"worker_id": "THRZI",
+		"unit_id": "unit_1",
+		"token_input": "MNYRTLHFQO",
+		"token_output": "CUFQHQQFIO",
+		"tries_amount": 2,
+		"questionnaire_amount": 1,
+		"documents_amount": 3,
+		"dimensions_amount": 6
+	},
+	"questionnaires": [
+		{
+			"index": 0,
+			"description": null,
+			"type": "standard",
+			"questions": [
+				{
+					"index": 0,
+					"name": "Età",
+					"text": "Quanti anni hai?",
+					"answers": [
+						"18-25",
+						"26-35",
+						"36-45",
+						"46-55",
+						"56+"
+					],
+					"detail": null,
+					"showDetail": false
+				},
+				{
+					"index": 1,
+					"name": "Lavoro",
+					"text": "Qual è il tuo impiego attuale?",
+					"answers": [
+						"Studente",
+						"Dipendente",
+						"Freelancer",
+						"Lavoratore pubblico",
+						"Imprenditore",
+						"Disoccupato",
+						"Pensionato"
+					],
+					"detail": null,
+					"showDetail": false
+				},
+				{
+					"index": 2,
+					"name": "Genere letterario preferito",
+					"text": "Qual è il tuo genere letterario preferito?",
+					"answers": [
+						"Storico",
+						"Sci-Fi",
+						"Fantasy",
+						"Avventura",
+						"Formazione",
+						"Horror",
+						"Azione/Thriller",
+						"Giallo",
+						"Rosa",
+						"Psicologico",
+						"Commedia",
+						"Biografia",
+						"Storiografia"
+					],
+					"detail": null,
+					"showDetail": false
+				},
+				{
+					"index": 3,
+					"name": "kindle",
+					"text": "Possiedi un eBook reader (Kindle, KoBo, ...) o utilizzi un'applicazione per la lettura di libri digitali?",
+					"answers": [
+						"Si",
+						"No"
+					],
+					"detail": null,
+					"showDetail": false
+				},
+				{
+					"index": 4,
+					"name": "Importanza",
+					"text": "Nelle tue giornate quanta importanza ha la lettura? (Considerando anche lavoro e/o studio)",
+					"answers": [
+						"Nulla",
+						"Scarsa",
+						"Discreta",
+						"Fondamentale"
+					],
+					"detail": null,
+					"showDetail": false
+				},
+				{
+					"index": 5,
+					"name": "Quanti libri",
+					"text": "Quanti libri leggi mediamente in un anno?",
+					"answers": [
+						"0",
+						"1-2",
+						"3-5",
+						"6-10",
+						"11+"
+					],
+					"detail": null,
+					"showDetail": false
+				}
+			]
+		}
+	],
+	"documents": [
+		{
+			"index": 0,
+			"title": "Assassinio sull'Orient Express",
+			"author": "Agatha Christie",
+			"type": "Copertina flessibile",
+			"pages": 216,
+			"language": "Italiano",
+			"publisher": "Mondadori",
+			"price": "12,82",
+			"cover": "https://images-na.ssl-images-amazon.com/images/I/51YMP+OmvBL._SX324_BO1,204,203,200_.jpg",
+			"year": 2020
+		},
+		{
+			"index": 1,
+			"title": "Così parlò Zarathustra. Ediz. integrale ",
+			"author": "Friedrich Nietzsche",
+			"type": "Kindle",
+			"pages": 340,
+			"language": "Italiano",
+			"publisher": "Newton Compton Editori",
+			"price": "1,99",
+			"cover": "https://images-na.ssl-images-amazon.com/images/I/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+			"year": 2011
+		},
+		{
+			"index": 2,
+			"title": "The Chronicles of Narnia - The Lion, the Witch and the Wardrobe ",
+			"author": "C.S. Lewis",
+			"type": "Copertina flessibile",
+			"pages": 206,
+			"language": "Inglese",
+			"publisher": "Harper USA",
+			"price": "11,5",
+			"cover": "https://images-na.ssl-images-amazon.com/images/I/51MVtvGUHvL._SX298_BO1,204,203,200_.jpg",
+			"year": 2005
+		}
+	],
+	"dimensions": [
+		{
+			"index": 0,
+			"name": "Hai letto questo libro?",
+			"description": null,
+			"justification": null,
+			"url": null,
+			"scale": {
+				"type": "categorical",
+				"mappings": [
+					{
+						"index": 0,
+						"label": "Si",
+						"description": "esattamente questa edizione",
+						"value": "2"
+					},
+					{
+						"index": 1,
+						"label": "Si",
+						"description": "ma un'edizione differente",
+						"value": "1"
+					},
+					{
+						"index": 2,
+						"label": "No",
+						"description": "non lo ho letto",
+						"value": "0"
+					}
+				]
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "top",
+				"orientation": "vertical",
+				"separator": null
+			}
+		},
+		{
+			"index": 1,
+			"name": "Sfoglieresti il libro vedendone la copertina?",
+			"description": null,
+			"justification": null,
+			"url": null,
+			"scale": {
+				"type": "categorical",
+				"mappings": [
+					{
+						"index": 0,
+						"label": "Si",
+						"description": false,
+						"value": "1"
+					},
+					{
+						"index": 1,
+						"label": "No",
+						"description": false,
+						"value": "0"
+					}
+				]
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "top",
+				"orientation": "vertical",
+				"separator": null
+			}
+		},
+		{
+			"index": 2,
+			"name": "Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)",
+			"description": null,
+			"justification": null,
+			"url": null,
+			"scale": {
+				"type": "categorical",
+				"mappings": [
+					{
+						"index": 0,
+						"label": "Si",
+						"description": false,
+						"value": "1"
+					},
+					{
+						"index": 1,
+						"label": "No",
+						"description": false,
+						"value": "0"
+					}
+				]
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "top",
+				"orientation": "vertical",
+				"separator": null
+			}
+		},
+		{
+			"index": 3,
+			"name": "Il prezzo è adeguato?",
+			"description": null,
+			"justification": null,
+			"url": null,
+			"scale": {
+				"type": "categorical",
+				"mappings": [
+					{
+						"index": 0,
+						"label": "Si",
+						"description": false,
+						"value": "1"
+					},
+					{
+						"index": 1,
+						"label": "No",
+						"description": false,
+						"value": "0"
+					}
+				]
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "middle",
+				"orientation": "vertical",
+				"separator": null
+			}
+		},
+		{
+			"index": 4,
+			"name": "Indica quanto ti sembra adeguato:",
+			"description": "La scala va da 0 a 5, dove 0 indica che il prezzo è totalmente inadeguato mentre 5 indica che il prezzo è totalmente adeguato.",
+			"justification": null,
+			"url": null,
+			"scale": {
+				"type": "interval",
+				"min": 0,
+				"max": 5,
+				"step": 1
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "middle",
+				"orientation": "vertical",
+				"separator": null
+			}
+		},
+		{
+			"index": 5,
+			"name": "Quali sono le tue impressioni su questa edizione del libro?",
+			"description": null,
+			"justification": {
+				"text": "Scrivi una giustificazione.",
+				"minWords": 10
+			},
+			"url": null,
+			"scale": {
+				"type": "categorical",
+				"mappings": [
+					{
+						"index": 0,
+						"label": "Positiva",
+						"description": "Questo libro è di mio gradimento",
+						"value": "1"
+					},
+					{
+						"index": 1,
+						"label": "Negativa",
+						"description": "Questo libro non è di mio gradimento",
+						"value": "0"
+					}
+				]
+			},
+			"goldQuestionCheck": null,
+			"style": {
+				"type": "list",
+				"position": "bottom",
+				"orientation": "vertical",
+				"separator": null
+			}
+		}
+	],
+	"worker": {
+		"identifier": "THRZI",
+		"folder": "ProgettoSocialComputing2/Batch1/Data/THRZI/",
+		"cloudflareProperties": {
+			"fl": "21f273",
+			"h": "www.cloudflare.com",
+			"ip": "151.46.41.124",
+			"ts": "1610635080.266",
+			"visit_scheme": "https",
+			"uag": "Mozilla/5.0 (Linux; Android 10; LYA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 EdgA/45.11.4.5118",
+			"colo": "LHR",
+			"http": "http/2",
+			"loc": "IT",
+			"tls": "TLSv1.3",
+			"sni": "plaintext",
+			"warp": "off",
+			"gateway": "off"
+		},
+		"navigatorProperties": {
+			"productSub": "20030107",
+			"vendor": "Google Inc.",
+			"appCodeName": "Mozilla",
+			"appName": "Netscape",
+			"appVersion": "5.0 (Linux; Android 10; LYA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 EdgA/45.11.4.5118",
+			"platform": "Linux aarch64",
+			"product": "Gecko",
+			"userAgent": "Mozilla/5.0 (Linux; Android 10; LYA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 EdgA/45.11.4.5118",
+			"language": "it",
+			"languages": [
+				"it"
+			]
+		},
+		"ngxDeviceDetectorProperties": {
+			"userAgent": "Mozilla/5.0 (Linux; Android 10; LYA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 EdgA/45.11.4.5118",
+			"os": "Android",
+			"browser": "MS-Edge",
+			"device": "Android",
+			"os_version": "unknown",
+			"browser_version": "45.11.4.5118",
+			"deviceType": "mobile",
+			"orientation": "portrait"
+		}
+	}
+}

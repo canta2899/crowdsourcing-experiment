@@ -1,0 +1,26 @@
+{
+	"info": {
+		"action": "Next",
+		"access": 0,
+		"try": 1,
+		"index": 0,
+		"sequence": 0,
+		"element": "questionnaire"
+	},
+	"answers": {
+		"Età": "0",
+		"Lavoro": "0",
+		"Genere letterario preferito": "2",
+		"kindle": "0",
+		"Importanza": "2",
+		"Quanti libri": "1"
+	},
+	"timestamps_start": [
+		1610632774
+	],
+	"timestamps_end": [
+		1610632808.716
+	],
+	"timestamps_elapsed": 34.71600008010864,
+	"accesses": 1
+}
