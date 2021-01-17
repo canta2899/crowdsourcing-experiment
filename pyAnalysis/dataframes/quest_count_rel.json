@@ -1,0 +1,50 @@
+{
+    "Età": {
+        "18-25": 32,
+        "26-35": 6,
+        "36-45": 2,
+        "46-55": 8,
+        "56+": 5
+    },
+    "Lavoro": {
+        "Studente": 31,
+        "Dipendente": 9,
+        "Freelancer": 3,
+        "Lavoratore pubblico": 0,
+        "Imprenditore": 4,
+        "Disoccupato": 2,
+        "Pensionato": 4
+    },
+    "Genere letterario preferito": {
+        "Storico": 4,
+        "Sci-Fi": 1,
+        "Fantasy": 10,
+        "Avventura": 3,
+        "Formazione": 11,
+        "Horror": 0,
+        "Azione/Thriller": 2,
+        "Giallo": 8,
+        "Rosa": 2,
+        "Psicologico": 6,
+        "Commedia": 1,
+        "Biografia": 3,
+        "Storiografia": 2
+    },
+    "kindle": {
+        "Si": 19,
+        "No": 34
+    },
+    "Importanza": {
+        "Nulla": 2,
+        "Scarsa": 23,
+        "Discreta": 19,
+        "Fondamentale": 9
+    },
+    "Quanti libri": {
+        "0": 5,
+        "1-2": 21,
+        "3-5": 12,
+        "6-10": 10,
+        "11+": 5
+    }
+}
