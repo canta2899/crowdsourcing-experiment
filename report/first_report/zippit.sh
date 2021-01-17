@@ -10,10 +10,10 @@ fi
 
 mkdir $DIR_NAME
 
-cp -r ../framework $DIR_NAME 
-cp -r ../pyDistribution $DIR_NAME
-cp -r ../pyHITS $DIR_NAME
+cp -r ../../framework $DIR_NAME 
+cp -r ../../pyDistribution $DIR_NAME
+cp -r ../../pyHITS $DIR_NAME
 cp -r report.pdf $DIR_NAME/RelazioneFase1.pdf
 echo "node_modules folder not included.\nLaunch yarn install to download all the modules needed" > $DIR_NAME/framework/readme.txt
- 
+
 zip "$DIR_NAME.zip" $DIR_NAME -x "*node_modules*" -r 
