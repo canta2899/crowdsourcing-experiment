@@ -1,0 +1,273 @@
+{
+	"info": {
+		"action": "Finish",
+		"access": 1,
+		"try": 1,
+		"index": 3,
+		"sequence": 5,
+		"element": "document"
+	},
+	"questionnaires_answers": [
+		{
+			"Età": "0",
+			"Lavoro": "2",
+			"Genere letterario preferito": "5",
+			"kindle": "1",
+			"Importanza": "1",
+			"Quanti libri": "1"
+		}
+	],
+	"documents_answers": [
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "1",
+			"Il prezzo è adeguato?_value": "0",
+			"Indica quanto ti sembra adeguato:_value": 2,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "1",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il rosso è un coloro che personalmente mi ricorda un evento sanguinolento e il velo di mistero dato dall'ombra dei personaggi lo trovo in linea con il tema del libro"
+		},
+		{
+			"Hai letto questo libro?_value": "1",
+			"Sfoglieresti il libro vedendone la copertina?_value": "0",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "1",
+			"Indica quanto ti sembra adeguato:_value": 4,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Copertina brutta, confusionaria e non apprezzo il formato digitale, i libri sono più vivi su carta"
+		},
+		{
+			"Hai letto questo libro?_value": "0",
+			"Sfoglieresti il libro vedendone la copertina?_value": "1",
+			"Compreresti questa edizione del libro? (eventualmente supponendo di non possederlo già)_value": "0",
+			"Il prezzo è adeguato?_value": "0",
+			"Indica quanto ti sembra adeguato:_value": 0,
+			"Quali sono le tue impressioni su questa edizione del libro?_value": "0",
+			"Quali sono le tue impressioni su questa edizione del libro?_justification": "Il prezzo per un'opera di Nietzsche è assolutamente inadeguato, non viene per niente valorizzato. "
+		}
+	],
+	"notes": [
+		[],
+		[],
+		[]
+	],
+	"dimensions_selected": [
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610847185.328,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1610847190.342,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1610847193.672,
+					"value": "1"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1610847206.683,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1610847215.77,
+					"value": 2
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1610847227.041,
+					"value": "1"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610847288.013,
+					"value": "1"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1610847292.133,
+					"value": "0"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1610847299.25,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1610847300.466,
+					"value": "1"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1610847304.886,
+					"value": 4
+				},
+				{
+					"dimension": 5,
+					"index": 5,
+					"timestamp": 1610847310.464,
+					"value": "0"
+				}
+			],
+			"amount": 6
+		},
+		{
+			"data": [
+				{
+					"dimension": 0,
+					"index": 0,
+					"timestamp": 1610847388.616,
+					"value": "0"
+				},
+				{
+					"dimension": 1,
+					"index": 1,
+					"timestamp": 1610847391.049,
+					"value": "1"
+				},
+				{
+					"dimension": 2,
+					"index": 2,
+					"timestamp": 1610847397.743,
+					"value": "0"
+				},
+				{
+					"dimension": 3,
+					"index": 3,
+					"timestamp": 1610847403.044,
+					"value": "0"
+				},
+				{
+					"dimension": 4,
+					"index": 4,
+					"timestamp": 1610847407.848,
+					"value": 1
+				},
+				{
+					"dimension": 4,
+					"index": 5,
+					"timestamp": 1610847413.034,
+					"value": 0
+				},
+				{
+					"dimension": 5,
+					"index": 6,
+					"timestamp": 1610847418.952,
+					"value": "0"
+				}
+			],
+			"amount": 7
+		}
+	],
+	"timestamps_start": [
+		[
+			1610847114
+		],
+		[
+			1610847150.941
+		],
+		[
+			1610847269.353
+		],
+		[
+			1610847343.151
+		]
+	],
+	"timestamps_end": [
+		[
+			1610847150.941
+		],
+		[
+			1610847269.353
+		],
+		[
+			1610847343.151
+		],
+		[
+			1610847492.267
+		]
+	],
+	"timestamps_elapsed": [
+		36.94099998474121,
+		118.41199994087219,
+		73.79800009727478,
+		149.1159999370575
+	],
+	"countdowns_times": [],
+	"countdowns_expired": [
+		false,
+		false,
+		false
+	],
+	"accesses": [
+		1,
+		1,
+		1,
+		1
+	],
+	"queries": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_retrieved": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	],
+	"responses_selected": [
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		},
+		{
+			"data": [],
+			"amount": 0
+		}
+	]
+}
