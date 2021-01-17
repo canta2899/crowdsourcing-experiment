@@ -1,0 +1,112 @@
+{
+    "index": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8
+    },
+    "title": {
+        "0": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+        "1": "Le cronache di Narnia - Il leone, la strega e l'armadio",
+        "2": "The Chronicles of Narnia - The Lion, the Witch and the Wardrobe ",
+        "3": "Assassinio sull'Orient Express",
+        "4": "Assassinio sull'Orient Express",
+        "5": "Murder on the Orient Express",
+        "6": "Cos\u00ec parl\u00f2 Zarathustra. Ediz. integrale ",
+        "7": "Cos\u00ec parl\u00f2 Zarathustra. Ediz. integrale ",
+        "8": "Thus Spoke Zarathustra"
+    },
+    "type": {
+        "0": "Copertina flessibile",
+        "1": "Kindle",
+        "2": "Copertina flessibile",
+        "3": "Copertina flessibile",
+        "4": "Kindle",
+        "5": "Copertina flessibile",
+        "6": "Copertina flessibile",
+        "7": "Kindle",
+        "8": "Copertina flessibile"
+    },
+    "author": {
+        "0": "C.S. Lewis",
+        "1": "C.S. Lewis",
+        "2": "C.S. Lewis",
+        "3": "Agatha Christie",
+        "4": "Agatha Christie",
+        "5": "Agatha Christie",
+        "6": "Friedrich Nietzsche",
+        "7": "Friedrich Nietzsche",
+        "8": "Friedrich Nietzsche"
+    },
+    "pages": {
+        "0": 180,
+        "1": 148,
+        "2": 206,
+        "3": 216,
+        "4": 239,
+        "5": 315,
+        "6": 286,
+        "7": 340,
+        "8": 194
+    },
+    "language": {
+        "0": "Italiano",
+        "1": "Italiano",
+        "2": "Inglese",
+        "3": "Italiano",
+        "4": "Italiano",
+        "5": "Inglese",
+        "6": "Italiano",
+        "7": "Italiano",
+        "8": "Inglese"
+    },
+    "publisher": {
+        "0": "Mondadori",
+        "1": "Mondadori",
+        "2": "Harper USA",
+        "3": "Mondadori",
+        "4": "Mondadori",
+        "5": "HarperCollins",
+        "6": "Newton Compton Editori",
+        "7": "Newton Compton Editori",
+        "8": "Independently published"
+    },
+    "price": {
+        "0": "10,45",
+        "1": "4,99",
+        "2": "11,5",
+        "3": "12,82",
+        "4": "4,99",
+        "5": "6,9",
+        "6": "3,7",
+        "7": "1,99",
+        "8": "6,17"
+    },
+    "cover": {
+        "0": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+        "1": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51M9nWWQQsL._SX321_BO1,204,203,200_.jpg",
+        "2": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51MVtvGUHvL._SX298_BO1,204,203,200_.jpg",
+        "3": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51YMP+OmvBL._SX324_BO1,204,203,200_.jpg",
+        "4": "https:\/\/m.media-amazon.com\/images\/I\/51fz-a0daGL.jpg",
+        "5": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/51+2QZIRWfL._SX308_BO1,204,203,200_.jpg",
+        "6": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+        "7": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/41JOiOohsNL._SX322_BO1,204,203,200_.jpg",
+        "8": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/416oKUhEaEL._SX331_BO1,204,203,200_.jpg"
+    },
+    "year": {
+        "0": 2018,
+        "1": 2018,
+        "2": 2005,
+        "3": 2020,
+        "4": 2014,
+        "5": 2011,
+        "6": 2014,
+        "7": 2011,
+        "8": 2017
+    }
+}

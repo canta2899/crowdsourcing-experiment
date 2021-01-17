@@ -13,7 +13,9 @@ header-includes:
   - \usepackage[italian]{babel}
   - \graphicspath{ {../../pyAnalysis/plot} }
   - \usepackage{float}
-  - \usepackage{multirow}
+  - \usepackage{array}
+  - \usepackage{multirow} 
+  - \usepackage{bigstrut}
   - \hypersetup{colorlinks=true,
             linkcolor=blue,
             urlcolor=blue,
@@ -119,23 +121,23 @@ Così parlò Zarathustra (inglese, cartaceo)          & 1.0 & 3.5 \\ \hline
 \end{table}
 
 Altra tabella
-
 \begin{table}[H]
 \centering
-\begin{tabular}{l|r|c|c|c|c|}
+\renewcommand\extrarowheight{6pt}
+\begin{tabular}{c|r|c|c|c|c|}
 \cline{2-6}
- &
+\multicolumn{1}{l|}{} &
   \multicolumn{1}{c|}{\textbf{Libro}} &
-  \textbf{Tipo di libro} &
+  \textbf{Tipo} &
   \textbf{Il prezzo è adeguato?} &
-  \multicolumn{1}{l|}{\textbf{Tipo di libro}} &
+  \textbf{Tipo} &
   \multicolumn{1}{l|}{\textbf{Quanto è adeguato?}} \\ \hline
-\multicolumn{1}{|l|}{\multirow{3}{*}{\textbf{Massimo}}} & Le cronache di Narnia          & italiano, cartaceo & 0.944444 & italiano, cartaceo & 3.944444 \\ \cline{2-6} 
-\multicolumn{1}{|l|}{}                                  & Assassinio sull'Orient Express & italiano, cartaceo & 0.833333 & inglese, cartaceo  & 3.888889 \\ \cline{2-6} 
-\multicolumn{1}{|l|}{}                                  & Così parlò Zarathustra         & italiano, cartaceo & 0.833333 & italiano, cartaceo & 3.666667 \\ \hline
-\multicolumn{1}{|l|}{\multirow{3}{*}{\textbf{Minimo}}}  & Le cronache di Narnia          & italiano, eBook    & 0.777778 & inglese, cartaceo  & 3.222222 \\ \cline{2-6} 
-\multicolumn{1}{|l|}{}                                  & Assassinio sull'Orient Express & italiano, eBook    & 0.722222 & italiano, eBook    & 3.444444 \\ \cline{2-6} 
-\multicolumn{1}{|l|}{}                                  & Così parlò Zarathustra         & italiano, cartaceo & 0.722222 & italiano, eBook    & 3.611111 \\ \hline
+  \multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Massimo}}}} & Le cronache di Narnia          & Italiano & 0.944444 & Italiano & 3.944444 \\ \cline{2-6} 
+\multicolumn{1}{|c|}{}                                  & Assassinio sull'Orient Express & Italiano & 0.833333 & Inglese  & 3.888889 \\ \cline{2-6} 
+\multicolumn{1}{|c|}{}                                  & Così parlò Zarathustra         & Italiano & 0.833333 & Italiano & 3.666667 \\ \hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Minimo}}}}  & Le cronache di Narnia          & eBook    & 0.777778 & Inglese & 3.222222 \\ \cline{2-6} 
+\multicolumn{1}{|c|}{}                                  & Assassinio sull'Orient Express & eBook    & 0.722222 & eBook    & 3.444444 \\ \cline{2-6} 
+\multicolumn{1}{|c|}{}                                  & Così parlò Zarathustra         & Italiano & 0.722222 & eBook    & 3.611111 \\ \hline
 \end{tabular}
 \end{table}
 
