@@ -48,6 +48,9 @@ Per ogni worker, è stata scaricata una directory contenente i dati di completam
 
 L'analisi dei dati è contenuta all'interno della directory `pyAnalysis` ed è stata svolta all'interno di un apposito Jupyter Notebook.
 
+|
+|
+|
 
 ## Osservazione dei dati ottenuti dal questionario 
 
@@ -81,9 +84,14 @@ Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla freque
 
 ### Grado medio di adeguatezza del prezzo 
 
-Per ogni edizione presa in analisi, è stato calcolato il grado medio di adeguatezza del prezzo sulla base delle risposte fornite dai worker.
-In particolare, ogni worker poteva fornite una risposta tramite l'apposito slider con valori inclusi fra 0 e 5 (rispettivamente riferiti alla **totale adeguatezza** e **ineguatezza** del prezzo). 
+Durante lo svolgimento di ogni singolo HIT, ai worker è stato richiesto di esprimere un giudizio sull'adeguatezza del prezzo dei libri in analisi. In particolare, sono state predisposte le seguenti dimensioni: 
 
+- *Il prezzo ti sembra adeguato?* (sì/no)
+- *Indica quanto il prezzo ti sembra adeguato* (slider con valori compresi fra 0 e 5, con 0 completamente inadeguato e 5 del tutto adeguato). 
+
+Sulla base dei dati ottenuti dai worker, sono stati calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
+
+Si osserva, nel seguente schema riassuntivo, la **media** calcolata in relazione all'adeguatezza del prezzo.
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|c|c|}
@@ -101,8 +109,7 @@ Così parlò Zarathustra (inglese, cartaceo)          & 0.777778 & 3.611111 \\ \
 \end{tabular}
 \end{table}
 
-Altra tabella
-
+Di seguito si osserva, invece, uno studio relativo alla **mediana** del livello di adeguatezza del prezzo.
 \begin{table}[H]
 \centering
 \begin{tabular}{|r|r|r|}
@@ -120,7 +127,8 @@ Così parlò Zarathustra (inglese, cartaceo)          & 1.0 & 3.5 \\ \hline
 \end{tabular}
 \end{table}
 
-Altra tabella
+In seguito, per ogni edizione presa in analisi sono stati calcolati indicatori quali **massimo** e **minimo** in relazione all'espressione di adeguatezza permessa dalle due dimensioni.
+
 \begin{table}[H]
 \centering
 \renewcommand\extrarowheight{6pt}
@@ -141,6 +149,61 @@ Altra tabella
 \end{tabular}
 \end{table}
 
+### Analisi delle giustificazioni fornite dai worker
+
+In seguito, sono state estratte le giustificazioni scritte fornite dai worker in relazione ad ogni HIT e sono state determinate: 
+
+- La **lunghezza media** delle giustificazioni fornite
+- La giustificazione con **lunghezza massima**
+- La giustificazione con **lunghezza minima**
+
+In particolare, il conteggio è stato basato sul numero di parole contenute in una singola giustificazione piuttosto che sul numero di caratteri, al fine di ottenere risultati strettamente correlati alla **verbosità** del testo.
+
+#### Lunghezza media
+
+La lunghezza media delle giustificazioni è risultata essere pari a **17.29 parole**, più alta della lunghezza minima richiesta durante lo svolgimento del task. Si è osservato, di conseguenza, un'interesse e un'interazione da parte dei worker che hanno svolto il task.
+
+#### Lunghezza massima
+
+La giustificazione con lunghezza massima ha presentato un totale di **70 parole**. Il suo contenuto è di seguito riportato:
+
+> "Viene spesso detto di non giudicare il libro dalla copertina ma la realtà secondo me è diversa, molto spesso in una libreria i libri che ci attirano si piú sono quelli con una copertina accattivante, elaborata e particolare.
+La storia narrata è sicuramente di mio gradimento e su questo non ho nulla da dire.
+Avendolo già letto lo consiglierei o acquisterei volentieri ma, per attrarre maggior clientela si dovrebbe migliorare la facciata."
+
+#### Lunghezza minima 
+
+La giustificazione con lunghezza minima ha, invece, presentato una lunghezza pari a **11 parole**. Il contenuto è il seguente:
+
+> "Trovo il prezzo un po' elevato trattandosi di una versione digitale"
+
+\newpage
+
+### Analisi di correlazione
+
+È stato, inoltre, analizzato il livello di correlazione fra le diverse dimensioni proposte ai worker. Sulla base dei dati ottenuti, è stata realizzata la seguente *heatmap*. 
+
 ![](../../pyAnalysis/plot/heatmap.png){ width=80% }
 
+Si osserva, in particolare, la presenza di un buon tasso di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
+I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
+
+Nello specifico, sono state studiate due correlazioni rilevanti: 
+
+- Il legame fra la lingua di un libro e il desiderio di acquisto
+- Il legame fra l'interesse verso un'edizione digitale e il possesso di un eBook Reader
+
+Nel primo caso, si è osservato, nonostante tutti i worker fossero di nazionalità italiana, un **lieve grado di correlazione positiva** (pari a 0.026) che dimostra un maggiore desiderio relativo all'acquisto di un libro scritto in lingua inglese.
+
+Nel secondo, è stata aggregata la risposta alla domanda *"Possiedi un eBook reader (Kindle, KoBo, ...) o utilizzi un'applicazione per la lettura di libri digitali?""* presente nel questionario iniziale.
+Si sono osservate: 
+
+- Una minima correlazione negativa (-0.06) fra il possesso di un eBook Reader e il desiderio di acquistare un'edizione digitale
+- Una bassa **correlazione positiva** (0.16) fra il possesso di un eBook Reader e il desiderio di acquistare un'edizione cartacea. 
+
+Si osserva, di conseguenza, come il possesso di uno strumento per la lettura di edizioni digitali non abbia influenzato in maniera decisiva le risposte date dai worker durante lo svolgimento del task. 
+
 # Conclusioni
+
+Il processo descritto nel primo elaborato, assieme al recupero e all'analisi dei dati raccolti, hanno permesso la conduzione di una completo esperimento di crowd-sourcing secondo le metolodie offerte da *Crowd Frame*. 
+Grazie ai 54 svolgimenti ottenuti, inoltre, è stato possibile effettuare un'analisi efficace.
