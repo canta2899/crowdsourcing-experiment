@@ -89,7 +89,7 @@ Durante lo svolgimento di ogni singolo HIT, ai worker è stato richiesto di espr
 - *Il prezzo ti sembra adeguato?* (sì/no)
 - *Indica quanto il prezzo ti sembra adeguato* (slider con valori compresi fra 0 e 5, con 0 completamente inadeguato e 5 del tutto adeguato). 
 
-Sulla base dei dati ottenuti dai worker, sono stati calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
+Sulla base dei dati ottenuti dai worker, sono state calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
 
 Si osserva, nel seguente schema riassuntivo, la **media** calcolata in relazione all'adeguatezza del prezzo.
 
@@ -136,7 +136,7 @@ Così parlò Zarathustra (inglese, cartaceo)          & 1.0 & 3.5 \\ \hline
 \end{table}
 ```
 
-In seguito, per ogni edizione presa in analisi sono stati calcolati indicatori quali **massimo** e **minimo** in relazione all'espressione di adeguatezza permessa dalle due dimensioni.
+Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori quali **massimo** e **minimo** in relazione all'espressione di adeguatezza permessa dalle due dimensioni.
 
 ```
 \begin{table}[H]
@@ -237,8 +237,7 @@ In seguito, per ogni edizione presa in analisi sono stati calcolati indicatori q
 \multicolumn{1}{|r|}{\textbf{Deviazione}} & 0.358583 & 0.406533 & 0.419643 \\ \hline
 \end{table}
 ```
-
-Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica soprastante, `Le cronache di Narnia`.
+Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica sopracitata, *Le cronache di Narnia*.
 
  - Quanto adeguato è il prezzo?
 
@@ -257,11 +256,18 @@ Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica sop
 \end{table}
 ```
 
-Il libro con il grado medio di adeguatezza del prezzo è, secondo la dimensione di cui sopra, `Assassinio sull'Orient Express`.
+Il libro con il grado medio di adeguatezza del prezzo è, secondo la dimensione di cui sopra, *Assassinio sull'Orient Express*.
 
 ### Giustificazioni dei worker
 
-La lunghezza media è 17.29 parole
+### Analisi delle giustificazioni fornite dai worker
+
+Sono state estratte le giustificazioni scritte fornite dai worker in relazione ad ogni HIT e sono state determinate: 
+
+- La **lunghezza media** delle giustificazioni fornite
+- La giustificazione con **lunghezza massima**
+- La giustificazione con **lunghezza minima**
+
 
 Si riportano di seguito la giustificazione più lunga e più corta:
 
@@ -316,22 +322,24 @@ La giustificazione con lunghezza minima ha, invece, presentato una lunghezza par
 > "Trovo il prezzo un po' elevato trattandosi di una versione digitale"
 
 \newpage
+La lunghezza media delle giustificazioni è risultata essere pari a **17.29 parole**, più alta della lunghezza minima richiesta durante lo svolgimento del task. Si è osservato, di conseguenza, un'interesse e un'interazione da parte dei worker nei confronti del task svolto.
+
 
 ### Analisi di correlazione
 
-È stato, inoltre, analizzato il livello di correlazione fra le diverse dimensioni proposte ai worker. Sulla base dei dati ottenuti, è stata realizzata la seguente *heatmap*. 
+È stato, successivamente, analizzato il livello di correlazione fra le diverse dimensioni proposte ai worker. Sulla base dei dati ottenuti, è stata realizzata la seguente *heatmap*. 
 
 ![](../../pyAnalysis/plot/heatmap.png){ width=80% }
 
-Si osserva, in particolare, la presenza di un buon tasso di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
+Si osserva, in particolare, la presenza di un buon grado di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
 I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
 
-Nello specifico, sono state studiate due correlazioni rilevanti: 
+Nello specifico, sono state studiate due aspetti rilevanti: 
 
-- Il legame fra la lingua di un libro e il desiderio di acquisto
+- Il legame fra la lingua di un libro e il desiderio di acquistarlo
 - Il legame fra l'interesse verso un'edizione digitale e il possesso di un eBook Reader
 
-Nel primo caso, si è osservato, nonostante tutti i worker fossero di nazionalità italiana, un **lieve grado di correlazione positiva** (pari a 0.026) che dimostra un maggiore desiderio relativo all'acquisto di un libro scritto in lingua inglese.
+Nel primo caso, si è osservato, nonostante tutti i worker fossero di nazionalità italiana, un **basso grado di correlazione positiva** (pari a 0.026) che suggerisce una lieve tendenza ad un maggiore interesse per i libri in lingua inglese.
 
 Nel secondo, è stata aggregata la risposta alla domanda *"Possiedi un eBook reader (Kindle, KoBo, ...) o utilizzi un'applicazione per la lettura di libri digitali?""* presente nel questionario iniziale.
 Si sono osservate: 
@@ -339,7 +347,7 @@ Si sono osservate:
 - Una minima correlazione negativa (-0.06) fra il possesso di un eBook Reader e il desiderio di acquistare un'edizione digitale
 - Una bassa **correlazione positiva** (0.16) fra il possesso di un eBook Reader e il desiderio di acquistare un'edizione cartacea. 
 
-Si osserva, di conseguenza, come il possesso di uno strumento per la lettura di edizioni digitali non abbia influenzato in maniera decisiva le risposte date dai worker durante lo svolgimento del task. 
+Si osserva, di conseguenza, come il possesso di uno strumento per la lettura di edizioni digitali non abbia avuto un'influenza decisiva nelle risposte ottenute dai worker. 
 
 # Conclusioni
 
