@@ -92,11 +92,14 @@ Durante lo svolgimento di ogni singolo HIT, ai worker è stato richiesto di espr
 Sulla base dei dati ottenuti dai worker, sono stati calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
 
 Si osserva, nel seguente schema riassuntivo, la **media** calcolata in relazione all'adeguatezza del prezzo.
+
+```
 \begin{table}[H]
 \centering
-\begin{tabular}{|l|c|c|}
+\def\arraystretch{1.3}
+\begin{tabular}{|r|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{Titolo}} & \textbf{Il prezzo è adeguato?} & \textbf{Quanto è adeguato?} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Edizione}} & \textbf{Il prezzo è adeguato?} & \textbf{Quanto è adeguato?} \\ \hline
 Le cronache di Narnia (italiano, cartaceo)          & 0.944444 & 3.944444 \\ \hline
 Le cronache di Narnia (italiano, eBook)             & 0.777778 & 3.777778 \\ \hline
 The Chronicles of Narnia (inglese, cartaceo)        & 0.833333 & 3.222222 \\ \hline
@@ -108,13 +111,18 @@ Così parlò Zarathustra (italiano, eBook)            & 0.722222 & 3.666667 \\ \
 Così parlò Zarathustra (inglese, cartaceo)          & 0.777778 & 3.611111 \\ \hline
 \end{tabular}
 \end{table}
+```
 
 Di seguito si osserva, invece, uno studio relativo alla **mediana** del livello di adeguatezza del prezzo.
+
+```
+>>>>>>> c21f8716 (Added tables with a basic description)
 \begin{table}[H]
 \centering
-\begin{tabular}{|r|r|r|}
+\def\arraystretch{1.3}
+\begin{tabular}{|r|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{Metrica}} & \multicolumn{1}{c|}{\textbf{Il prezzo è adeguato?}} & \multicolumn{1}{c|}{\textbf{Quanto è adeguato?}} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Edizione}} & \multicolumn{1}{c|}{\textbf{Il prezzo è adeguato?}} & \multicolumn{1}{c|}{\textbf{Quanto è adeguato?}} \\ \hline
 Le cronache di Narnia (italiano, cartaceo)          & 1.0 & 4.0 \\ \hline
 Le cronache di Narnia (italiano, eBook)             & 1.0 & 4.0 \\ \hline
 Le cronache di Narnia (inglese, cartaceo)           & 1.0 & 3.0 \\ \hline
@@ -126,28 +134,158 @@ Così parlò Zarathustra (italiano, eBook)            & 1.0 & 4.0 \\ \hline
 Così parlò Zarathustra (inglese, cartaceo)          & 1.0 & 3.5 \\ \hline
 \end{tabular}
 \end{table}
+```
 
 In seguito, per ogni edizione presa in analisi sono stati calcolati indicatori quali **massimo** e **minimo** in relazione all'espressione di adeguatezza permessa dalle due dimensioni.
 
+```
 \begin{table}[H]
 \centering
 \renewcommand\extrarowheight{6pt}
 \begin{tabular}{c|r|c|c|c|c|}
-\cline{2-6}
-\multicolumn{1}{l|}{} &
-  \multicolumn{1}{c|}{\textbf{Libro}} &
-  \textbf{Tipo} &
-  \textbf{Il prezzo è adeguato?} &
-  \textbf{Tipo} &
-  \multicolumn{1}{l|}{\textbf{Quanto è adeguato?}} \\ \hline
-  \multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Massimo}}}} & Le cronache di Narnia          & Italiano & 0.944444 & Italiano & 3.944444 \\ \cline{2-6} 
-\multicolumn{1}{|c|}{}                                  & Assassinio sull'Orient Express & Italiano & 0.833333 & Inglese  & 3.888889 \\ \cline{2-6} 
-\multicolumn{1}{|c|}{}                                  & Così parlò Zarathustra         & Italiano & 0.833333 & Italiano & 3.666667 \\ \hline
-\multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Minimo}}}}  & Le cronache di Narnia          & eBook    & 0.777778 & Inglese & 3.222222 \\ \cline{2-6} 
-\multicolumn{1}{|c|}{}                                  & Assassinio sull'Orient Express & eBook    & 0.722222 & eBook    & 3.444444 \\ \cline{2-6} 
-\multicolumn{1}{|c|}{}                                  & Così parlò Zarathustra         & Italiano & 0.722222 & eBook    & 3.611111 \\ \hline
+
+\cline{3-6}
+    \multicolumn{2}{l|}{} & 
+    \multicolumn{2}{c|}{\textbf{Il prezzo è adeguato?}} & 
+    \multicolumn{2}{c|}{\textbf{Quanto è adeguato?}}
+
+\\ \cline{2-6}
+
+    \multicolumn{1}{l|}{} &
+    \multicolumn{1}{c|}{\textbf{Libro}} &
+    \textbf{Tipo} &
+    \textbf{Valore} &
+    \textbf{Tipo} &
+    \multicolumn{1}{c|}{\textbf{Valore}} 
+
+\\ \hline
+
+    \multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Massimo}}}} & 
+    Le cronache di Narnia & 
+    Italiano, cartaceo & 
+    0.944444 & 
+    Italiano, cartaceo & 
+    3.944444 
+
+\\ \cline{2-6} 
+
+    \multicolumn{1}{|c|}{} & 
+    Assassinio sull'Orient Express & 
+    Italiano, cartaceo & 
+    0.833333 & 
+    Inglese, cartaceo & 
+    3.888889 
+
+\\ \cline{2-6} 
+
+    \multicolumn{1}{|c|}{} & 
+    Così parlò Zarathustra & 
+    Italiano, cartaceo & 
+    0.833333 & 
+    Italiano, cartaceo & 
+    3.666667 
+
+\\ \hline
+
+    \multicolumn{1}{|c|}{\multirow{3}{*}{\rotatebox[origin=c]{90}{\textbf{Minimo}}}} & 
+    Le cronache di Narnia & 
+    Italiano, eBook & 
+    0.777778 & 
+    Inglese, cartaceo & 
+    3.222222 
+
+\\ \cline{2-6} 
+
+    \multicolumn{1}{|c|}{} & 
+    Assassinio sull'Orient Express & 
+    Italiano, eBook & 
+    0.722222 & 
+    Italiano, eBook & 
+    3.444444 
+
+\\ \cline{2-6} 
+
+    \multicolumn{1}{|c|}{} & 
+    Così parlò Zarathustra & 
+    Italiano, cartaceo & 
+    0.722222 & 
+    Italiano, eBook & 
+    3.611111 
+
+\\ \hline
+
 \end{tabular}
 \end{table}
+```
+
+\newpage
+
+### Grado medio, mediana e deviazione standard di adeguatezza del prezzo (per libro)
+
+ - Il prezzo è adeguato?
+
+```
+\begin{table}[H]
+\caption{Aggregazione rispetto alla domanda \textit{Il prezzo è adeguato?}}
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{r|c|c|c|}
+\cline{2-4}
+\multicolumn{1}{c|}{} & \textbf{Le cronache di Narnia} & \textbf{Assassinio sull'Orient Express} & \textbf{Così parlò Zarathustra} \\ \hline
+\multicolumn{1}{|r|}{\textbf{Media}}      & 0.851852 & 0.796296 & 0.777778 \\ \hline
+\multicolumn{1}{|r|}{\textbf{Mediana}}    & 1.000000 & 1.000000 & 1.000000 \\ \hline
+\multicolumn{1}{|r|}{\textbf{Deviazione}} & 0.358583 & 0.406533 & 0.419643 \\ \hline
+\end{table}
+```
+
+Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica soprastante, `Le cronache di Narnia`.
+
+ - Quanto adeguato è il prezzo?
+
+```
+\begin{table}[H]
+\caption{Aggregazione rispetto alla domanda \textit{Quando adeguato è il prezzo?}}
+\centering
+\def\arraystretch{1.3}
+\begin{tabular}{r|c|c|c|}
+\cline{2-4}
+\multicolumn{1}{c|}{} & \textbf{Le cronache di Narnia} & \textbf{Assassinio sull'Orient Express} & \textbf{Così parlò Zarathustra} \\ \hline
+\multicolumn{1}{|r|}{\textbf{Media}}      & 3.648148 & 3.666667 & 3.648148 \\ \hline
+\multicolumn{1}{|r|}{\textbf{Mediana}}    & 4.000000 & 4.000000 & 4.000000 \\ \hline
+\multicolumn{1}{|r|}{\textbf{Deviazione}} & 1.066778 & 1.243853 & 1.519153 \\ \hline
+\end{tabular}
+\end{table}
+```
+
+Il libro con il grado medio di adeguatezza del prezzo è, secondo la dimensione di cui sopra, `Assassinio sull'Orient Express`.
+
+### Giustificazioni dei worker
+
+La lunghezza media è 17.29 parole
+
+Si riportano di seguito la giustificazione più lunga e più corta:
+
+```
+\begin{table}[H]
+\centering
+\renewcommand\extrarowheight{4pt}
+\begin{tabular}{c|c|l|}
+\cline{2-3}
+\multicolumn{1}{l|}{} &
+  \multicolumn{1}{c|}{Lunghezza} &
+  \multicolumn{1}{c|}{Giustificazione} \\ \hline
+\multicolumn{1}{|c|}{Più lunga} &
+  70 &
+  \begin{tabular}[c]{@{}l@{}}Viene spesso detto di non giudicare il libro dalla copertina ma la realtà \\ 
+  secondo me è diversa, molto spesso in una libreria i libri che ci attirano si piú \\ 
+  sono quelli con una copertina accattivante, elaborata e particolare. \\ 
+  La storia narrata è sicuramente di mio gradimento e su questo non \\ ho nulla da dire. Avendolo già letto lo consiglierei o acquisterei volentieri ma, \\ per attrarre maggior clientela si dovrebbe migliorare la facciata.\end{tabular} \\ \hline
+\multicolumn{1}{|c|}{Più corta} &
+  11 &
+  Trovo il prezzo un po' elevato trattandosi di una versione digitale \\ \hline
+\end{tabular}
+\end{table}
+```
 
 ### Analisi delle giustificazioni fornite dai worker
 
