@@ -11,7 +11,7 @@ header-includes:
   - \usepackage[margin=0.8in]{geometry}
   - \usepackage[utf8]{inputenc}
   - \usepackage[italian]{babel}
-  - \graphicspath{ {../../pyAnalysis/plot} }
+  - \usepackage{graphicx}
   - \usepackage{float}
   - \usepackage{array}
   - \usepackage{multirow} 
@@ -32,6 +32,7 @@ Il seguente elaborato espone il processo di analisi dei dati ottenuti in seguito
 - [Ottenimento dei dati serializzati su un bucket Amazon S3](#recupero-dati)
 - [Analisi dei dati e produzioni di grafici esplicativi](#analisi-dati)
 
+Si noti che è possibile visualizzare una **versione interattiva** di ogni grafico presente nel seguito dell'elaborato cliccandoci sopra.
 
 # Recupero dei dati {#recupero-dati}
 
@@ -56,29 +57,44 @@ L'analisi dei dati è contenuta all'interno della directory `pyAnalysis` ed è s
 
 Al fine di rendere possibile una visualizzazione d'insieme in merito alle compilazione del questionario introduttivo, è stato prodotto il seguente diagramma "sunburst". 
 
-![Sunburst plot](../../pyAnalysis/plot/sunburst_genre.png)
+|
+
+```{=latex}
+\begin{figure}[H]
+\centering
+\href{https://alezan.ddns.net/sunburst_genre.html}{\includegraphics[width=0.8\textwidth]{../../pyAnalysis/plot/sunburst_genre.png}}
+\end{figure}
+```
 
 \newpage
 
 Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla frequenza relativa di ogni variabile campionata per mezzo del questionario.
 
-![](../../pyAnalysis/plot/bar_genre.png){ width=47% }
-![](../../pyAnalysis/plot/bar_genre_age.png){ width=47% }
-\begin{figure}[!h]
+```{=latex}
+\begin{figure}[H]
+\href{https://alezan.ddns.net/bar_genre.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre.png}}
+\href{https://alezan.ddns.net/bar_genre_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre_age.png}}
 \caption{Barplot relativo al genere letterario preferito, anche in relazione all'età}
 \end{figure}
+```
 
-![](../../pyAnalysis/plot/hist_age.png){ width=47% }
-![](../../pyAnalysis/plot/bar_kindle.png){width=47% }
-\begin{figure}[!h]
+
+```{=latex}
+\begin{figure}[H]
+\href{https://alezan.ddns.net/hist_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/hist_age.png}}
+\href{https://alezan.ddns.net/bar_kindle.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_kindle.png}}
 \caption{Istogramma in relazione all'età e barplot relativo ai possessori di \textit{eBook Reader}}
 \end{figure}
+```
 
-![](../../pyAnalysis/plot/bar_books_read.png){ width=47% }
-![](../../pyAnalysis/plot/bar_reading.png){ width=47% }
-\begin{figure}[!h]
+
+```{=latex}
+\begin{figure}[H]
+\href{https://alezan.ddns.net/bar_books_read.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_books_read.png}}
+\href{https://alezan.ddns.net/bar_reading.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_reading.png}}
 \caption{Barplot relativi alle preferenze in relazione alla lettura}
 \end{figure}
+```
 
 ## Osservazione dei dati relativi alle dimensioni proposte
 
@@ -329,7 +345,13 @@ La lunghezza media delle giustificazioni è risultata essere pari a **17.29 paro
 
 È stato, successivamente, analizzato il livello di correlazione fra le diverse dimensioni proposte ai worker. Sulla base dei dati ottenuti, è stata realizzata la seguente *heatmap*. 
 
-![](../../pyAnalysis/plot/heatmap.png){ width=80% }
+```{=latex}
+\begin{figure}[H]
+\centering
+\href{https://alezan.ddns.net/heatmap.html}{\includegraphics[width=0.7\textwidth]{../../pyAnalysis/plot/heatmap.png}}
+\caption{Heatmap illustrante la correlazione fra dimensioni}
+\end{figure}
+```
 
 Si osserva, in particolare, la presenza di un buon grado di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
 I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
