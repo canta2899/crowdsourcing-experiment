@@ -62,7 +62,7 @@ Al fine di rendere possibile una visualizzazione d'insieme in merito alle compil
 ```{=latex}
 \begin{figure}[H]
 \centering
-\href{https://alezan.ddns.net/sunburst_genre.html}{\includegraphics[width=0.8\textwidth]{../../pyAnalysis/plot/sunburst_genre.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/sunburst_genre.html}{\includegraphics[width=0.8\textwidth]{../../pyAnalysis/plot/sunburst_genre.png}}
 \end{figure}
 ```
 
@@ -72,8 +72,8 @@ Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla freque
 
 ```{=latex}
 \begin{figure}[H]
-\href{https://alezan.ddns.net/bar_genre.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre.png}}
-\href{https://alezan.ddns.net/bar_genre_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre_age.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/bar_genre.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/bar_genre_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_genre_age.png}}
 \caption{Barplot relativo al genere letterario preferito, anche in relazione all'età}
 \end{figure}
 ```
@@ -81,8 +81,8 @@ Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla freque
 
 ```{=latex}
 \begin{figure}[H]
-\href{https://alezan.ddns.net/hist_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/hist_age.png}}
-\href{https://alezan.ddns.net/bar_kindle.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_kindle.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/hist_age.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/hist_age.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/bar_kindle.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_kindle.png}}
 \caption{Istogramma in relazione all'età e barplot relativo ai possessori di \textit{eBook Reader}}
 \end{figure}
 ```
@@ -90,8 +90,8 @@ Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla freque
 
 ```{=latex}
 \begin{figure}[H]
-\href{https://alezan.ddns.net/bar_books_read.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_books_read.png}}
-\href{https://alezan.ddns.net/bar_reading.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_reading.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/bar_books_read.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_books_read.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/bar_reading.html}{\includegraphics[width=0.47\textwidth]{../../pyAnalysis/plot/bar_reading.png}}
 \caption{Barplot relativi alle preferenze in relazione alla lettura}
 \end{figure}
 ```
@@ -132,7 +132,6 @@ Così parlò Zarathustra (inglese, cartaceo)          & 0.777778 & 3.611111 \\ \
 Di seguito si osserva, invece, uno studio relativo alla **mediana** del livello di adeguatezza del prezzo.
 
 ```
->>>>>>> c21f8716 (Added tables with a basic description)
 \begin{table}[H]
 \centering
 \def\arraystretch{1.3}
@@ -348,7 +347,7 @@ La lunghezza media delle giustificazioni è risultata essere pari a **17.29 paro
 ```{=latex}
 \begin{figure}[H]
 \centering
-\href{https://alezan.ddns.net/heatmap.html}{\includegraphics[width=0.7\textwidth]{../../pyAnalysis/plot/heatmap.png}}
+\href{http://latoserver.dimi.uniud.it/~twc20_cantarutti/heatmap.html}{\includegraphics[width=0.7\textwidth]{../../pyAnalysis/plot/heatmap.png}}
 \caption{Heatmap illustrante la correlazione fra dimensioni}
 \end{figure}
 ```
