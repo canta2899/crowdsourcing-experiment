@@ -96,6 +96,8 @@ Inoltre, sono stati prodotti istogrammi e diagrammi a barre relativi alla freque
 \end{figure}
 ```
 
+Si è osservato come i worker, prevalentemente studenti di età compresa fra i 18 e i 26 anni, abbiano dimostrato un complessivo interesse verso la lettura. I tre generi letterari preferiti sono risultati essere rispettivamente Formazione, Fantasy (principalmente interessato dai worker giovani) e Giallo. Più del 60% dei worker ha, inoltre, dichiarato di **non possedere strumenti per la lettura digitale**.
+
 ## Osservazione dei dati relativi alle dimensioni proposte
 
 ### Grado medio di adeguatezza del prezzo 
@@ -355,7 +357,7 @@ La lunghezza media delle giustificazioni è risultata essere pari a **17.29 paro
 Si osserva, in particolare, la presenza di un buon grado di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
 I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
 
-Nello specifico, sono state studiate due aspetti rilevanti: 
+Nello specifico, sono stati studiati due aspetti rilevanti: 
 
 - Il legame fra la lingua di un libro e il desiderio di acquistarlo
 - Il legame fra l'interesse verso un'edizione digitale e il possesso di un eBook Reader
