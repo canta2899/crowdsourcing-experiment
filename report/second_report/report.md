@@ -21,8 +21,11 @@ header-includes:
             urlcolor=blue,
             allbordercolors={0 0 0},
             pdfborderstyle={/S/U/W 1}}
+  - \usepackage{caption}
+
 ---
 
+\captionsetup{labelformat=empty}
 \newpage
 
 # Introduzione
@@ -41,7 +44,7 @@ I dati raccolti sono stati scaricati tramite gli script descritti nell'elaborato
 
 Il task è stato svolto da un totale di **54 worker**, dei quali 6 appartenenti rispettivamente a due gruppi coinvolti nello svolgimento del medesimo task e 48 reclutati al fine di incrementare la numerosità dei dati acquisiti. 
 
-Per ogni worker, è stata scaricata una directory contenente i dati di completamente del task (denominata in base all'id del worker). L'insieme dei dati raccolti è situato all'interno della directory `Data`.
+Per ogni worker, è stata scaricata una directory contenente i dati di completamento del task (denominata in base all'id del worker). L'insieme dei dati raccolti è situato all'interno della directory `Data`.
 
 \newpage
 
@@ -109,7 +112,8 @@ Durante lo svolgimento di ogni singolo HIT, ai worker è stato richiesto di espr
 
 Sulla base dei dati ottenuti dai worker, sono state calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
 
-Si osserva, nel seguente schema riassuntivo, la **media** calcolata in relazione all'adeguatezza del prezzo.
+
+Si osserva, nella seguente tabella, la **media** calcolata in relazione all'adeguatezza del prezzo.
 
 ```
 \begin{table}[H]
@@ -131,7 +135,7 @@ Così parlò Zarathustra (inglese, cartaceo)          & 0.777778 & 3.611111 \\ \
 \end{table}
 ```
 
-Di seguito si osserva, invece, uno studio relativo alla **mediana** del livello di adeguatezza del prezzo.
+Di seguito si osserva, invece, una tabella relativa alla **mediana** del livello di adeguatezza del prezzo.
 
 ```
 \begin{table}[H]
@@ -235,15 +239,14 @@ Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori qua
 \end{table}
 ```
 
-\newpage
 
 ### Grado medio, mediana e deviazione standard di adeguatezza del prezzo (per libro)
 
- - Il prezzo è adeguato?
+ - *Il prezzo è adeguato?*
 
 ```
 \begin{table}[H]
-\caption{Aggregazione rispetto alla domanda \textit{Il prezzo è adeguato?}}
+\caption*{Aggregazione rispetto alla domanda \textit{Il prezzo è adeguato?}}
 \centering
 \def\arraystretch{1.3}
 \begin{tabular}{r|c|c|c|}
@@ -256,11 +259,11 @@ Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori qua
 ```
 Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica sopracitata, *Le cronache di Narnia*.
 
- - Quanto adeguato è il prezzo?
+ - *Quanto adeguato è il prezzo?*
 
 ```
 \begin{table}[H]
-\caption{Aggregazione rispetto alla domanda \textit{Quando adeguato è il prezzo?}}
+\caption*{Aggregazione rispetto alla domanda \textit{Quando adeguato è il prezzo?}}
 \centering
 \def\arraystretch{1.3}
 \begin{tabular}{r|c|c|c|}
@@ -275,8 +278,6 @@ Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica sop
 
 Il libro con il grado medio di adeguatezza del prezzo è, secondo la dimensione di cui sopra, *Assassinio sull'Orient Express*.
 
-### Giustificazioni dei worker
-
 ### Analisi delle giustificazioni fornite dai worker
 
 Sono state estratte le giustificazioni scritte fornite dai worker in relazione ad ogni HIT e sono state determinate: 
@@ -285,8 +286,9 @@ Sono state estratte le giustificazioni scritte fornite dai worker in relazione a
 - La giustificazione con **lunghezza massima**
 - La giustificazione con **lunghezza minima**
 
+\newpage
 
-Si riportano di seguito la giustificazione più lunga e più corta:
+Le osservazioni effettuate sono state raccolte nello schema seguente:
 
 ```
 \begin{table}[H]
@@ -356,6 +358,8 @@ La lunghezza media delle giustificazioni è risultata essere pari a **17.29 paro
 
 Si osserva, in particolare, la presenza di un buon grado di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
 I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
+
+\newpage
 
 Nello specifico, sono stati studiati due aspetti rilevanti: 
 
