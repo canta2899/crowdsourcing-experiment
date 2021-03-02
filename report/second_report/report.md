@@ -46,15 +46,10 @@ Il task è stato svolto da un totale di **54 worker**, dei quali 6 appartenenti 
 
 Per ogni worker, è stata scaricata una directory contenente i dati di completamento del task (denominata in base all'id del worker). L'insieme dei dati raccolti è situato all'interno della directory `Data`.
 
-\newpage
 
 # Analisi dei dati raccolti {#analisi-dati}
 
 L'analisi dei dati è contenuta all'interno della directory `pyAnalysis` ed è stata svolta all'interno di un apposito Jupyter Notebook.
-
-|
-|
-|
 
 ## Osservazione dei dati ottenuti dal questionario 
 
@@ -112,10 +107,9 @@ Durante lo svolgimento di ogni singolo HIT, ai worker è stato richiesto di espr
 
 Sulla base dei dati ottenuti dai worker, sono state calcolate opportune statistiche riassuntive al fine di osservare il grado (massimo, minimo e medio) di adeguatezza del prezzo in relazione ad ogni *singola edizione* e, successivamente, ad *ognuno dei titoli proposti*. 
 
-
 Si osserva, nella seguente tabella, la **media** calcolata in relazione all'adeguatezza del prezzo.
 
-```
+```{=latex}
 \begin{table}[H]
 \centering
 \def\arraystretch{1.3}
@@ -137,7 +131,7 @@ Così parlò Zarathustra (inglese, cartaceo)          & 0.777778 & 3.611111 \\ \
 
 Di seguito si osserva, invece, una tabella relativa alla **mediana** del livello di adeguatezza del prezzo.
 
-```
+```{=latex}
 \begin{table}[H]
 \centering
 \def\arraystretch{1.3}
@@ -156,10 +150,11 @@ Così parlò Zarathustra (inglese, cartaceo)          & 1.0 & 3.5 \\ \hline
 \end{tabular}
 \end{table}
 ```
+\newpage
 
 Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori quali **massimo** e **minimo** in relazione all'espressione di adeguatezza permessa dalle due dimensioni.
 
-```
+```{=latex}
 \begin{table}[H]
 \centering
 \renewcommand\extrarowheight{6pt}
@@ -239,12 +234,11 @@ Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori qua
 \end{table}
 ```
 
-
 ### Grado medio, mediana e deviazione standard di adeguatezza del prezzo (per libro)
 
  - *Il prezzo è adeguato?*
 
-```
+```{=latex}
 \begin{table}[H]
 \caption*{Aggregazione rispetto alla domanda \textit{Il prezzo è adeguato?}}
 \centering
@@ -255,13 +249,15 @@ Per ogni edizione presa in analisi sono stati, inoltre, calcolati indicatori qua
 \multicolumn{1}{|r|}{\textbf{Media}}      & 0.851852 & 0.796296 & 0.777778 \\ \hline
 \multicolumn{1}{|r|}{\textbf{Mediana}}    & 1.000000 & 1.000000 & 1.000000 \\ \hline
 \multicolumn{1}{|r|}{\textbf{Deviazione}} & 0.358583 & 0.406533 & 0.419643 \\ \hline
+\end{tabular}
 \end{table}
 ```
+
 Il libro con il grado medio di adeguatezza del prezzo è, secondo la metrica sopracitata, *Le cronache di Narnia*.
 
  - *Quanto adeguato è il prezzo?*
 
-```
+```{=latex}
 \begin{table}[H]
 \caption*{Aggregazione rispetto alla domanda \textit{Quando adeguato è il prezzo?}}
 \centering
@@ -286,11 +282,13 @@ Sono state estratte le giustificazioni scritte fornite dai worker in relazione a
 - La giustificazione con **lunghezza massima**
 - La giustificazione con **lunghezza minima**
 
+In particolare, il conteggio è stato basato sul numero di parole contenute in una singola giustificazione piuttosto che sul numero di caratteri, al fine di ottenere risultati strettamente correlati alla **verbosità** del testo.
+
 \newpage
 
 Le osservazioni effettuate sono state raccolte nello schema seguente:
 
-```
+```{=latex}
 \begin{table}[H]
 \centering
 \renewcommand\extrarowheight{4pt}
@@ -312,37 +310,7 @@ Le osservazioni effettuate sono state raccolte nello schema seguente:
 \end{table}
 ```
 
-### Analisi delle giustificazioni fornite dai worker
-
-In seguito, sono state estratte le giustificazioni scritte fornite dai worker in relazione ad ogni HIT e sono state determinate: 
-
-- La **lunghezza media** delle giustificazioni fornite
-- La giustificazione con **lunghezza massima**
-- La giustificazione con **lunghezza minima**
-
-In particolare, il conteggio è stato basato sul numero di parole contenute in una singola giustificazione piuttosto che sul numero di caratteri, al fine di ottenere risultati strettamente correlati alla **verbosità** del testo.
-
-#### Lunghezza media
-
-La lunghezza media delle giustificazioni è risultata essere pari a **17.29 parole**, più alta della lunghezza minima richiesta durante lo svolgimento del task. Si è osservato, di conseguenza, un'interesse e un'interazione da parte dei worker che hanno svolto il task.
-
-#### Lunghezza massima
-
-La giustificazione con lunghezza massima ha presentato un totale di **70 parole**. Il suo contenuto è di seguito riportato:
-
-> "Viene spesso detto di non giudicare il libro dalla copertina ma la realtà secondo me è diversa, molto spesso in una libreria i libri che ci attirano si piú sono quelli con una copertina accattivante, elaborata e particolare.
-La storia narrata è sicuramente di mio gradimento e su questo non ho nulla da dire.
-Avendolo già letto lo consiglierei o acquisterei volentieri ma, per attrarre maggior clientela si dovrebbe migliorare la facciata."
-
-#### Lunghezza minima 
-
-La giustificazione con lunghezza minima ha, invece, presentato una lunghezza pari a **11 parole**. Il contenuto è il seguente:
-
-> "Trovo il prezzo un po' elevato trattandosi di una versione digitale"
-
-\newpage
 La lunghezza media delle giustificazioni è risultata essere pari a **17.29 parole**, più alta della lunghezza minima richiesta durante lo svolgimento del task. Si è osservato, di conseguenza, un'interesse e un'interazione da parte dei worker nei confronti del task svolto.
-
 
 ### Analisi di correlazione
 
@@ -355,6 +323,7 @@ La lunghezza media delle giustificazioni è risultata essere pari a **17.29 paro
 \caption{Heatmap illustrante la correlazione fra dimensioni}
 \end{figure}
 ```
+
 
 Si osserva, in particolare, la presenza di un buon grado di correlazione fra dimensioni quali l'**impressione data dal libro** e il **desiderio di sfogliarlo** o **acquistarlo**, oppure l'**adeguatezza** e il **grado di adeguatezza**. 
 I dati ottenuti dimostrano uno svolgimento coerente del task da parte dei worker.
