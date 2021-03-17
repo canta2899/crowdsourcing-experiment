@@ -2,6 +2,8 @@
 
 This project was part of the final assignament of the course "Social Computing" held by [Stefano Mizzaro](https://users.dimi.uniud.it/~stefano.mizzaro/) and [Michael Soprano](https://michaelsoprano.com/) at the [University of Udine](https://www.uniud.it/it). The aim of the project was builing and deploying a Crowdsourcing task using [Crowd-Frame](https://github.com/Miccighel/Crowd_Frame).
 
+It was made by Francesco Bombassei de Bona, Andrea Cantarutti and Alessandro Zanatta.
+
 ## Crowd-Frame
 
 Crowd-Frame is a framework under constant development whose primary aim is providing a simple and effective way for requestor to build and deploy [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing) tasks. Requestors are provided with different options in order to build specific HITs and different strategies that allow automated quality control over workers' interactions with their respective task. 
