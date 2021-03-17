@@ -1,6 +1,0 @@
-1. Configure quality check (minimum time on a question)
-2. Deploy on S3
-3. Do some testing
-
-TASK NAME --> ProgettoSocialComputing2
-BATCH NAME --> Batch1

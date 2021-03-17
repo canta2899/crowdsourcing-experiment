@@ -32,9 +32,9 @@ def send_mail(plain, html, to) -> string:
 
     message = MIMEMultipart('alternative')
     message['Subject'] = 'Partecipazione al progetto di Social Computing'
-    message['From'] = 'bombasseidebona.francesco@spes.uniud.it'
+    message['From'] = 'FILL WITH SENDER EMAIL'
     message['To'] = to
-    message['Cc'] = 'zanatta.alessandro@spes.uniud.it, cantarutti.andrea@spes.uniud.it'
+    message['Cc'] = 'FILL WITH EVENTUAL CCs FOR THE EMAIL (space separated)'
 
     plainText = MIMEText(plain, 'plain')
     htmlText = MIMEText(html, 'html')

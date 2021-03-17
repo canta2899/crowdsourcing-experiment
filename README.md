@@ -1,94 +1,84 @@
-# Secondo Progetto Social Computing
+# A Crowd Sourcing experiment 
 
-## Cosa fare
+This project was part of the final assignament of the course "Social Computing" held by [Stefano Mizzaro](https://users.dimi.uniud.it/~stefano.mizzaro/) and [Michael Soprano](https://michaelsoprano.com/) at the [University of Udine](https://www.uniud.it/it). The aim of the project was builing and deploying a Crowdsourcing task using [Crowd-Frame](https://github.com/Miccighel/Crowd_Frame).
 
-### Fase 1
+## Crowd-Frame
 
-- [ ] Generate un task (insieme di HIT) con i seguenti requisiti:
-    - Ci devono essere un totale di sei HIT
-    - Ogni HIT deve contenere tre elementi che corrispondono a tre edizioni dei libri di cui si vogliono raccogliere i giudizi. Più precisamente, all'interno di ogni HIT i tre elementi di cui si vogliono raccogliere giudizi devono essere tre edizioni di  libri diversi. Le diverse edizioni di uno stesso libro devono invece comparire in HIT diversi (ossia, non ci devono essere edizioni diverse di uno stesso libro nello stesso HIT). Cercate di definire l’ordine degli elementi all’interno di ogni HIT in modo da evitare quando possibile il bias (ad es.,evitare che un dato libro compaia sempre nella stessa posizione).
-    - Ogni edizione di un libro viene identificata dai seguenti attributi, i quali vannotutti e 7 mostrati ai worker:
-        1) Titolo
-        2) Autore
-        3) Numero di pagine
-        4) Editore
-        5) Prezzo
-        6) Copertina (da salvare come URL dell'immagine)
-        7) Anno di pubblicazione
-- [ ] Modificate opportunamente il layout HTML di *Crowd_Frame* in modo che si adatti ai requisiti sopra descritti, ovvero consenta  di visualizzare gli attributi di ciascun libro nel corpo del task
-- [ ] Ogni HIT deve inoltre contenere nella parte iniziale (ossia, prima che il worker sia chiamato ad esprimere i giudizi delle edizioni dei libri) un questionario con almeno 4domande per catturare i gusti letterari ed il background del worker, ad es.:
-    - Qual'è il tuo genere letterario preferito?
-        1) Fantascienza
-        2) Saggi
-        3) Thriller
-        4) ...
-    - Quanti libri leggi in un mese?
-        1) 0-1
-        2) 2-5
-        3) 6-10
-        4) 11+
-    - ...
-- [ ] Per ciascun elemento (edizione), il worker deve valutare le seguenti dimensioni,tutte obbligatorie (fate attenzione a scegliere  la scala di valutazione corretta!):
-    - "Acquisteresti questo libro?" (Si/No)
-    - "Il prezzo di sembra adeguato?" (Si/No)
-    - "Indica quanto ti sembra adeguato" (Slider con valori da min a max, scegliete voi min e max)
-    - "Che impressione hai di questa edizione?" (Giustificazione scritta, almeno 10 parole)
-- [ ] In aggiunta a quelle indicate sopra, aggiungete altre 2 dimensioni a piacere,scegliendo una scala di valutazione adeguata
-- [ ] Scrivete delle adeguate istruzioni generali e istruzioni di valutazione
-- [ ] Aggiungete un controllo di qualità sul tempo minimo di esecuzione del task, che deve essere di X secondi (scegliete voi X)
-- [ ] Dispiegate il task utilizzando i metodi descritti a lezione e dettagliati sulle slides
+Crowd-Frame is a framework under constant development whose primary aim is providing a simple and effective way for requestor to build and deploy [Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing) tasks. Requestors are provided with different options in order to build specific HITs and different strategies that allow automated quality control over workers' interactions with their respective task. 
 
-### Fase 2
+You can find more informations on Crowd Frame and how it works on its GitHub page. 
 
-- [ ] Fate svolgere il vostro task ai membri di **almeno** altri 2 gruppi al fine di raccogliere idati di tutti e sei gli HIT (ossia, ognuno dei 6 membri degli altri due gruppi deve fare uno dei 6 HIT)
-- [ ] Scaricate i dati finali prodotti dai worker del vostro task
-- [ ] Create un grafico contenente un istogramma che mostri le frequenze relative delle risposte ai questionari
-- [ ] Descrivete brevemente le caratteristiche dei worker del vostro task in base alle risposte date al questionario
-- [ ] Calcolate le seguenti misure per ciascuna edizione:
-    - Grado medio di adeguatezza del prezzo
-    - Edizione con il livello massimo di adeguatezza del prezzo
-    - Edizione con il livello minimo di adeguatezza del prezzo
-- [ ] Aggregate i dati calcolati al punto precedente e:
-    - Calcolate il grado medio di adeguatezza del prezzo
-    - Calcolate lo scarto quadratico medio (deviazione standard) del grado di adeguatezza del prezzo
-    - Determinate quale libro ha il grado più alto di adeguatezza del prezzo
-- [ ] Elencate le giustificazioni fornite dai worker e:
-    - Calcolate la lunghezza media
-    - Determinate la giustificazione più lunga
-    - Determinate la giustificazione più corta
-- [ ] Descrivete brevemente le considerazioni tratte dall’analisi dei dati prodotti dai worker,incluse le due dimensioni a piacere del punto 5
+## Our work
 
-## Informazioni aggiuntive
+Our work was building and deploying a Crowdsourcing task in which workers had to express their opinions on different editions of different books whe chose. 
 
-- Potete usare servizi come Goodreads per trovare edizioni diverse dello stesso libro(ad es., [questo](https://www.goodreads.com/work/editions/153313-nineteen-eighty-four). Se possibile, cercate di utilizzare edizioni di pari lingua/nazione
-- Per generare gli HIT potete aiutarvi con il notebook fornito a lezione
-- Per generare la configurazione del task potete aiutarvi con il generatore o farla manualmente
-- Ricordate che il controllo di qualità sul tempo minimo che il worker deve passare su ogni elemento di un HIT comprende anche i questionari
-- Per semplicità è sufficiente far svolgere il task a 6 worker (ossia, due gruppi), ma siete liberi di coinvolgere ulteriori gruppi
+### Building
 
-## Come consegnare
+First, we built a **questionnaire** with the following questions: 
 
-1. I gruppi devono essere formati da tre persone (i gruppi più o meno numerosi verranno penalizzati)
-2. La consegna del progetto avviene in due fasi
-3. Per la scadenza della Fase 1 bisogna consegnare il codice sorgente, ovvero:
-    - Relazione di 3 pagine (con anche i vostri nomi cognomi e numeri di matricola)
-    - Configurazione del task dispiegato (incluso l’URL del task dispiegato)
-    - Codice sorgente di *Crowd_Frame* (evidenziate le vostre modifiche nella relazione)
-4. Per la scadenza della Fase 2 bisogna consegnare i dati raccolti, ovvero:
-    - Relazione di 3 pagine (con anche i vostri nomi cognomi e numeri di matricola) che descrive tutto il lavoro svolto
-    - Dati finali prodotti dai worker durante lo svolgimento del task
-5. **Scadenza**
-    - **Fase 1: Martedì 15 Gennaio 2020**
-    - **Fase 2: Domenica 20 Gennaio 2020**
-6. Consegnare via mail a entrambi i docenti (un unico messaggio per fase, indirizzato a entrambi):
-    - mizzaro@uniud.it
-    - michael.soprano@uniud.it
-    - oggetto della mail nel formato [Progetto SocCom 2 - Fase X] cognome1_cognome2_cognome3
-    - in allegato alla mail un unico file zippato che quando scompattato produce una singola cartella con nome cognome1_cognome2_cognome3_fase_x
-7. Punteggio
-    - 5 punti in trentesimi per i migliori 20%
-    - 4 punti per i seguenti 20%
-    - 3 punti per i seguenti 20%
-    - 2 punti seguenti 20%
-    - 1 punto per i seguenti 20%
-    - 0 punti a discrezione dei docenti per progetti non adeguati o per chi non consegna
+- *How old are you?*
+- *What's your actual job?*
+- *What's your favourite literary genre?*
+- *Do you own any eBook reader?*
+- *What's the importance of reading in your daily life?* 
+- *How many books do you read on average every year?*
+
+And then we chose the following dimensions for our human intelligence tasks:
+
+- *Did you read this book?*
+- *Would you quickly browse this book by looking at its cover?*
+- *Would you buy this edition?*
+- *Do you find the price appropriate?*
+- *Tell us how appropriate it seems to you*
+- *Which are your thoughts about this edition by looking at the cover?*  
+
+In order to do that, we used the apposite **HITs builder** (that exports newly created HITs as Json data) and **Generator**.
+
+We also decided to substitute English language with Italian, because we knew workers would have been Italian and we wanted to avoid any linguistic bias.
+
+We introduced, then, minor front-end modifications in order to let the design suit our HITs structure better, while also being **responsive**. 
+
+### Deploying
+
+In order to deploy our task we wrote several scripts that make the whole process a **breeze**. 
+In fact, tasks are deployed as static content on an [Amazon S3 Bucket](https://aws.amazon.com/it/s3/) and the data retrieved is manually registered on another private bucket by the main deploying one. 
+
+With our scripts, the requestor is able to push it's newly created tasks to the respective deploy bucket and to download completion data from the private bucket. 
+
+When a certain task is ready, the requestor is able to contact workers by e-mailing them with a custom invitation containing a specific access link and token. However, this implementation wouldn't be needed if workers were redirected to their respective task from platforms such as Amazon Mturk. 
+
+### Analysis 
+
+We were able to obtain 54 different completions of our task and we, later on, analyzed the data we obtained. Particularly, we observed the distribution of all the different answers and we looked out for some correlations between them. 
+
+Our full work can be found and read on the second report we drafted.
+
+## Repository structure
+
+The actual repository structure is the following: 
+
+- `framework` (folder that contains the whole framework cloned from Crowd-Frame's repository)
+- `pyAnalysis` (folder that contains all our data analysis work)
+- `pyDistribution` (folder that contains all the scripts needed for the deploying process)
+- `report` (folder that contains the two report we drafted, in Italian)
+
+Moreover, if you want to replicate our work, you'll have to fill:
+
+- `framework/data/build/environments/environment.prod.ts`
+- `framework/data/build/environments/environments.ts`
+
+with your AWS S3 bucket credentials and:
+
+- `pyDistribution/credentials.py` 
+
+with
+- your AWS S3 bucket credentials in order to synchronize data 
+- your mail credentials in order to send custom e-mails to workers. 
+
+## Reports
+
+As requested, we compiled two reports: one for the first half of the assignment (building and deploying a Crowdsourcing task) and the other one for the analysis part. Both the reports have been drafted in Italian and can be found inside the `report` directory. 
+
+## Conclusions
+
+We've been pretty satisfied with the result we obtained and we found the project absolutely challenging. Howevery, if you're interested in the way we developed the task, we suggest you to visit Crowd-Frame's main repository since it is under constant improvement and development. 
